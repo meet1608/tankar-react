@@ -34,11 +34,11 @@ const About = () => {
                 <li>
                   <a href="index.html">Home</a>
                 </li>
-                <li>About Us</li>
+                <li>About Us </li>
               </ul>
               <h1>
                 We are a IT service Company working with talents on delivering
-                unique ideas.
+                unique ideases.
               </h1>
             </div>
             <div className="scroll-down-btn">
