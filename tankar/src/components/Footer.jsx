@@ -18,6 +18,8 @@ import logo from '../assets/img/footer-logo.svg';
 import logo_dark from '../assets/img/footer-logo-dark.svg';
 import back_logo from '../assets/img/home1/footer-logo-bg.png';
 import back_logo_dark from '../assets/img/home1/footer-logo-bg-dark.png';
+import tankar_logo from '../assets/img/tankar_footer.png';
+import tankar_Icon from '../assets/img/tankar_icon.png';
 
 const Footer = () => {
   return (    
@@ -52,9 +54,9 @@ const Footer = () => {
                                 <img src={back_logo} alt="" className="light" /> 
                                 <img src={back_logo_dark} alt="" className="dark"/>
                             </div>
-                            <div className="logo">
-                                 <img src={logo} alt="" className="light"/>
-                                 <img src={logo_dark} alt="" className="dark"/>
+                            <div className="logo text-center">
+                                 <img src={tankar_logo} alt="" className="light" style={{width:"170px"}}/>
+                                 <img src={tankar_Icon} alt="" className="dark"/>
                             </div>
                         </div>
                     </div>

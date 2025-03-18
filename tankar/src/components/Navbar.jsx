@@ -14,6 +14,7 @@ import '../assets/css/swiper-bundle.min.css';
 import { useNavigate } from 'react-router-dom';
 import logo from '../assets/img/logo.svg';
 import logo_light from '../assets/img/logo-light.svg';
+import tankar_light from '../assets/img/tankar_logo_1.png';
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
     const navigate = useNavigate();
@@ -68,13 +69,13 @@ const Navbar = () => {
       <div className="container d-flex align-items-center justify-content-between">
         <div className="sidebar-menu-logo">
           <a onClick={() => navigate('/')} className="logo-dark">
-            <img alt="image" className="img-fluid" src={logo} />
+            <img alt="image" className="img-fluid" src={tankar_light} />
           </a>
           <a onClick={() => navigate('/')} className="logo-light">
             <img
               alt="image"
               className="img-fluid"
-              src={logo_light}
+              src={tankar_light}
             />
           </a>
         </div>
@@ -832,7 +833,7 @@ const Navbar = () => {
     <div className="container d-flex flex-nowrap align-items-center justify-content-between">
       <div className="company-logo">
         <a onClick={() => navigate('/')} className="logo-dark">
-          <img alt="image" className="img-fluid" src={logo} />
+          <img alt="image" className="img-fluid" src={tankar_light} style={{width:"200px"}} />
         </a>
         <a onClick={() => navigate('/')} className="logo-light">
           <img
