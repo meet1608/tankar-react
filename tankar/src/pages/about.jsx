@@ -47,7 +47,7 @@ import team6 from '../assets/img/home5/team-06.jpg'
 import blog1 from '../assets/img/home5/blog-img-01.jpg'
 import blog2 from '../assets/img/home5/blog-img-02.jpg'
 import blog3 from '../assets/img/home5/blog-img-03.jpg'
-
+ 
 const About = () => {
   return (
     <div>
