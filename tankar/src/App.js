@@ -42,6 +42,16 @@ import It_Solutions from './pages/It_Solutions';
 import It_Solutions_Dark from './pages/It_Solutions_Dark';
 import Digital_Marketing from './pages/Digital_Marketing';
 import Digital_Marketing_Dark from './pages/Digital_Marketing_Dark';
+import Software_Devlopment from './pages/Software_Devlopment';
+import It_consulting from './pages/IT_Consulting_Advisory';
+import Ui_Ux from './pages/UX_UX_Designing';
+import Web_Devlopment from './pages/Web_Devlopment';
+import Mobile_App from './pages/Mobile_App_Devlopment';
+import Custom_Software from './pages/Custom_Software_Development';
+import Digital_Marketing_page from './pages/Digital_marketing_page';
+import Game_development from './pages/Game_Development';
+import ERP_Solution from './pages/ERP_Solution';
+
 
 function App() {
   return (
@@ -89,6 +99,17 @@ function App() {
       <Route path="/it-solutions-dark" element={<It_Solutions_Dark />} />
       <Route path="/digital-marketing" element={<Digital_Marketing />} />
       <Route path="/digital-marketing-dark" element={<Digital_Marketing_Dark />} />
+
+
+      <Route path="/software-devlopment" element={<Software_Devlopment />} />
+      <Route path='/it-consulting' element={<It_consulting />} />
+      <Route path='/ui-ux' element={<Ui_Ux />} />
+      <Route path='/web-devlopment' element={<Web_Devlopment />} />
+      <Route path='/mobile-app' element={<Mobile_App />} />
+      <Route path='/custom-software' element={<Custom_Software />} />
+      <Route path='/digital-marketing-page' element={<Digital_Marketing_page />} />
+      <Route path='/game-development' element={<Game_development />} />
+      <Route path='/erp-solution' element={<ERP_Solution />} />
 
 
     </Routes>

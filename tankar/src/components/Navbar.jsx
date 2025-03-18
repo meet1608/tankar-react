@@ -274,9 +274,8 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li>
-                  <a onClick={() => navigate('/service2')}>
-                  Service style 02
-                      <svg
+                    <a onClick={() => navigate('/software-devlopment')}>
+                    Software Development                      <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={10}
                         height={10}
@@ -286,10 +285,10 @@ const Navbar = () => {
                       </svg>
                     </a>
                   </li>
+
                   <li>
-                  <a onClick={() => navigate('/service3')}>
-                  Service style 03
-                      <svg
+                    <a onClick={() => navigate('/it-consulting')}>
+                    IT Consulting & Advisory                      <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={10}
                         height={10}
@@ -299,10 +298,10 @@ const Navbar = () => {
                       </svg>
                     </a>
                   </li>
+
                   <li>
-                  <a onClick={() => navigate('/service4')}>
-                  Service style 04
-                      <svg
+                    <a onClick={() => navigate('/ui-ux')}>
+                    UI/UX Design                      <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={10}
                         height={10}
@@ -312,6 +311,88 @@ const Navbar = () => {
                       </svg>
                     </a>
                   </li>
+
+                  <li>
+                    <a onClick={() => navigate('/web-devlopment')}>
+                    Web Development
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={10}
+                        height={10}
+                        viewBox="0 0 10 10"
+                      >
+                        <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a onClick={() => navigate('/mobile-app')}>
+                    Mobile App Development
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={10}
+                        height={10}
+                        viewBox="0 0 10 10"
+                      >
+                        <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a onClick={() => navigate('/custom-software')}>
+                    Custom Software Development
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={10}
+                        height={10}
+                        viewBox="0 0 10 10"
+                      >
+                        <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a onClick={() => navigate('/digital-marketing-page')}>
+                    Digital Marketing
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={10}
+                        height={10}
+                        viewBox="0 0 10 10"
+                      >
+                        <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a onClick={() => navigate('/game-development')}>
+                    Game Development                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={10}
+                        height={10}
+                        viewBox="0 0 10 10"
+                      >
+                        <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a onClick={() => navigate('/erp-solution')}>
+                    ERP Solutions                      <svg                        xmlns="http://www.w3.org/2000/svg"
+                        width={10}
+                        height={10}
+                        viewBox="0 0 10 10"
+                      >
+                        <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
+                      </svg>
+                    </a>
+                  </li>
+                 
                   <li>
                   <a onClick={() => navigate('/service-details')}>
                   Service Details
@@ -911,13 +992,40 @@ const Navbar = () => {
                 <a onClick={() => navigate('/service')}>Service style 01</a>
               </li>
               <li>
-                <a onClick={() => navigate('/service2')}>Service style 02</a>
+              <a onClick={() => navigate('/software-devlopment')}>
+              Software Development</a>
               </li>
               <li>
-                <a onClick={() => navigate('/service3')}>Service style 03</a>
+              <a onClick={() => navigate('/it-consulting')}>
+              IT Consulting & Advisory </a>
               </li>
               <li>
-                <a onClick={() => navigate('/service4')}>Service style 04</a>
+              <a onClick={() => navigate('/ui-ux')}>
+              UI/UX Design </a>
+              </li>
+              <li>
+              <a onClick={() => navigate('/web-devlopment')}>
+              Web Development</a>
+              </li>
+              <li>
+              <a onClick={() => navigate('/mobile-app')}>
+              Mobile App Development</a>
+              </li>
+              <li>
+              <a onClick={() => navigate('/custom-software')}>
+              Custom Software Development</a>
+              </li>
+              <li>
+              <a onClick={() => navigate('/digital-marketing-page')}>
+              Digital Marketing</a>
+              </li>
+              <li>
+              <a onClick={() => navigate('/game-development')}>
+              Game Development </a>
+              </li>
+              <li>
+              <a onClick={() => navigate('/erp-solution')}>
+              ERP Solutions     </a>
               </li>
               <li>
                 <a onClick={() => navigate('/service-details')}>Service Details</a>
