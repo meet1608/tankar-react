@@ -38,7 +38,7 @@ const About = () => {
               </ul>
               <h1>
                 We are a IT service Company working with talents on delivering
-                unique ideases.
+                unique ideasessss.
               </h1>
             </div>
             <div className="scroll-down-btn">
