@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import '../assets/css/animate.min.css';
@@ -13,7 +14,37 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
+import banner from '../assets/img/home2/home2-banner-img.png'
+
+import comp1 from '../assets/img/home2/company-logo-01.png'
+import comp2 from '../assets/img/home2/company-logo-02.png'
+import comp3 from '../assets/img/home2/company-logo-03.png'
+import comp4 from '../assets/img/home2/company-logo-04.png'
+import comp5 from '../assets/img/home2/company-logo-05.png'
+import comp6 from '../assets/img/home2/company-logo-06.png'
+import comp7 from '../assets/img/home2/company-logo-07.png'
+import feature from '../assets/img/home2/feature-img1.jpg'
+import feature2 from '../assets/img/home2/feature-img2.jpg'
+import feature3 from '../assets/img/home2/feature-img3.jpg'
+import marketing from '../assets/img/home2/marketing-activity-graf-img.png'
+import marketing_dark from '../assets/img/home2/marketing-activity-graf-img-dark.png'
+import performance from '../assets/img/home2/marketing-performance-graf-img.png'
+import case1 from '../assets/img/home2/case-study-img1.jpg'
+import case2 from '../assets/img/home2/case-study-img2.jpg'
+import case3 from '../assets/img/home2/case-study-img3.jpg'
+import case4 from '../assets/img/home2/case-study-img4.jpg'
+import case5 from '../assets/img/home2/case-study-img5.jpg'
+import clutch from '../assets/img/home1/icon/clutch-logo.svg'
+import clutch_white from '../assets/img/home1/icon/clutch-logo-white.svg'
+import google from '../assets/img/home1/icon/google-logo.svg'
+import blog1 from '../assets/img/home2/blog-img1.jpg'
+import blog2 from '../assets/img/home2/blog-img2.jpg'
+import auth1 from '../assets/img/home2/testi-author-01.png'
+import auth2 from '../assets/img/home2/testi-author-02.png'
+import auth3 from '../assets/img/home2/testi-author-03.png'
+import auth4 from '../assets/img/home2/testi-author-04.png'
 const Digital_Marketing = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <Navbar />
@@ -58,7 +89,7 @@ const Digital_Marketing = () => {
         <div className="col-lg-10">
           <div className="banner-img">
             <img
-              src="assets/img/home2/home2-banner-img.png"
+              src={banner}
               alt=""
               className="light-img"
             />
@@ -72,55 +103,97 @@ const Digital_Marketing = () => {
       </div>
     </div>
   </div>
-  <div className="home1-banner-bottom two mb-110">
-    <div className="marquee_text">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width={17}
-        height={17}
-        viewBox="0 0 17 17"
-      >
-        <path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z" />
-      </svg>
-      <h6>Welcome to InnovateTech Solutions</h6>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width={17}
-        height={17}
-        viewBox="0 0 17 17"
-      >
-        <path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z" />
-      </svg>
-      <h6>We thrive on creativity</h6>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width={17}
-        height={17}
-        viewBox="0 0 17 17"
-      >
-        <path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z" />
-      </svg>
-      <h6>Your satisfaction is our priority </h6>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width={17}
-        height={17}
-        viewBox="0 0 17 17"
-      >
-        <path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z" />
-      </svg>
-      <h6>We believe in the power of collaboration</h6>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width={17}
-        height={17}
-        viewBox="0 0 17 17"
-      >
-        <path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z" />
-      </svg>
-      <h6>We invite you to join us on this excitin</h6>
+
+  <div className="home1-banner-bottom mb-110"
+  style={{
+    transform: 'rotate(-2deg)',  // Adjust the angle as needed
+    transformOrigin: 'center',   // Ensures rotation occurs from the center
+    overflow: 'hidden'           // Prevents content from spilling outside
+  }}>
+  <div
+    className="marquee_text"
+    style={{
+      display: 'flex',
+      alignItems: 'center',
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      width: '100%',
+      position: 'relative'
+    }}
+  >
+    <div
+      style={{
+        display: 'flex',
+        animation: 'marquee 20s linear infinite',
+        minWidth: '200%' // Added this line
+      }}
+    >
+      {[...Array(2)].map((_, index) => (
+        <div key={index} style={{ display: 'flex' }}>
+          <svg xmlns="http://www.w3.org/2000/svg" width={17} height={17} viewBox="0 0 17 17" style={{margin: '0 40px'}}>
+            <path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z" />
+          </svg>
+          <h6 style={{ display: 'inline-block', paddingLeft: '10px' }}>
+            Welcome to InnovateTech Solutions
+          </h6>
+          <svg xmlns="http://www.w3.org/2000/svg" width={17} height={17} viewBox="0 0 17 17" style={{margin: '0 40px'}}>
+            <path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z" />
+          </svg>
+          <h6 style={{ display: 'inline-block', paddingLeft: '10px' }}>
+            We thrive on creativity
+          </h6>
+          <svg xmlns="http://www.w3.org/2000/svg" width={17} height={17} viewBox="0 0 17 17" style={{margin: '0 40px'}}>
+            <path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z" />
+          </svg>
+          <h6 style={{ display: 'inline-block', paddingLeft: '10px' }}>
+            Your satisfaction is our priority
+          </h6>
+          <svg xmlns="http://www.w3.org/2000/svg" width={17} height={17} viewBox="0 0 17 17" style={{margin: '0 40px'}}>
+            <path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z" />
+          </svg>
+          <h6 style={{ display: 'inline-block', paddingLeft: '10px' }}>
+            We believe in the power of collaboration
+          </h6>
+          <svg xmlns="http://www.w3.org/2000/svg" width={17} height={17} viewBox="0 0 17 17" style={{margin: '0 40px'}}>
+            <path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z" />
+          </svg>
+          <h6 style={{ display: 'inline-block', paddingLeft: '10px' }}>
+          We invite you to join us on this excitin
+          </h6>
+          <svg xmlns="http://www.w3.org/2000/svg" width={17} height={17} viewBox="0 0 17 17" style={{margin: '0 40px'}}>
+            <path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z" />
+          </svg>
+          <h6 style={{ display: 'inline-block', paddingLeft: '10px' }}>
+          We thrive on creativity
+          </h6>
+          <svg xmlns="http://www.w3.org/2000/svg" width={17} height={17} viewBox="0 0 17 17" style={{margin: '0 40px'}}>
+            <path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z" />
+          </svg>
+          <h6 style={{ display: 'inline-block', paddingLeft: '10px' }}>
+          Welcome to InnovateTech Solutions
+          </h6>
+        </div>
+      ))}
     </div>
   </div>
+
+  <style>
+    {`
+      @keyframes marquee {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-50%);
+        }
+      }
+    `}
+  </style>
+</div>
+
+
+
+  
   {/* End Banner section */}
   {/* Star About section */}
   <div className="home2-about-section mb-110">
@@ -391,44 +464,86 @@ const Digital_Marketing = () => {
   </div>
   {/* End About section */}
   {/* Start logo section */}
-  <div
-    className="logo-section mb-110 wow animate fadeInUp"
-    data-wow-delay="200ms"
-    data-wow-duration="1500ms"
-  >
-    <div className="container-fluid">
-      <div className="logo-wrap">
-        <div className="logo-title">
-          <h6>We Worked With Global Largest Brand</h6>
-        </div>
-        <div className="logo-area">
-          <div className="marquee_text2">
-            <a href="#">
-              <img src="assets/img/home2/company-logo-01.png" alt="" />
-            </a>
-            <a href="#">
-              <img src="assets/img/home2/company-logo-02.png" alt="" />
-            </a>
-            <a href="#">
-              <img src="assets/img/home2/company-logo-03.png" alt="" />
-            </a>
-            <a href="#">
-              <img src="assets/img/home2/company-logo-04.png" alt="" />
-            </a>
-            <a href="#">
-              <img src="assets/img/home2/company-logo-05.png" alt="" />
-            </a>
-            <a href="#">
-              <img src="assets/img/home2/company-logo-06.png" alt="" />
-            </a>
-            <a href="#">
-              <img src="assets/img/home2/company-logo-07.png" alt="" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+ <div
+       className="logo-section mb-110 wow animate fadeInUp"
+       data-wow-delay="200ms"
+       data-wow-duration="1500ms"
+       style={{ overflow: 'hidden' }} // Added overflow hidden to the parent container
+     >
+       <div className="container-fluid">
+         <div className="logo-wrap">
+           <div className="logo-title">
+             <h6>We Worked With Global Largest Brand</h6>
+           </div>
+           <div className="logo-area" style={{ overflow: 'hidden', whiteSpace: 'nowrap', position: 'relative' }}>
+             <div
+               className="marquee_text2"
+               style={{
+                 display: 'inline-block',
+                 animation: 'marquee 20s linear infinite',
+               }}
+             >
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp1} alt="Company 1" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp2} alt="Company 2" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp3} alt="Company 3" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp4} alt="Company 4" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp5} alt="Company 5" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp6} alt="Company 6" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp7} alt="Company 7" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               {/* Duplicate the logos for seamless scrolling */}
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp1} alt="Company 1" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp2} alt="Company 2" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp3} alt="Company 3" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp4} alt="Company 4" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp5} alt="Company 5" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp6} alt="Company 6" style={{ height: '50px', width: 'auto' }} />
+               </a>
+               <a href="#" style={{ display: 'inline-block', marginRight: '40px' }}>
+                 <img src={comp7} alt="Company 7" style={{ height: '50px', width: 'auto' }} />
+               </a>
+             </div>
+           </div>
+         </div>
+       </div>
+       {/* Define the marquee animation in a style tag */}
+       <style>
+         {`
+           @keyframes marquee {
+             0% {
+               transform: translateX(0%);
+             }
+             100% {
+               transform: translateX(-50%);
+             }
+           }
+         `}
+       </style>
+     </div>
   {/* End logo section */}
   {/* Start Home2 Solution section */}
   <div className="home2-service-section mb-110">
@@ -959,7 +1074,7 @@ const Digital_Marketing = () => {
                   </div>
                   <div className="col-lg-5">
                     <div className="feature-img">
-                      <img src="assets/img/home2/feature-img1.jpg" alt="" />
+                      <img src={feature} alt="" />
                     </div>
                   </div>
                 </div>
@@ -1029,7 +1144,7 @@ const Digital_Marketing = () => {
                   </div>
                   <div className="col-lg-5">
                     <div className="feature-img">
-                      <img src="assets/img/home2/feature-img2.jpg" alt="" />
+                      <img src={feature2} alt="" />
                     </div>
                   </div>
                 </div>
@@ -1099,7 +1214,7 @@ const Digital_Marketing = () => {
                   </div>
                   <div className="col-lg-5">
                     <div className="feature-img">
-                      <img src="assets/img/home2/feature-img3.jpg" alt="" />
+                      <img src={feature3} alt="" />
                     </div>
                   </div>
                 </div>
@@ -1281,12 +1396,12 @@ const Digital_Marketing = () => {
             <div className="col-lg-12 d-flex align-items-center justify-content-between">
               <div className="graf-img">
                 <img
-                  src="assets/img/home2/marketing-activity-graf-img.png"
+                  src={marketing}
                   alt=""
                   className="light"
                 />
                 <img
-                  src="assets/img/home2/marketing-activity-graf-img-dark.png"
+                  src={marketing_dark}
                   alt=""
                   className="dark"
                 />
@@ -1420,7 +1535,7 @@ const Digital_Marketing = () => {
               </div>
               <div className="graf-img">
                 <img
-                  src="assets/img/home2/marketing-performance-graf-img.png"
+                  src={performance}
                   alt=""
                 />
               </div>
@@ -1463,8 +1578,8 @@ const Digital_Marketing = () => {
             <h2>Stories of Growth Triumph</h2>
           </div>
           <a
-            href="case-study2.html"
-            className="primary-btn2 wow animate fadeInRight"
+    onClick={() => navigate("/case-study2")}
+className="primary-btn2 wow animate fadeInRight"
             data-wow-delay="400ms"
             data-wow-duration="1500ms"
             data-text="View All Stories"
@@ -1484,7 +1599,7 @@ const Digital_Marketing = () => {
               <div className="swiper-slide">
                 <div className="case-study-card2">
                   <div className="card-img">
-                    <img src="assets/img/home2/case-study-img1.jpg" alt="" />
+                    <img src={case1} alt="" />
                   </div>
                   <div className="card-content">
                     <h4>
@@ -1529,7 +1644,7 @@ const Digital_Marketing = () => {
               <div className="swiper-slide">
                 <div className="case-study-card2">
                   <div className="card-img">
-                    <img src="assets/img/home2/case-study-img2.jpg" alt="" />
+                    <img src={case2} alt="" />
                   </div>
                   <div className="card-content">
                     <h4>
@@ -1574,7 +1689,7 @@ const Digital_Marketing = () => {
               <div className="swiper-slide">
                 <div className="case-study-card2">
                   <div className="card-img">
-                    <img src="assets/img/home2/case-study-img3.jpg" alt="" />
+                    <img src={case3} alt="" />
                   </div>
                   <div className="card-content">
                     <h4>
@@ -1619,7 +1734,7 @@ const Digital_Marketing = () => {
               <div className="swiper-slide">
                 <div className="case-study-card2">
                   <div className="card-img">
-                    <img src="assets/img/home2/case-study-img4.jpg" alt="" />
+                    <img src={case4} alt="" />
                   </div>
                   <div className="card-content">
                     <h4>
@@ -1664,7 +1779,7 @@ const Digital_Marketing = () => {
               <div className="swiper-slide">
                 <div className="case-study-card2">
                   <div className="card-img">
-                    <img src="assets/img/home2/case-study-img5.jpg" alt="" />
+                    <img src={case5} alt="" />
                   </div>
                   <div className="card-content">
                     <h4>
@@ -1709,7 +1824,7 @@ const Digital_Marketing = () => {
               <div className="swiper-slide">
                 <div className="case-study-card2">
                   <div className="card-img">
-                    <img src="assets/img/home2/case-study-img2.jpg" alt="" />
+                    <img src={case2} alt="" />
                   </div>
                   <div className="card-content">
                     <h4>
@@ -1837,7 +1952,7 @@ const Digital_Marketing = () => {
                   </p>
                   <div className="author-area">
                     <div className="author-img">
-                      <img src="assets/img/home2/testi-author-01.png" alt="" />
+                      <img src={auth1} alt="" />
                     </div>
                     <div className="content">
                       <h6>Mr. Daniel Scoot</h6>
@@ -1857,7 +1972,7 @@ const Digital_Marketing = () => {
                   </p>
                   <div className="author-area">
                     <div className="author-img">
-                      <img src="assets/img/home2/testi-author-02.png" alt="" />
+                      <img src={auth2} alt="" />
                     </div>
                     <div className="content">
                       <h6>Dani Alves</h6>
@@ -1877,7 +1992,7 @@ const Digital_Marketing = () => {
                   </p>
                   <div className="author-area">
                     <div className="author-img">
-                      <img src="assets/img/home2/testi-author-03.png" alt="" />
+                      <img src={auth3} alt="" />
                     </div>
                     <div className="content">
                       <h6>Mrs. Flurance Miyagi</h6>
@@ -1897,7 +2012,7 @@ const Digital_Marketing = () => {
                   </p>
                   <div className="author-area">
                     <div className="author-img">
-                      <img src="assets/img/home2/testi-author-04.png" alt="" />
+                      <img src={auth4} alt="" />
                     </div>
                     <div className="content">
                       <h6>Mr. Thomas Robert</h6>
@@ -1972,12 +2087,12 @@ const Digital_Marketing = () => {
                   <span>Review On</span>
                   <img
                     className="logo-dark"
-                    src="assets/img/home1/icon/clutch-logo.svg"
+                    src={clutch}
                     alt=""
                   />
                   <img
                     className="logo-light"
-                    src="assets/img/home1/icon/clutch-logo-white.svg"
+                    src={clutch_white}
                     alt=""
                   />
                 </div>
@@ -2010,7 +2125,7 @@ const Digital_Marketing = () => {
               >
                 <div className="review">
                   <span>Review On</span>
-                  <img src="assets/img/home1/icon/google-logo.svg" alt="" />
+                  <img src={google} alt="" />
                 </div>
                 <div className="rating">
                   <ul className="star">
@@ -3053,7 +3168,7 @@ const Digital_Marketing = () => {
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
                   <a href="blog-details.html" className="card-img">
-                    <img src="assets/img/home2/blog-img1.jpg" alt="" />
+                    <img src={blog1} alt="" />
                   </a>
                   <a href="blog-grid.html" className="date">
                     <span>
@@ -3103,7 +3218,7 @@ const Digital_Marketing = () => {
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
                   <a href="blog-details.html" className="card-img">
-                    <img src="assets/img/home2/blog-img2.jpg" alt="" />
+                    <img src={blog2} alt="" />
                   </a>
                   <a href="blog-grid.html" className="date">
                     <span>

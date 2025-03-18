@@ -13,6 +13,41 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
+import icon1 from '../assets/img/home1/icon/about-feature-card-icon1.svg'
+import icon2 from '../assets/img/home1/icon/about-feature-card-icon2.svg'
+import icon3 from '../assets/img/home1/icon/about-feature-card-icon3.svg'
+import icon4 from '../assets/img/home1/icon/about-feature-card-icon4.svg'
+import logo1 from '../assets/img/home5/logo-11.png'
+import logo2 from '../assets/img/home5/logo-01.png'
+import logo3 from '../assets/img/home5/logo-22.png'
+import logo4 from '../assets/img/home5/logo-02.png'
+import logo5 from '../assets/img/home5/logo-33.png'
+import logo6 from '../assets/img/home5/logo-03.png'
+import logo7 from '../assets/img/home5/logo-44.png'
+import logo8 from '../assets/img/home5/logo-04.png'
+import logo9 from '../assets/img/home5/logo-55.png'
+import logo10 from '../assets/img/home5/logo-05.png'
+import logo11 from '../assets/img/home5/logo-66.png'
+import logo12 from '../assets/img/home5/logo-06.png'
+import logo13 from '../assets/img/home5/logo-77.png'
+import logo14 from '../assets/img/home5/logo-07.png'
+import logo15 from '../assets/img/home5/logo-88.png'
+import logo16 from '../assets/img/home5/logo-08.png'
+import choose from '../assets/img/home5/why-choose.jpg'
+import award1 from '../assets/img/home4/award-img1.jpg'
+import award2 from '../assets/img/home4/award-img2.jpg'
+import award3 from '../assets/img/home4/award-img3.jpg'
+import award4 from '../assets/img/home4/award-img4.jpg'
+import team1 from '../assets/img/home5/team-01.jpg'
+import team2 from '../assets/img/home5/team-02.jpg'
+import team3 from '../assets/img/home5/team-03.jpg'
+import team4 from '../assets/img/home5/team-04.jpg'
+import team5 from '../assets/img/home5/team-05.jpg'
+import team6 from '../assets/img/home5/team-06.jpg'
+import blog1 from '../assets/img/home5/blog-img-01.jpg'
+import blog2 from '../assets/img/home5/blog-img-02.jpg'
+import blog3 from '../assets/img/home5/blog-img-03.jpg'
+
 const About = () => {
   return (
     <div>
@@ -203,7 +238,7 @@ const About = () => {
             <div className="feature-card">
               <div className="icon">
                 <img
-                  src="assets/img/home1/icon/about-feature-card-icon1.svg"
+                  src={icon1}
                   alt=""
                 />
               </div>
@@ -224,7 +259,7 @@ const About = () => {
             <div className="feature-card">
               <div className="icon">
                 <img
-                  src="assets/img/home1/icon/about-feature-card-icon2.svg"
+                  src={icon2}
                   alt=""
                 />
               </div>
@@ -245,7 +280,7 @@ const About = () => {
             <div className="feature-card">
               <div className="icon">
                 <img
-                  src="assets/img/home1/icon/about-feature-card-icon3.svg"
+                  src={icon3}
                   alt=""
                 />
               </div>
@@ -267,7 +302,7 @@ const About = () => {
             <div className="feature-card">
               <div className="icon">
                 <img
-                  src="assets/img/home1/icon/about-feature-card-icon4.svg"
+                  src={icon4}
                   alt=""
                 />
               </div>
@@ -334,12 +369,12 @@ const About = () => {
             <div className="partner-logos">
               <img
                 className="white"
-                src="assets/img/home5/logo-11.png"
+                src={logo1}
                 alt=""
               />
               <img
                 className="black"
-                src="assets/img/home5/logo-01.png"
+                src={logo2}
                 alt=""
               />
             </div>
@@ -365,12 +400,12 @@ const About = () => {
             <div className="partner-logos">
               <img
                 className="white"
-                src="assets/img/home5/logo-22.png"
+                src={logo3}
                 alt=""
               />
               <img
                 className="black"
-                src="assets/img/home5/logo-02.png"
+                src={logo4}
                 alt=""
               />
             </div>
@@ -396,12 +431,12 @@ const About = () => {
             <div className="partner-logos">
               <img
                 className="white"
-                src="assets/img/home5/logo-33.png"
+                src={logo5}
                 alt=""
               />
               <img
                 className="black"
-                src="assets/img/home5/logo-03.png"
+                src={logo6}
                 alt=""
               />
             </div>
@@ -427,12 +462,12 @@ const About = () => {
             <div className="partner-logos">
               <img
                 className="white"
-                src="assets/img/home5/logo-44.png"
+                src={logo7}
                 alt=""
               />
               <img
                 className="black"
-                src="assets/img/home5/logo-04.png"
+                src={logo8}
                 alt=""
               />
             </div>
@@ -458,12 +493,12 @@ const About = () => {
             <div className="partner-logos">
               <img
                 className="white"
-                src="assets/img/home5/logo-55.png"
+                src={logo9}
                 alt=""
               />
               <img
                 className="black"
-                src="assets/img/home5/logo-05.png"
+                src={logo10}
                 alt=""
               />
             </div>
@@ -489,12 +524,12 @@ const About = () => {
             <div className="partner-logos">
               <img
                 className="white"
-                src="assets/img/home5/logo-66.png"
+                src={logo11}
                 alt=""
               />
               <img
                 className="black"
-                src="assets/img/home5/logo-06.png"
+                src={logo12}
                 alt=""
               />
             </div>
@@ -520,12 +555,12 @@ const About = () => {
             <div className="partner-logos">
               <img
                 className="white"
-                src="assets/img/home5/logo-77.png"
+                src={logo13}
                 alt=""
               />
               <img
                 className="black"
-                src="assets/img/home5/logo-07.png"
+                src={logo14}
                 alt=""
               />
             </div>
@@ -551,12 +586,12 @@ const About = () => {
             <div className="partner-logos">
               <img
                 className="white"
-                src="assets/img/home5/logo-88.png"
+                src={logo15}
                 alt=""
               />
               <img
                 className="black"
-                src="assets/img/home5/logo-08.png"
+                src={logo16}
                 alt=""
               />
             </div>
@@ -779,7 +814,7 @@ const About = () => {
           data-wow-duration="1500ms"
         >
           <div className="why-choose-img">
-            <img src="assets/img/home5/why-choose.jpg" alt="" />
+            <img src={choose} alt="" />
           </div>
         </div>
         <div className="col-lg-7">
@@ -981,7 +1016,7 @@ const About = () => {
                 </svg>
               </a>
               <div className="services-img">
-                <img src="assets/img/home4/award-img1.jpg" alt="" />
+                <img src={award1} alt="" />
               </div>
             </div>
             <div
@@ -1009,7 +1044,7 @@ const About = () => {
                 </svg>
               </a>
               <div className="services-img">
-                <img src="assets/img/home4/award-img2.jpg" alt="" />
+                <img src={award2} alt="" />
               </div>
             </div>
             <div
@@ -1037,7 +1072,7 @@ const About = () => {
                 </svg>
               </a>
               <div className="services-img">
-                <img src="assets/img/home4/award-img3.jpg" alt="" />
+                <img src={award3} alt="" />
               </div>
             </div>
             <div
@@ -1065,7 +1100,7 @@ const About = () => {
                 </svg>
               </a>
               <div className="services-img">
-                <img src="assets/img/home4/award-img4.jpg" alt="" />
+                <img src={award4} alt="" />
               </div>
             </div>
           </div>
@@ -1143,7 +1178,7 @@ const About = () => {
             >
               <div className="team-card2">
                 <div className="team-img">
-                  <img src="assets/img/home5/team-01.jpg" alt="" />
+                  <img src={team1} alt="" />
                   <ul className="social-area">
                     <li>
                       <a href="https://www.facebook.com/">
@@ -1180,7 +1215,7 @@ const About = () => {
             >
               <div className="team-card2">
                 <div className="team-img">
-                  <img src="assets/img/home5/team-02.jpg" alt="" />
+                  <img src={team2} alt="" />
                   <ul className="social-area">
                     <li>
                       <a href="https://www.facebook.com/">
@@ -1217,7 +1252,7 @@ const About = () => {
             >
               <div className="team-card2">
                 <div className="team-img">
-                  <img src="assets/img/home5/team-03.jpg" alt="" />
+                  <img src={team3} alt="" />
                   <ul className="social-area">
                     <li>
                       <a href="https://www.facebook.com/">
@@ -1254,7 +1289,7 @@ const About = () => {
             >
               <div className="team-card2">
                 <div className="team-img">
-                  <img src="assets/img/home5/team-04.jpg" alt="" />
+                  <img src={team4} alt="" />
                   <ul className="social-area">
                     <li>
                       <a href="https://www.facebook.com/">
@@ -1291,7 +1326,7 @@ const About = () => {
             >
               <div className="team-card2">
                 <div className="team-img">
-                  <img src="assets/img/home5/team-05.jpg" alt="" />
+                  <img src={team5} alt="" />
                   <ul className="social-area">
                     <li>
                       <a href="https://www.facebook.com/">
@@ -1328,7 +1363,7 @@ const About = () => {
             >
               <div className="team-card2">
                 <div className="team-img">
-                  <img src="assets/img/home5/team-06.jpg" alt="" />
+                  <img src={team6} alt="" />
                   <ul className="social-area">
                     <li>
                       <a href="https://www.facebook.com/">
@@ -1436,7 +1471,7 @@ const About = () => {
           <div className="blog-card style-2 two">
             <div className="blog-card-img-wrap">
               <a href="blog-details.html" className="card-img">
-                <img src="assets/img/home5/blog-img-01.jpg" alt="" />
+                <img src={blog1} alt="" />
               </a>
               <a href="blog-grid.html" className="date">
                 <span>
@@ -1486,7 +1521,7 @@ const About = () => {
           <div className="blog-card style-2 two w-85">
             <div className="blog-card-img-wrap">
               <a href="blog-details.html" className="card-img">
-                <img src="assets/img/home5/blog-img-02.jpg" alt="" />
+                <img src={blog2} alt="" />
               </a>
               <a href="blog-grid.html" className="date">
                 <span>
@@ -1536,7 +1571,7 @@ const About = () => {
           <div className="blog-card style-2 two">
             <div className="blog-card-img-wrap">
               <a href="blog-details.html" className="card-img">
-                <img src="assets/img/home5/blog-img-03.jpg" alt="" />
+                <img src={blog3} alt="" />
               </a>
               <a href="blog-grid.html" className="date">
                 <span>
