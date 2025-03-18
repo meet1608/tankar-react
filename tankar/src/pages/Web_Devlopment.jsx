@@ -36,12 +36,9 @@ const service_details = () => {
                 <li>
                   <a href="index.html">Home</a>
                 </li>
-                <li>Service Details</li>
+                <li>Web Development</li>
               </ul>
-              <h1>
-                We are a IT service Company working with talents on delivering
-                unique ideas.
-              </h1>
+              <h1>Innovative, scalable, and high-performance web solutions tailored for business success.</h1>
             </div>
             <div className="scroll-down-btn">
               <a href="#service-details-section">
@@ -76,16 +73,9 @@ const service_details = () => {
           >
             <div className="service-details-top-content">
               <h2>
-                Software <span>Development.</span>
+                Web <span>Development</span>
               </h2>
-              <p>
-                Where innovation meets passion in a journey that started with a
-                simple idea and a shared dream. Founded in recent year we
-                embarked on a mission to bring the new innovation and introduce
-                the technology. From humble beginnings to our current
-                aspirations, every step has been fueled by a relentless
-                commitment.
-              </p>
+              <p>At Tankar Solution, we craft dynamic and high-performing web solutions tailored to your business needs. From sleek corporate websites to complex web applications, we harness the latest technologies to create seamless digital experiences. Our team is dedicated to innovation, ensuring your online presence is powerful, scalable, and future-ready.</p>
               <ul className="key-features">
                 <li>
                   <svg
@@ -96,8 +86,8 @@ const service_details = () => {
                   >
                     <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                   </svg>
-                  Custom Software
-                </li>
+                  Custom Web Development
+                  </li>
                 <li>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -107,8 +97,8 @@ const service_details = () => {
                   >
                     <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                   </svg>
-                  Mobile Application
-                </li>
+                  E-commerce Solutions
+                  </li>
                 <li>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -118,8 +108,8 @@ const service_details = () => {
                   >
                     <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                   </svg>
-                  Software Consulting
-                </li>
+                  CMS Development
+                  </li>
                 <li>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -129,8 +119,8 @@ const service_details = () => {
                   >
                     <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                   </svg>
-                  Web Application
-                </li>
+                  Web Application Development
+                  </li>
                 <li>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -140,8 +130,8 @@ const service_details = () => {
                   >
                     <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                   </svg>
-                  Enterprise Software
-                </li>
+                  UI/UX Design
+                  </li>
                 <li>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -151,8 +141,9 @@ const service_details = () => {
                   >
                     <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                   </svg>
-                  Maintenance and Support
-                </li>
+                  Website Maintenance & Support
+
+</li>
               </ul>
             </div>
           </div>
@@ -199,7 +190,7 @@ const service_details = () => {
                       aria-expanded="true"
                       aria-controls="faqcollapseOne"
                     >
-                      01. What is Task Management and how does it work?
+                      01. What technologies do you use for web development?
                     </button>
                   </h2>
                   <div
@@ -209,10 +200,9 @@ const service_details = () => {
                     data-bs-parent="#accordionTravel"
                   >
                     <div className="accordion-body">
-                      Aptent taciti sociosqu ad litora torquent per conubia
-                      nostra, per inci only Integer purus onthis felis non
-                      aliquam.Mauris nec just vitae ann auctor tol euismod sit
-                      amet non ipsul growing this
+                    We work with HTML, CSS, JavaScript, React, Angular, Node.js, PHP, Laravel, and more.
+
+
                     </div>
                   </div>
                 </div>
@@ -226,7 +216,7 @@ const service_details = () => {
                       aria-expanded="false"
                       aria-controls="faqcollapseTwo"
                     >
-                      02. Is Zenfy suitable for my business?
+                      02. How long does it take to build a website?
                     </button>
                   </h2>
                   <div
@@ -236,11 +226,9 @@ const service_details = () => {
                     data-bs-parent="#accordionTravel"
                   >
                     <div className="accordion-body">
-                      Aptent taciti sociosqu ad litora torquent per conubia
-                      nostra, per inceptos only Integer purus onthis placerat
-                      felis non aliquam.Mauris nec justo vitae ante auctor tol
-                      euismod sit amet non ipsul growing this Praesent commodo
-                      at massa eget suscipit. Utani vitae enim velit.
+                    It depends on the complexity. A simple website takes 4-6 weeks, while advanced web applications require 2-6 months.
+
+
                     </div>
                   </div>
                 </div>
@@ -254,7 +242,8 @@ const service_details = () => {
                       aria-expanded="false"
                       aria-controls="faqcollapseThree"
                     >
-                      03. The system requirements using Task Management?
+                      03. Can you redesign my existing website?
+
                     </button>
                   </h2>
                   <div
@@ -264,11 +253,9 @@ const service_details = () => {
                     data-bs-parent="#accordionTravel"
                   >
                     <div className="accordion-body">
-                      Aptent taciti sociosqu ad litora torquent per conubia
-                      nostra, per inceptos only Integer purus onthis placerat
-                      felis non aliquam.Mauris nec justo vitae ante auctor tol
-                      euismod sit amet non ipsul growing this Praesent commodo
-                      at massa eget suscipit. Utani vitae enim velit.
+                    Yes! We enhance the design, functionality, and performance of your existing website.
+
+
                     </div>
                   </div>
                 </div>
@@ -282,7 +269,7 @@ const service_details = () => {
                       aria-expanded="false"
                       aria-controls="faqcollapseFour"
                     >
-                      04. How can I upgrade my subscription?
+                      04. Do you provide SEO-friendly websites?
                     </button>
                   </h2>
                   <div
@@ -292,11 +279,9 @@ const service_details = () => {
                     data-bs-parent="#accordionTravel"
                   >
                     <div className="accordion-body">
-                      Aptent taciti sociosqu ad litora torquent per conubia
-                      nostra, per inceptos only Integer purus onthis placerat
-                      felis non aliquam.Mauris nec justo vitae ante auctor tol
-                      euismod sit amet non ipsul growing this Praesent commodo
-                      at massa eget suscipit. Utani vitae enim velit.
+                    Yes! We ensure SEO optimization, fast loading speeds, and mobile responsiveness.
+
+
                     </div>
                   </div>
                 </div>
@@ -310,7 +295,7 @@ const service_details = () => {
                       aria-expanded="true"
                       aria-controls="faqcollapseFive"
                     >
-                      05. How can I upgrade my subscription?
+                      05. Do you offer website maintenance?
                     </button>
                   </h2>
                   <div
@@ -320,10 +305,9 @@ const service_details = () => {
                     data-bs-parent="#accordionTravel"
                   >
                     <div className="accordion-body">
-                      Aptent taciti sociosqu ad litora torquent per conubia
-                      nostra, per inci only Integer purus onthis felis non
-                      aliquam.Mauris nec just vitae ann auctor tol euismod sit
-                      amet non ipsul growing this
+                    Yes! We provide ongoing support, updates, security patches, and content updates.
+
+
                     </div>
                   </div>
                 </div>
@@ -386,11 +370,10 @@ const service_details = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Client Consultation</h4>
-                      <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
+                      <h4>Project Planning & Research</h4>
+                      <p>We gather business requirements and define the web development strategy.
+
+
                       </p>
                     </div>
                   </div>
@@ -408,12 +391,10 @@ const service_details = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Strategy Development</h4>
-                      <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
-                      </p>
+                      <h4>Wireframing & UI/UX Design</h4>
+                      <p>We design the website’s structure, user interface, and navigation flow.
+
+</p>
                     </div>
                   </div>
                 </div>
@@ -430,11 +411,10 @@ const service_details = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Market Research</h4>
-                      <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
+                      <h4>Development & Integration </h4>
+                      <p>Our developers build a responsive, fast-loading, and feature-rich website.
+
+
                       </p>
                     </div>
                   </div>
@@ -452,12 +432,10 @@ const service_details = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Campaign Planning</h4>
-                      <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
-                      </p>
+                      <h4>Testing & Security Check</h4>
+                      <p>We test for performance, security, and compatibility across devices.
+
+</p>
                     </div>
                   </div>
                 </div>
@@ -470,12 +448,10 @@ const service_details = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Campaign Planning</h4>
-                      <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
-                      </p>
+                      <h4>Deployment & Maintenance</h4>
+                      <p>The website goes live, and we provide updates, hosting, and ongoing support.
+
+</p>
                     </div>
                   </div>
                 </div>
@@ -486,7 +462,7 @@ const service_details = () => {
                 <i className="bi bi-arrow-left" />
               </div>
               <div className="content">
-                <p>Overcome the IT Challenges</p>
+                <p>Web Devlopment Steps</p>
               </div>
               <div className="slider-btn home2-process-next">
                 <i className="bi bi-arrow-right" />
@@ -528,12 +504,13 @@ const service_details = () => {
               </svg>
             </span>
             <h2>
-              Edge tools Drive That <span> performance.</span>
+            Building High-Performance 
+ <span> Websites for a Digital World</span>
             </h2>
             <p>
-              Feel free adapt this based on the specific managed services,
-              features, and unique selling points your IT service company
-              provides.
+            Our web development services help businesses establish a strong online presence with secure, fast, and responsive websites designed for success.
+
+
             </p>
           </div>
         </div>
@@ -559,11 +536,9 @@ const service_details = () => {
                 </svg>
               </div>
               <div className="content">
-                <h5>Technical Implementation</h5>
+                <h5>Custom Website Development  </h5>
                 <p>
-                  Seamless integration of cutting-edge solutions. Our technical
-                  implementation ensures robust systems, and optimal performance
-                  in every detail.
+                Tailored solutions for business websites, portfolios, and e-commerce platforms.
                 </p>
               </div>
             </li>
@@ -585,12 +560,8 @@ const service_details = () => {
                 </svg>
               </div>
               <div className="content">
-                <h5>IT Helpdesk Support</h5>
-                <p>
-                  Responsive IT helpdesk support ensuring seamless operations,
-                  resolving issues promptly, and maximizing user productivity
-                  with expertise.
-                </p>
+                <h5>SEO & Mobile Responsiveness</h5>
+                <p>Optimize websites for search engines and seamless mobile experience.</p>
               </div>
             </li>
             <li
@@ -609,11 +580,9 @@ const service_details = () => {
                 </svg>
               </div>
               <div className="content">
-                <h5>Managed IT Services</h5>
+                <h5> API & Third-Party Integrations</h5>
                 <p>
-                  Efficient, proactive, and secure IT solutions tailored to
-                  optimize your business operations with our managed IT
-                  services.
+                Connect external services, payment gateways, and automation tools.
                 </p>
               </div>
             </li>
@@ -643,11 +612,9 @@ const service_details = () => {
                 </svg>
               </div>
               <div className="content">
-                <h5>IT Consulting</h5>
+                <h5>High-Performance & Secure Code</h5>
                 <p>
-                  Strategic IT Consulting tailored solutions to optimize
-                  performance, enhance security, and drive innovation for
-                  business success.
+                Ensure website speed, stability, and security against threats.
                 </p>
               </div>
             </li>
@@ -671,11 +638,8 @@ const service_details = () => {
                 </svg>
               </div>
               <div className="content">
-                <h5>Network Support</h5>
-                <p>
-                  Reliable network support ensuring seamless connectivity and
-                  optimizing performance for uninterrupted business operations.
-                </p>
+                <h5>Scalability & Cloud Deployment</h5>
+                <p>Develop websites that can grow with your business needs.</p>
               </div>
             </li>
           </ul>
@@ -730,7 +694,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/figma-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>Figma</span>
+              <span> HTML & CSS</span>
             </div>
           </div>
         </div>
@@ -744,7 +708,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/vs-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>Visual Studio</span>
+              <span>JavaScript</span>
             </div>
           </div>
         </div>
@@ -758,7 +722,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/git-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>Git</span>
+              <span>React.js</span>
             </div>
           </div>
         </div>
@@ -772,7 +736,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/react-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>React</span>
+              <span> MySQL</span>
             </div>
           </div>
         </div>
@@ -786,7 +750,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/php-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>Php</span>
+              <span>Node.js</span>
             </div>
           </div>
         </div>
@@ -800,7 +764,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/mysql-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>MySQL</span>
+              <span>MongoDB</span>
             </div>
           </div>
         </div>
@@ -814,7 +778,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/gitlab-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>Gitlab</span>
+              <span>Next.js</span>
             </div>
           </div>
         </div>
@@ -828,7 +792,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/aws-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>AWS</span>
+              <span>Tailwind CSS / Bootstrap</span>
             </div>
           </div>
         </div>
@@ -837,7 +801,7 @@ const service_details = () => {
   </div>
   {/* End Service Details Tools section */}
   {/* Start Contact section */}
-  <div className="contact-section">
+ <div className="contact-section">
     <div className="container">
       <div className="row g-lg-4 gy-5">
         <div className="col-lg-5">
@@ -858,7 +822,7 @@ const service_details = () => {
                     <path d="M6.6304 0.338424C6.67018 -0.112811 7.32982 -0.112807 7.3696 0.338428L7.72654 4.38625C7.75291 4.68505 8.10454 4.83069 8.33443 4.63804L11.4491 2.02821C11.7963 1.73728 12.2627 2.20368 11.9718 2.55089L9.36197 5.66556C9.1693 5.89546 9.31496 6.24709 9.61374 6.27346L13.6615 6.6304C14.1128 6.67018 14.1128 7.32982 13.6615 7.3696L9.61374 7.72654C9.31496 7.75291 9.1693 8.10454 9.36197 8.33443L11.9718 11.4491C12.2627 11.7963 11.7963 12.2627 11.4491 11.9718L8.33443 9.36197C8.10454 9.1693 7.75291 9.31496 7.72654 9.61374L7.3696 13.6615C7.32982 14.1128 6.67018 14.1128 6.6304 13.6615L6.27346 9.61374C6.24709 9.31496 5.89546 9.1693 5.66556 9.36197L2.55089 11.9718C2.20368 12.2627 1.73729 11.7963 2.02822 11.4491L4.63804 8.33443C4.83069 8.10454 4.68504 7.75291 4.38625 7.72654L0.338424 7.3696C-0.112811 7.32982 -0.112807 6.67018 0.338428 6.6304L4.38625 6.27346C4.68505 6.24709 4.83069 5.89546 4.63804 5.66556L2.02821 2.55089C1.73728 2.20368 2.20368 1.73729 2.55089 2.02822L5.66556 4.63804C5.89546 4.83069 6.24709 4.68504 6.27346 4.38625L6.6304 0.338424Z" />
                   </g>
                 </svg>
-                Drop Us a Line
+                Send a Meassage
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={14}
@@ -870,12 +834,8 @@ const service_details = () => {
                   </g>
                 </svg>
               </span>
-              <h2>Connect with Zenfy</h2>
-              <p>
-                Ready to take the first step towards unlocking opportunities,
-                realizing goals, and embracing innovation? We're here and eager
-                to connect.
-              </p>
+              <h2>Connect Tankar Solution</h2>
+              <p>Ready to unlock opportunities, achieve goals, and embrace innovation? Let's connect!</p>
             </div>
             <div
               className="contact-area wow animate fadeInUp"
@@ -898,7 +858,7 @@ const service_details = () => {
                 <div className="content">
                   <span>To More Inquiry</span>
                   <h6>
-                    <a href="tel:+990737621432">+990-737 621 432</a>
+                    <a href="tel:+919909388561">+91 99093 88561</a>
                   </h6>
                 </div>
               </div>
@@ -920,7 +880,7 @@ const service_details = () => {
                 <div className="content">
                   <span>To Send Mail</span>
                   <h6>
-                    <a href="mailto:info@example.com">info@gmail.com</a>
+                    <a href="mailto:info@example.com">info@tankarsolutions.com</a>
                   </h6>
                 </div>
               </div>
@@ -933,7 +893,7 @@ const service_details = () => {
               <h6>Social Just You Connected Us!</h6>
               <ul className="social-list">
                 <li>
-                  <a href="https://www.linkedin.com/">
+                  <a href="https://www.linkedin.com/company/tankar-solutions-pvt-ltd/">
                     <i className="bi bi-linkedin" />
                     <span>LinkedIn</span>
                   </a>
@@ -960,7 +920,7 @@ const service_details = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/">
+                  <a href="https://www.instagram.com/tankar_solutions_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                     <i className="bi bi-instagram" />
                     <span>Instagram</span>
                   </a>

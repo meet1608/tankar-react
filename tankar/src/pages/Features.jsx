@@ -1493,7 +1493,7 @@ const Features = () => {
   </div>
   {/* End Home3 tools section */}
   {/* Start Contact section */}
-  <div className="contact-section">
+ <div className="contact-section">
     <div className="container">
       <div className="row g-lg-4 gy-5">
         <div className="col-lg-5">
@@ -1514,7 +1514,7 @@ const Features = () => {
                     <path d="M6.6304 0.338424C6.67018 -0.112811 7.32982 -0.112807 7.3696 0.338428L7.72654 4.38625C7.75291 4.68505 8.10454 4.83069 8.33443 4.63804L11.4491 2.02821C11.7963 1.73728 12.2627 2.20368 11.9718 2.55089L9.36197 5.66556C9.1693 5.89546 9.31496 6.24709 9.61374 6.27346L13.6615 6.6304C14.1128 6.67018 14.1128 7.32982 13.6615 7.3696L9.61374 7.72654C9.31496 7.75291 9.1693 8.10454 9.36197 8.33443L11.9718 11.4491C12.2627 11.7963 11.7963 12.2627 11.4491 11.9718L8.33443 9.36197C8.10454 9.1693 7.75291 9.31496 7.72654 9.61374L7.3696 13.6615C7.32982 14.1128 6.67018 14.1128 6.6304 13.6615L6.27346 9.61374C6.24709 9.31496 5.89546 9.1693 5.66556 9.36197L2.55089 11.9718C2.20368 12.2627 1.73729 11.7963 2.02822 11.4491L4.63804 8.33443C4.83069 8.10454 4.68504 7.75291 4.38625 7.72654L0.338424 7.3696C-0.112811 7.32982 -0.112807 6.67018 0.338428 6.6304L4.38625 6.27346C4.68505 6.24709 4.83069 5.89546 4.63804 5.66556L2.02821 2.55089C1.73728 2.20368 2.20368 1.73729 2.55089 2.02822L5.66556 4.63804C5.89546 4.83069 6.24709 4.68504 6.27346 4.38625L6.6304 0.338424Z" />
                   </g>
                 </svg>
-                Drop Us a Line
+                Send a Meassage
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={14}
@@ -1526,12 +1526,8 @@ const Features = () => {
                   </g>
                 </svg>
               </span>
-              <h2>Connect with Zenfy</h2>
-              <p>
-                Ready to take the first step towards unlocking opportunities,
-                realizing goals, and embracing innovation? We're here and eager
-                to connect.
-              </p>
+              <h2>Connect Tankar Solution</h2>
+              <p>Ready to unlock opportunities, achieve goals, and embrace innovation? Let's connect!</p>
             </div>
             <div
               className="contact-area wow animate fadeInUp"
@@ -1554,7 +1550,7 @@ const Features = () => {
                 <div className="content">
                   <span>To More Inquiry</span>
                   <h6>
-                    <a href="tel:+990737621432">+990-737 621 432</a>
+                    <a href="tel:+919909388561">+91 99093 88561</a>
                   </h6>
                 </div>
               </div>
@@ -1576,7 +1572,7 @@ const Features = () => {
                 <div className="content">
                   <span>To Send Mail</span>
                   <h6>
-                    <a href="mailto:info@example.com">info@gmail.com</a>
+                    <a href="mailto:info@example.com">info@tankarsolutions.com</a>
                   </h6>
                 </div>
               </div>
@@ -1589,7 +1585,7 @@ const Features = () => {
               <h6>Social Just You Connected Us!</h6>
               <ul className="social-list">
                 <li>
-                  <a href="https://www.linkedin.com/">
+                  <a href="https://www.linkedin.com/company/tankar-solutions-pvt-ltd/">
                     <i className="bi bi-linkedin" />
                     <span>LinkedIn</span>
                   </a>
@@ -1616,7 +1612,7 @@ const Features = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/">
+                  <a href="https://www.instagram.com/tankar_solutions_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                     <i className="bi bi-instagram" />
                     <span>Instagram</span>
                   </a>

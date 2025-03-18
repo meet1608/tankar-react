@@ -34,7 +34,7 @@ const Footer = () => {
                             </div>
                             <div className="menu-container">
                                 <ul className="widget-list">
-                                    <li><a href="service-details.html">Managed Services</a></li>
+                                    <li><a href="service-details.html">Software Devlopment</a></li>
                                     <li><a href="service-details.html">IT Consulting & Advisory</a></li>
                                     <li><a href="service-details.html">Cyber Security</a></li>
                                     <li><a href="service-details.html">Web Development</a></li>

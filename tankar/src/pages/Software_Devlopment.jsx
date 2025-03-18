@@ -36,12 +36,9 @@ const service_details = () => {
                 <li>
                   <a href="index.html">Home</a>
                 </li>
-                <li>Service Details</li>
+                <li>Software Devlopment</li>
               </ul>
-              <h1>
-                We are a IT service Company working with talents on delivering
-                unique ideas.
-              </h1>
+              <h1>Custom, Mobile & Web Apps | Enterprise Solutions | Consulting & Support</h1>
             </div>
             <div className="scroll-down-btn">
               <a href="#service-details-section">
@@ -78,14 +75,7 @@ const service_details = () => {
               <h2>
                 Software <span>Development.</span>
               </h2>
-              <p>
-                Where innovation meets passion in a journey that started with a
-                simple idea and a shared dream. Founded in recent year we
-                embarked on a mission to bring the new innovation and introduce
-                the technology. From humble beginnings to our current
-                aspirations, every step has been fueled by a relentless
-                commitment.
-              </p>
+              <p>At Tankar Solution, we turn ideas into reality through innovative software solutions. With a strong foundation in cutting-edge technology, we help businesses achieve digital transformation with tailored software services. From startups to enterprises, our expert team delivers scalable, secure, and high-performing solutions that drive success.</p>
               <ul className="key-features">
                 <li>
                   <svg
@@ -199,7 +189,7 @@ const service_details = () => {
                       aria-expanded="true"
                       aria-controls="faqcollapseOne"
                     >
-                      01. What is Task Management and how does it work?
+                      01. What types of software do you develop?
                     </button>
                   </h2>
                   <div
@@ -209,10 +199,9 @@ const service_details = () => {
                     data-bs-parent="#accordionTravel"
                   >
                     <div className="accordion-body">
-                      Aptent taciti sociosqu ad litora torquent per conubia
-                      nostra, per inci only Integer purus onthis felis non
-                      aliquam.Mauris nec just vitae ann auctor tol euismod sit
-                      amet non ipsul growing this
+                    We build enterprise software, cloud-based applications, AI-powered solutions, and more.
+
+
                     </div>
                   </div>
                 </div>
@@ -226,7 +215,7 @@ const service_details = () => {
                       aria-expanded="false"
                       aria-controls="faqcollapseTwo"
                     >
-                      02. Is Zenfy suitable for my business?
+                      02. Do you offer full-cycle software development?
                     </button>
                   </h2>
                   <div
@@ -236,11 +225,9 @@ const service_details = () => {
                     data-bs-parent="#accordionTravel"
                   >
                     <div className="accordion-body">
-                      Aptent taciti sociosqu ad litora torquent per conubia
-                      nostra, per inceptos only Integer purus onthis placerat
-                      felis non aliquam.Mauris nec justo vitae ante auctor tol
-                      euismod sit amet non ipsul growing this Praesent commodo
-                      at massa eget suscipit. Utani vitae enim velit.
+                    Yes! We handle everything from planning and development to deployment and maintenance.
+
+
                     </div>
                   </div>
                 </div>
@@ -254,7 +241,7 @@ const service_details = () => {
                       aria-expanded="false"
                       aria-controls="faqcollapseThree"
                     >
-                      03. The system requirements using Task Management?
+                      03. How do you ensure software quality?
                     </button>
                   </h2>
                   <div
@@ -264,11 +251,9 @@ const service_details = () => {
                     data-bs-parent="#accordionTravel"
                   >
                     <div className="accordion-body">
-                      Aptent taciti sociosqu ad litora torquent per conubia
-                      nostra, per inceptos only Integer purus onthis placerat
-                      felis non aliquam.Mauris nec justo vitae ante auctor tol
-                      euismod sit amet non ipsul growing this Praesent commodo
-                      at massa eget suscipit. Utani vitae enim velit.
+                    We follow Agile methodologies, rigorous testing, and security audits.
+
+
                     </div>
                   </div>
                 </div>
@@ -282,7 +267,7 @@ const service_details = () => {
                       aria-expanded="false"
                       aria-controls="faqcollapseFour"
                     >
-                      04. How can I upgrade my subscription?
+                      04. Can you integrate new software with our existing system?
                     </button>
                   </h2>
                   <div
@@ -292,11 +277,9 @@ const service_details = () => {
                     data-bs-parent="#accordionTravel"
                   >
                     <div className="accordion-body">
-                      Aptent taciti sociosqu ad litora torquent per conubia
-                      nostra, per inceptos only Integer purus onthis placerat
-                      felis non aliquam.Mauris nec justo vitae ante auctor tol
-                      euismod sit amet non ipsul growing this Praesent commodo
-                      at massa eget suscipit. Utani vitae enim velit.
+                    Yes! We ensure seamless integration with your current infrastructure.
+
+
                     </div>
                   </div>
                 </div>
@@ -310,7 +293,7 @@ const service_details = () => {
                       aria-expanded="true"
                       aria-controls="faqcollapseFive"
                     >
-                      05. How can I upgrade my subscription?
+                      05. What technologies do you use for software development?
                     </button>
                   </h2>
                   <div
@@ -320,10 +303,9 @@ const service_details = () => {
                     data-bs-parent="#accordionTravel"
                   >
                     <div className="accordion-body">
-                      Aptent taciti sociosqu ad litora torquent per conubia
-                      nostra, per inci only Integer purus onthis felis non
-                      aliquam.Mauris nec just vitae ann auctor tol euismod sit
-                      amet non ipsul growing this
+                    We use Python, Java, .NET, PHP, Node.js, and more based on project needs.
+
+
                     </div>
                   </div>
                 </div>
@@ -386,11 +368,11 @@ const service_details = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Client Consultation</h4>
+                      <h4>Requirement Gathering & Planning</h4>
                       <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
+                      Understanding business needs, defining scope, and selecting technologies.
+
+
                       </p>
                     </div>
                   </div>
@@ -408,11 +390,10 @@ const service_details = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Strategy Development</h4>
-                      <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
+                      <h4>System Design & Architecture</h4>
+                      <p>Creating software architecture, UI mockups, and database structures.
+
+
                       </p>
                     </div>
                   </div>
@@ -430,12 +411,10 @@ const service_details = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Market Research</h4>
-                      <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
-                      </p>
+                      <h4>Development & Coding</h4>
+                      <p>Building the software using Agile methodology for efficiency.
+
+</p>
                     </div>
                   </div>
                 </div>
@@ -452,12 +431,10 @@ const service_details = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Campaign Planning</h4>
-                      <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
-                      </p>
+                      <h4>Testing & Debugging</h4>
+                      <p>Ensuring quality, performance, and security through rigorous testing.
+
+</p>
                     </div>
                   </div>
                 </div>
@@ -470,12 +447,10 @@ const service_details = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Campaign Planning</h4>
-                      <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
-                      </p>
+                      <h4>Deployment & Maintenance</h4>
+                      <p>Launching the software and providing ongoing support and updates.
+
+</p>
                     </div>
                   </div>
                 </div>
@@ -528,12 +503,12 @@ const service_details = () => {
               </svg>
             </span>
             <h2>
-              Edge tools Drive That <span> performance.</span>
+            Building Scalable Software <span> Solutions for Business Success</span>
             </h2>
             <p>
-              Feel free adapt this based on the specific managed services,
-              features, and unique selling points your IT service company
-              provides.
+            We develop custom software solutions that streamline operations, enhance productivity, and drive business growth.
+
+
             </p>
           </div>
         </div>
@@ -559,11 +534,9 @@ const service_details = () => {
                 </svg>
               </div>
               <div className="content">
-                <h5>Technical Implementation</h5>
+                <h5>Custom Software Solutions </h5>
                 <p>
-                  Seamless integration of cutting-edge solutions. Our technical
-                  implementation ensures robust systems, and optimal performance
-                  in every detail.
+                Develop applications tailored to business-specific needs.
                 </p>
               </div>
             </li>
@@ -585,11 +558,9 @@ const service_details = () => {
                 </svg>
               </div>
               <div className="content">
-                <h5>IT Helpdesk Support</h5>
+                <h5>Agile & Scalable Development </h5>
                 <p>
-                  Responsive IT helpdesk support ensuring seamless operations,
-                  resolving issues promptly, and maximizing user productivity
-                  with expertise.
+                Utilize agile methodologies for flexible and efficient project execution.
                 </p>
               </div>
             </li>
@@ -609,11 +580,9 @@ const service_details = () => {
                 </svg>
               </div>
               <div className="content">
-                <h5>Managed IT Services</h5>
+                <h5>AI & Machine Learning Integration</h5>
                 <p>
-                  Efficient, proactive, and secure IT solutions tailored to
-                  optimize your business operations with our managed IT
-                  services.
+                Enhance software capabilities with smart automation.
                 </p>
               </div>
             </li>
@@ -643,11 +612,9 @@ const service_details = () => {
                 </svg>
               </div>
               <div className="content">
-                <h5>IT Consulting</h5>
+                <h5>API & Database Development</h5>
                 <p>
-                  Strategic IT Consulting tailored solutions to optimize
-                  performance, enhance security, and drive innovation for
-                  business success.
+                Build robust APIs and databases for seamless connectivity.
                 </p>
               </div>
             </li>
@@ -671,10 +638,9 @@ const service_details = () => {
                 </svg>
               </div>
               <div className="content">
-                <h5>Network Support</h5>
+                <h5>Post-Deployment Support & Upgrades</h5>
                 <p>
-                  Reliable network support ensuring seamless connectivity and
-                  optimizing performance for uninterrupted business operations.
+                Offer ongoing maintenance and feature enhancements.
                 </p>
               </div>
             </li>
@@ -730,7 +696,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/figma-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>Figma</span>
+              <span>Python / Java / C#</span>
             </div>
           </div>
         </div>
@@ -744,7 +710,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/vs-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>Visual Studio</span>
+              <span>Spring Boot / Django </span>
             </div>
           </div>
         </div>
@@ -758,7 +724,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/git-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>Git</span>
+              <span> REST & GraphQL APIs</span>
             </div>
           </div>
         </div>
@@ -772,7 +738,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/react-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>React</span>
+              <span>SQL & NoSQL Databases</span>
             </div>
           </div>
         </div>
@@ -786,7 +752,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/php-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>Php</span>
+              <span>CI/CD Pipelines</span>
             </div>
           </div>
         </div>
@@ -800,7 +766,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/mysql-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>MySQL</span>
+              <span>.NET</span>
             </div>
           </div>
         </div>
@@ -814,7 +780,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/gitlab-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>Gitlab</span>
+              <span>AI/ML Libraries</span>
             </div>
           </div>
         </div>
@@ -828,7 +794,7 @@ const service_details = () => {
               <img src="assets/img/innerpage/icon/aws-icon.svg" alt="" />
             </div>
             <div className="tools-name">
-              <span>AWS</span>
+              <span>Containerization</span>
             </div>
           </div>
         </div>
@@ -837,7 +803,7 @@ const service_details = () => {
   </div>
   {/* End Service Details Tools section */}
   {/* Start Contact section */}
-  <div className="contact-section">
+ <div className="contact-section">
     <div className="container">
       <div className="row g-lg-4 gy-5">
         <div className="col-lg-5">
@@ -858,7 +824,7 @@ const service_details = () => {
                     <path d="M6.6304 0.338424C6.67018 -0.112811 7.32982 -0.112807 7.3696 0.338428L7.72654 4.38625C7.75291 4.68505 8.10454 4.83069 8.33443 4.63804L11.4491 2.02821C11.7963 1.73728 12.2627 2.20368 11.9718 2.55089L9.36197 5.66556C9.1693 5.89546 9.31496 6.24709 9.61374 6.27346L13.6615 6.6304C14.1128 6.67018 14.1128 7.32982 13.6615 7.3696L9.61374 7.72654C9.31496 7.75291 9.1693 8.10454 9.36197 8.33443L11.9718 11.4491C12.2627 11.7963 11.7963 12.2627 11.4491 11.9718L8.33443 9.36197C8.10454 9.1693 7.75291 9.31496 7.72654 9.61374L7.3696 13.6615C7.32982 14.1128 6.67018 14.1128 6.6304 13.6615L6.27346 9.61374C6.24709 9.31496 5.89546 9.1693 5.66556 9.36197L2.55089 11.9718C2.20368 12.2627 1.73729 11.7963 2.02822 11.4491L4.63804 8.33443C4.83069 8.10454 4.68504 7.75291 4.38625 7.72654L0.338424 7.3696C-0.112811 7.32982 -0.112807 6.67018 0.338428 6.6304L4.38625 6.27346C4.68505 6.24709 4.83069 5.89546 4.63804 5.66556L2.02821 2.55089C1.73728 2.20368 2.20368 1.73729 2.55089 2.02822L5.66556 4.63804C5.89546 4.83069 6.24709 4.68504 6.27346 4.38625L6.6304 0.338424Z" />
                   </g>
                 </svg>
-                Drop Us a Line
+                Send a Meassage
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={14}
@@ -870,12 +836,8 @@ const service_details = () => {
                   </g>
                 </svg>
               </span>
-              <h2>Connect with Zenfy</h2>
-              <p>
-                Ready to take the first step towards unlocking opportunities,
-                realizing goals, and embracing innovation? We're here and eager
-                to connect.
-              </p>
+              <h2>Connect Tankar Solution</h2>
+              <p>Ready to unlock opportunities, achieve goals, and embrace innovation? Let's connect!</p>
             </div>
             <div
               className="contact-area wow animate fadeInUp"
@@ -898,7 +860,7 @@ const service_details = () => {
                 <div className="content">
                   <span>To More Inquiry</span>
                   <h6>
-                    <a href="tel:+990737621432">+990-737 621 432</a>
+                    <a href="tel:+919909388561">+91 99093 88561</a>
                   </h6>
                 </div>
               </div>
@@ -920,7 +882,7 @@ const service_details = () => {
                 <div className="content">
                   <span>To Send Mail</span>
                   <h6>
-                    <a href="mailto:info@example.com">info@gmail.com</a>
+                    <a href="mailto:info@example.com">info@tankarsolutions.com</a>
                   </h6>
                 </div>
               </div>
@@ -933,7 +895,7 @@ const service_details = () => {
               <h6>Social Just You Connected Us!</h6>
               <ul className="social-list">
                 <li>
-                  <a href="https://www.linkedin.com/">
+                  <a href="https://www.linkedin.com/company/tankar-solutions-pvt-ltd/">
                     <i className="bi bi-linkedin" />
                     <span>LinkedIn</span>
                   </a>
@@ -960,7 +922,7 @@ const service_details = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/">
+                  <a href="https://www.instagram.com/tankar_solutions_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                     <i className="bi bi-instagram" />
                     <span>Instagram</span>
                   </a>
