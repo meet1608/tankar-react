@@ -13,7 +13,16 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
+import { useNavigate } from 'react-router-dom';
+import blog1 from '../assets/img/home4/blog-img1.jpg'
+import blog2 from '../assets/img/home4/blog-img2.jpg'
+import blog4 from '../assets/img/home4/blog-img4.jpg'
+import pop1 from '../assets/img/innerpage/popular-post-img1.png'
+import pop2 from '../assets/img/innerpage/popular-post-img2.png'
+import pop3 from '../assets/img/innerpage/popular-post-img3.png'
+
 const Blog_standard = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <Navbar />
@@ -72,7 +81,7 @@ const Blog_standard = () => {
           >
             <div className="blog-card-img-wrap">
               <a href="blog-details.html" className="card-img">
-                <img src="assets/img/home4/blog-img1.jpg" alt="" />
+                <img src={blog1} alt="" />
               </a>
               <a href="blog-grid.html" className="date">
                 <span>
@@ -136,7 +145,7 @@ const Blog_standard = () => {
           >
             <div className="blog-card-img-wrap">
               <a href="blog-details.html" className="card-img">
-                <img src="assets/img/home4/blog-img2.jpg" alt="" />
+                <img src={blog2} alt="" />
               </a>
               <a href="blog-grid.html" className="date">
                 <span>
@@ -199,7 +208,7 @@ const Blog_standard = () => {
           >
             <div className="blog-card-img-wrap">
               <a href="blog-details.html" className="card-img">
-                <img src="assets/img/home4/blog-img4.jpg" alt="" />
+                <img src={blog4} alt="" />
               </a>
               <a href="blog-grid.html" className="date">
                 <span>
@@ -254,40 +263,7 @@ const Blog_standard = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div
-              className="col-lg-12 d-flex justify-content-center wow animate fadeInUp"
-              data-wow-delay="400ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="pagination-area">
-                <ul className="paginations">
-                  <li className="page-item active">
-                    <a href="#">01</a>
-                  </li>
-                  <li className="page-item">
-                    <a href="#">02</a>
-                  </li>
-                  <li className="page-item">
-                    <a href="#">03</a>
-                  </li>
-                  <li className="page-item paginations-button">
-                    <a href="#">
-                      NXT
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={14}
-                        height={12}
-                        viewBox="0 0 14 12"
-                      >
-                        <path d="M0.020025 6.33628C0.0901115 6.5271 0.25031 6.73476 0.400496 6.83017C0.550683 6.91997 0.946172 6.92558 5.76715 6.95364L10.9736 6.98171L9.08627 8.77205C7.85974 9.93381 7.16889 10.6297 7.11883 10.7476C6.94862 11.1517 7.10381 11.6961 7.44423 11.8981C7.63947 12.0216 8.01494 12.0328 8.18014 11.9318C8.24022 11.8925 9.53682 10.6803 11.0687 9.23226C12.941 7.45876 13.8722 6.53833 13.9273 6.42047C14.0775 6.05567 13.9923 5.65719 13.697 5.3429C13.2014 4.82656 8.1451 0.140237 8.00993 0.0728886C7.79466 -0.0337464 7.60943 -0.0225217 7.36413 0.100951C6.96864 0.302995 6.79843 0.909129 7.0137 1.31883C7.06376 1.41424 7.96988 2.301 9.02619 3.28316C10.0775 4.27093 10.9436 5.09034 10.9436 5.11279C10.9486 5.14085 8.61068 5.15769 5.74713 5.15769L0.550683 5.15769L0.385478 5.28116C0.135167 5.47759 0.0250308 5.67964 0.00500557 5.98271C-0.00500609 6.12863 -2.49531e-07 6.29139 0.020025 6.33628Z" />
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          
         </div>
         <div
           className="col-lg-4 wow animate fadeInRight"
@@ -307,157 +283,52 @@ const Blog_standard = () => {
               </form>
             </div>
             <div className="single-widget mb-30">
-              <h5 className="widget-title">Category</h5>
-              <ul className="category-list">
-                <li>
-                  <a href="blog-sidebar.html">
-                    <span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={13}
-                        height={14}
-                        viewBox="0 0 13 14"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                        />
-                      </svg>
-                      Digital Marketing
-                    </span>
-                    <span>(20)</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="blog-sidebar.html">
-                    <span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={13}
-                        height={14}
-                        viewBox="0 0 13 14"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                        />
-                      </svg>
-                      Creative Agency
-                    </span>
-                    <span>(15)</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="blog-sidebar.html">
-                    <span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={13}
-                        height={14}
-                        viewBox="0 0 13 14"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                        />
-                      </svg>
-                      Web Design
-                    </span>
-                    <span>(25)</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="blog-sidebar.html">
-                    <span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={13}
-                        height={14}
-                        viewBox="0 0 13 14"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                        />
-                      </svg>
-                      Web Development
-                    </span>
-                    <span>(30)</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="blog-sidebar.html">
-                    <span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={13}
-                        height={14}
-                        viewBox="0 0 13 14"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                        />
-                      </svg>
-                      Content Marketing
-                    </span>
-                    <span>(32)</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="blog-sidebar.html">
-                    <span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={13}
-                        height={14}
-                        viewBox="0 0 13 14"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                        />
-                      </svg>
-                      App Development
-                    </span>
-                    <span>(35)</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="blog-sidebar.html">
-                    <span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={13}
-                        height={14}
-                        viewBox="0 0 13 14"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                        />
-                      </svg>
-                      UI/UX Design
-                    </span>
-                    <span>(38)</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
+  <h5 className="widget-title">Services</h5>
+  <ul className="category-list">
+    {[
+      { name: "Software Development", path: "/software-devlopment", count: 20 },
+      { name: "IT Consulting", path: "/it-consulting", count: 15 },
+      { name: "UI/UX", path: "/ui-ux", count: 25 },
+      { name: "Web Development", path: "/web-development", count: 30 },
+      { name: "Mobile App", path: "/mobile-app", count: 32 },
+      { name: "Custom Software", path: "/custom-software", count: 35 },
+      { name: "Digital Marketing", path: "/digital-marketing-page", count: 38 },
+      { name: "Game Development", path: "/game-development", count: 38 },
+      { name: "ERP Solution", path: "/erp-solution", count: 38 }
+    ].map((service, index) => (
+      <li key={index}>
+        <a>
+          <span
+            onClick={() => navigate(service.path)}
+            style={{ cursor: "pointer" }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width={13}
+              height={14}
+              viewBox="0 0 13 14"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
+              />
+            </svg>
+            {service.name}
+          </span>
+          <span>({service.count})</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</div>
             <div className="single-widget mb-30">
               <h5 className="widget-title">Popular Post </h5>
               <div className="recent-post-widget mb-20">
                 <div className="recent-post-img">
                   <a href="blog-details.html">
                     <img
-                      src="assets/img/innerpage/popular-post-img1.png"
+                      src={pop1}
                       alt=""
                     />
                   </a>
@@ -475,7 +346,7 @@ const Blog_standard = () => {
                 <div className="recent-post-img">
                   <a href="blog-details.html">
                     <img
-                      src="assets/img/innerpage/popular-post-img2.png"
+                      src={pop2}
                       alt=""
                     />
                   </a>
@@ -493,7 +364,7 @@ const Blog_standard = () => {
                 <div className="recent-post-img">
                   <a href="blog-details.html">
                     <img
-                      src="assets/img/innerpage/popular-post-img3.png"
+                      src={pop3}
                       alt=""
                     />
                   </a>

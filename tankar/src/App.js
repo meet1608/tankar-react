@@ -8,12 +8,7 @@ import Case_study1 from './pages/case_study1';
 import Case_study2 from './pages/case_study2';
 import Case_study_details from './pages/case_study_details';
 import About from './pages/about';
-import Blog_details from './pages/Blog_details';
-import Blog_grid from './pages/Blog_grid';
-import Blog_list from './pages/Blog_list';
-import Blog_details2 from './pages/Blog_details2';
 import Blog_standard from './pages/Blog_standard';
-import Blog_gird_sidebar from './pages/Blog_gird_sidebar';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import Contact from './pages/Contact';
@@ -62,12 +57,7 @@ function App() {
       <Route path="/case-study2" element={<Case_study2 />} />
       <Route path="/case-study-details" element={<Case_study_details />} />
       <Route path="/about" element={<About />} />
-      <Route path="/blog-details" element={<Blog_details />} />
-      <Route path="/blog-grid" element={<Blog_grid />} />
-      <Route path="/blog-list" element={<Blog_list />} />
-      <Route path="/blog-details2" element={<Blog_details2 />} />
       <Route path="/blog-standard" element={<Blog_standard />} />
-      <Route path="/blog-grid-sidebar" element={<Blog_gird_sidebar />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/contact" element={<Contact />} />

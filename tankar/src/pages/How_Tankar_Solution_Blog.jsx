@@ -22,9 +22,11 @@ import blog8 from '../assets/img/innerpage/blog-details-img3.jpg'
 import sliderblog1 from '../assets/img/innerpage/popular-post-img1.png'
 import sliderblog2 from '../assets/img/innerpage/popular-post-img2.png'
 import sliderblog3 from '../assets/img/innerpage/popular-post-img3.png'
+import { useNavigate } from 'react-router-dom';
 
 
 const Blog_details2 = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <Navbar />
@@ -259,7 +261,7 @@ const Blog_details2 = () => {
               <ul className="category-list">
                 <li>
                   <a href="blog-sidebar.html">
-                    <span>
+                    <span onClick={() => navigate("/software-devlopment")}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={13}
@@ -272,14 +274,14 @@ const Blog_details2 = () => {
                           d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
                         />
                       </svg>
-                      Digital Marketing
+                      Software Development
                     </span>
                     <span>(20)</span>
                   </a>
                 </li>
                 <li>
                   <a href="blog-sidebar.html">
-                    <span>
+                    <span onClick={() => navigate("/it-consulting")}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={13}
@@ -292,14 +294,15 @@ const Blog_details2 = () => {
                           d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
                         />
                       </svg>
-                      Creative Agency
-                    </span>
+
+                  It Consulting
+                </span>
                     <span>(15)</span>
                   </a>
                 </li>
                 <li>
                   <a href="blog-sidebar.html">
-                    <span>
+                    <span onClick={() => navigate("/ui-ux")}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={13}
@@ -312,14 +315,14 @@ const Blog_details2 = () => {
                           d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
                         />
                       </svg>
-                      Web Design
+                      UI/UX
                     </span>
                     <span>(25)</span>
                   </a>
                 </li>
                 <li>
                   <a href="blog-sidebar.html">
-                    <span>
+                    <span onClick={() => navigate("/web-devlopment")}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={13}
@@ -339,7 +342,7 @@ const Blog_details2 = () => {
                 </li>
                 <li>
                   <a href="blog-sidebar.html">
-                    <span>
+                    <span   onClick={() => navigate("/mobile-app")}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={13}
@@ -352,14 +355,13 @@ const Blog_details2 = () => {
                           d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
                         />
                       </svg>
-                      Content Marketing
-                    </span>
+                      Mobile App                    </span>
                     <span>(32)</span>
                   </a>
                 </li>
                 <li>
                   <a href="blog-sidebar.html">
-                    <span>
+                    <span onClick={() => navigate("/custom-software")}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={13}
@@ -372,14 +374,14 @@ const Blog_details2 = () => {
                           d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
                         />
                       </svg>
-                      App Development
+                      Custom Software
                     </span>
                     <span>(35)</span>
                   </a>
                 </li>
                 <li>
                   <a href="blog-sidebar.html">
-                    <span>
+                    <span onClick={() => navigate("/digital-marketing-page")}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={13}
@@ -392,8 +394,47 @@ const Blog_details2 = () => {
                           d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
                         />
                       </svg>
-                      UI/UX Design
-                    </span>
+                      Digital Marketing                    </span>
+                    <span>(38)</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="blog-sidebar.html">
+                    <span onClick={() => navigate("/game-development")}>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={13}
+                        height={14}
+                        viewBox="0 0 13 14"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          clipRule="evenodd"
+                          d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
+                        />
+                      </svg>
+                      Game Development    </span>
+                    <span>(38)</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="blog-sidebar.html">
+                    <span onClick={() => navigate("/erp-solution")}>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={13}
+                        height={14}
+                        viewBox="0 0 13 14"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          clipRule="evenodd"
+                          d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
+                        />
+                      </svg>
+                      ERP Solution                    </span>
                     <span>(38)</span>
                   </a>
                 </li>
