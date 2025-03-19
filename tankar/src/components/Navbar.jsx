@@ -43,7 +43,7 @@ const Navbar = () => {
       {/*  Style CSS  */}
       <link rel="stylesheet" href="assets/css/style.css" />
       {/* Title */}
-      <title>Zenfy - Software, SaaS &amp; Digital Agency Template</title>
+      <title>Tankar Solution Private Limited</title>
       <link
         rel="icon"
         href="assets/img/sm-logo.svg"

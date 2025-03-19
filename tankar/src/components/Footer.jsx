@@ -11,11 +11,11 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
-import google from '../assets/img/home1/icon/google-logo.svg';
-import white_clutch from '../assets/img/home1/icon/clutch-logo-white.svg';
-import clutch from '../assets/img/home1/icon/clutch-logo.svg';
-import logo from '../assets/img/footer-logo.svg';
-import logo_dark from '../assets/img/footer-logo-dark.svg';
+// import google from '../assets/img/home1/icon/google-logo.svg';
+// import white_clutch from '../assets/img/home1/icon/clutch-logo-white.svg';
+// import clutch from '../assets/img/home1/icon/clutch-logo.svg';
+// import logo from '../assets/img/footer-logo.svg';
+// import logo_dark from '../assets/img/footer-logo-dark.svg';
 import back_logo from '../assets/img/home1/footer-logo-bg.png';
 import back_logo_dark from '../assets/img/home1/footer-logo-bg-dark.png';
 import tankar_logo from '../assets/img/tankar_footer.png';
@@ -38,9 +38,10 @@ const Footer = () => {
                                     <li><a href="service-details.html">IT Consulting & Advisory</a></li>
                                     <li><a href="service-details.html">Cyber Security</a></li>
                                     <li><a href="service-details.html">Web Development</a></li>
-                                    <li><a href="service-details.html">Mobile Development</a></li>
+                                    
                                 </ul>
                                 <ul className="widget-list">
+                                <li><a href="service-details.html">Mobile Development</a></li>
                                     <li><a href="service-details.html">Cloud Services</a></li>
                                     <li><a href="service-details.html">Network Connectivity</a></li>
                                     <li><a href="service-details.html">ERP Solutions</a></li>
@@ -79,12 +80,13 @@ const Footer = () => {
                                         </g>
                                     </svg>
                                 </span>
-                                <h3>What Sets Us Apart?</h3>
+                                <h3>What Sets Us Apart?
+                                </h3>
                             </div>
                             <div className="content">
-                                <p>Welcome to Zenfy, where innovation meets our passion in a journey that started with a simple idea and a shared dream.</p>
+                                <p>Tankar Solutions Pvt. Ltd. is a leading IT service provider specializing in software development, cybersecurity, cloud solutions, and IT consulting.</p>
                             </div>
-                            <ul className="rating-area">
+                            {/* <ul className="rating-area">
                                 <li>
                                     <a href="https://clutch.co/" className="single-rating">
                                         <div className="review">
@@ -122,7 +124,7 @@ const Footer = () => {
                                         </div>
                                     </a>
                                 </li>
-                            </ul> 
+                            </ul>  */}
                         </div>
                     </div>
                 </div>
@@ -143,7 +145,9 @@ const Footer = () => {
                     </div>
                     <div className="content">
                         <span>Call Any Time</span>
-                        <h6><a href="tel:2-965-871-8617">2-965-871-8617</a></h6>
+                        <h6><a href="tel:+91 99093 88561
+">+91 99093 88561
+                        </a></h6>
                     </div>
                 </div>
                 <div className="hotline-area">
@@ -159,7 +163,7 @@ const Footer = () => {
                     </div>
                     <div className="content">
                         <span>Address</span>
-                        <h6><a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">Dhaka, Bangladesh</a></h6>
+                        <h6><a href="https://maps.app.goo.gl/XjA1o15Juv7h27hn6">TRP Mall, C-3053, Bopal, Ahmedabad, Gujarat 380058</a></h6>
                     </div>
                 </div>
                 <div className="hotline-area">
@@ -173,19 +177,22 @@ const Footer = () => {
                     </div>
                     <div className="content">
                         <span>Say Hello</span>
-                        <h6><a href="mailto:info@example.com">info@example.com</a></h6>
+                        <h6><a href="mailto:info@tankarsolutions.com">info@tankarsolutions.com</a></h6>
                     </div>
                 </div>
             </div>
             <div className="footer-bottom">
                 <div className="copyright-area">
-                    <p>Copyright 2024 <a href="#">Zenfy</a> | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
+                    <p>Copyright © 2025  <a href="#">Tankar Solution.</a> All Rights Reserved. </p>
                 </div>
                 <div className="footer-bottom-right">
                     <ul>
-                        <li><a href="#">Support Policy</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Protfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
