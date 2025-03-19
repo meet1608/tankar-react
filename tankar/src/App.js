@@ -2,9 +2,7 @@ import './App.css';
 import Index from './pages';
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
 import Service from './pages/service';
-import Service2 from './pages/service2';
-import Service3 from './pages/service3';
-import Service4 from './pages/service4';
+
 import Service_details from './pages/service_details';
 import Case_study1 from './pages/case_study1';
 import Case_study2 from './pages/case_study2';
@@ -59,10 +57,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/service" element={<Service />} />
-      <Route path="/service2" element={<Service2 />} />
-      <Route path="/service3" element={<Service3 />} />
-      <Route path="/service4" element={<Service4 />} />
-      <Route path="/service-details" element={<Service_details />} />
+      
       <Route path="/case-study1" element={<Case_study1 />} />
       <Route path="/case-study2" element={<Case_study2 />} />
       <Route path="/case-study-details" element={<Case_study_details />} />

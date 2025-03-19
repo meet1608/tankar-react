@@ -393,19 +393,7 @@ const Navbar = () => {
                     </a>
                   </li>
                  
-                  <li>
-                  <a onClick={() => navigate('/service-details')}>
-                  Service Details
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={10}
-                        height={10}
-                        viewBox="0 0 10 10"
-                      >
-                        <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                      </svg>
-                    </a>
-                  </li>
+                 
                 </ul>
               </li>
               <li>
@@ -1027,9 +1015,7 @@ const Navbar = () => {
               <a onClick={() => navigate('/erp-solution')}>
               ERP Solutions     </a>
               </li>
-              <li>
-                <a onClick={() => navigate('/service-details')}>Service Details</a>
-              </li>
+             
             </ul>
           </li>
           <li className="menu-item-has-children">

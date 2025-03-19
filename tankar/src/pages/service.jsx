@@ -303,7 +303,7 @@ const service = () => {
           <div className="service-card two">
             <div className="content">
               <h4>
-                <a href="service-details.html">Custom Software Development
+                <a href="service-details.html">Custom Software
                 </a>
               </h4>
               <svg
