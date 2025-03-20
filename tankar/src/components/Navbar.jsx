@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../assets/css/animate.min.css";
 import "../assets/css/bootstrap-datetimepicker.min.css";
 import "../assets/css/bootstrap-icons.css";
@@ -18,6 +18,169 @@ import tankar_light from "../assets/img/tankar_logo_1.png";
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const navigate = useNavigate();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [subMenuStates, setSubMenuStates] = useState({});
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const toggleSubMenu = (menuItem) => {
+    setSubMenuStates((prevState) => ({
+      ...prevState,
+      [menuItem]: !prevState[menuItem],
+    }));
+  };
+
+  const isActiveSubMenu = (menuItem) => !!subMenuStates[menuItem];
+
+  const menuItems = [
+    {
+      label: "Home",
+      path: "/",
+    },
+    {
+      label: "Services",
+      subItems: [
+        { label: "Service style 01", path: "/service" },
+        { label: "Software Development", path: "/software-devlopment" },
+        { label: "IT Consulting & Advisory", path: "/it-consulting" },
+        { label: "UI/UX Design", path: "/ui-ux" },
+        { label: "Web Development", path: "/web-devlopment" },
+        { label: "Mobile App Development", path: "/mobile-app" },
+        { label: "Custom Software Development", path: "/custom-software" },
+        { label: "Digital Marketing", path: "/digital-marketing-page" },
+        { label: "Game Development", path: "/game-development" },
+        { label: "ERP Solutions", path: "/erp-solution" },
+      ],
+    },
+    {
+      label: "Case Study",
+      subItems: [
+        { label: "Case Study Style 01", path: "/case-study1" },
+        { label: "Case Study Style 02", path: "/case-study2" },
+        { label: "Case Study Details", path: "/case-study-details" },
+      ],
+    },
+    {
+      label: "Blog",
+      subItems: [{ label: "Blog Standard", path: "/blog-standard" }],
+    },
+    {
+      label: "Pages",
+      subItems: [
+        { label: "About", path: "/about" },
+        { label: "Why Us", path: "/why-us" },
+        { label: "Industry", path: "/industry" },
+        {
+          label: "Portfolio",
+          subItems: [
+            { label: "Portfolio Grid", path: "/portfolio-grid" },
+            { label: "Portfolio Masonary", path: "/portfolio-masonary" },
+            { label: "Portfolio Info Flow", path: "/portfolio-info-flow" },
+            { label: "Portfolio List", path: "/portfolio-list" },
+            { label: "Portfolio Details", path: "/portfolio-details" },
+          ],
+        },
+        {
+          label: "Our Team",
+          subItems: [
+            { label: "Team Style 01", path: "/team1" },
+            { label: "Team Style 02", path: "/team2" },
+          ],
+        },
+        { label: "Features", path: "/features" },
+        {
+          label: "Shop",
+          subItems: [
+            { label: "Shop", path: "/shop" },
+            { label: "Product Details", path: "/product-details" },
+            { label: "Cart", path: "/cart" },
+            { label: "CheckOut", path: "/checkout" },
+          ],
+        },
+        { label: "Pricing Plan", path: "/pricing-plan" },
+        { label: "Faqs", path: "/faqs" },
+        { label: "Error", path: "/error" },
+      ],
+    },
+    {
+      label: "Contact",
+      path: "/contact",
+    },
+  ];
+
+  const navbarStyles = {
+    display: "block",
+    padding: "15px",
+    backgroundColor: "#f8f9fa",
+  };
+
+  const menuToggleStyles = {
+    backgroundColor: "#007bff",
+    color: "white",
+    padding: "10px 15px",
+    border: "none",
+    cursor: "pointer",
+    borderRadius: "5px",
+    fontSize: "16px",
+    display: "block",
+    width: "100%",
+    textAlign: "center",
+  };
+
+  const mobileMenuStyles = {
+    display: "none",
+    position: "absolute",
+    top: "100%",
+    left: "0",
+    width: "100%",
+    backgroundColor: "white",
+    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+    zIndex: "1000",
+  };
+
+  const mobileMenuOpenStyles = {
+    display: "block",
+  };
+
+  const mobileMenuListStyles = {
+    listStyle: "none",
+    padding: "0",
+    margin: "0",
+  };
+
+  const mobileMenuItemStyles = {
+    borderBottom: "1px solid #eee",
+  };
+
+  const mobileMenuLinkStyles = {
+    display: "block",
+    padding: "12px 15px",
+    textDecoration: "none",
+    color: "#333",
+  };
+
+  const mobileMenuLinkHoverStyles = {
+    backgroundColor: "#e9ecef",
+    color: "#007bff",
+  };
+
+  const mobileSubMenuStyles = {
+    listStyle: "none",
+    padding: "0",
+    margin: "0",
+    backgroundColor: "#f8f9fa",
+  };
+
+  const mobileSubMenuItemStyles = {
+    borderBottom: "1px solid #eee",
+  };
+
+  const dropdownIconStyles = {
+    float: "right",
+    cursor: "pointer",
+  };
 
   return (
     <div>
@@ -64,683 +227,104 @@ const Navbar = () => {
           <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
       </div>
-      <div className="sidebar-menu">
-        <div className="sidebar-menu-top-area">
-          <div className="container d-flex align-items-center justify-content-between">
-            <div className="sidebar-menu-logo">
-              <a onClick={() => navigate("/")} className="logo-dark">
-                <img alt="image" className="img-fluid" src={tankar_light} />
-              </a>
-              <a onClick={() => navigate("/")} className="logo-light">
-                <img alt="image" className="img-fluid" src={tankar_light} />
-              </a>
-            </div>
-            <div className="sidebar-menu-close">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={20}
-                height={20}
-                viewBox="0 0 18 18"
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M18 0L11.1686 8.99601L18 18L9.0041 11.1605L0 18L6.83156 8.99601L0 0L9.0041 6.83156L18 0Z"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
+      <div
+        className="sidebar-menu"
+        style={{
+          transform:
+            isOpen && window.innerWidth <= 768
+              ? "translateX(0)"
+              : "translateX(-100%)",
+          transition: "transform 0.3s ease-in-out",
+          position: "fixed",
+          width: "100%",
+          height: "100%",
+          backgroundColor: "#fff",
+          zIndex: 999,
+          top: 0,
+          left: 0,
+          overflowY: "auto",
+        }}
+      >
         <div className="container">
-          <div className="row g-lg-4 gy-5">
-            <div className="col-lg-8">
-              <div className="sidebar-menu-wrap">
-                <ul className="main-menu">
-                  <li>
-                    <a onClick={() => navigate("/")}>Agency </a>
-                    <span className="dropdown-icon2 active">
-                      <i className="bi bi-plus" />
-                    </span>
-                    <ul className="submenu-list active">
-                      <li>
-                        <a>Light Version</a>
-                        <span className="dropdown-icon2 two">
-                          <i className="bi bi-plus" />
-                        </span>
-                        <ul className="submenu-list">
-                          <li>
-                            <a onClick={() => navigate("/")}>
-                              Startup Agency
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/digital-marketing")}>
-                              Digital Marketing Agency
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/saas")}>
-                              Saas Product
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/creative-agency")}>
-                              Creative Agency
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/it-solutions")}>
-                              It Solution
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a>Dark Version</a>
-                        <span className="dropdown-icon2 two">
-                          <i className="bi bi-plus" />
-                        </span>
-                        <ul className="submenu-list">
-                          <li>
-                            <a onClick={() => navigate("/index-dark")}>
-                              Startup Agency
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              onClick={() =>
-                                navigate("/digital-marketing-dark")
-                              }
-                            >
-                              Digital Marketing Agency
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/saas-dark")}>
-                              Saas Product
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              onClick={() => navigate("/creative-agency-dark")}
-                            >
-                              Creative Agency
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/it-solutions-dark")}>
-                              It Solution
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/service")}>Services</a>
-                    <span className="dropdown-icon2">
-                      <i className="bi bi-plus" />
-                    </span>
-                    <ul className="submenu-list">
-                      <li>
-                        <a onClick={() => navigate("/service")}>
-                          Service style 01
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/software-devlopment")}>
-                          Software Development{" "}
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a onClick={() => navigate("/it-consulting")}>
-                          IT Consulting & Advisory{" "}
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a onClick={() => navigate("/ui-ux")}>
-                          UI/UX Design{" "}
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a onClick={() => navigate("/web-devlopment")}>
-                          Web Development
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a onClick={() => navigate("/mobile-app")}>
-                          Mobile App Development
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a onClick={() => navigate("/custom-software")}>
-                          Custom Software Development
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a onClick={() => navigate("/digital-marketing-page")}>
-                          Digital Marketing
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a onClick={() => navigate("/game-development")}>
-                          Game Development{" "}
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a onClick={() => navigate("/erp-solution")}>
-                          ERP Solutions{" "}
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/case-study1")}>
-                      {" "}
-                      Case Studies
-                    </a>
-                    <span className="dropdown-icon2">
-                      <i className="bi bi-plus" />
-                    </span>
-                    <ul className="submenu-list">
-                      <li>
-                        <a onClick={() => navigate("/case-study1")}>
-                          Case Study Style 01
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/case-study2")}>
-                          Case Study Style 02
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/case-study-details")}>
-                          Case Study Details
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/blog-standard")}> Blog</a>
-                    <span className="dropdown-icon2">
-                      <i className="bi bi-plus" />
-                    </span>
-                    <ul className="submenu-list">
-                      <li>
-                        <a onClick={() => navigate("/blog-standard")}>
-                          Blog Standard
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a>Pages</a>
-                    <span className="dropdown-icon2">
-                      <i className="bi bi-plus" />
-                    </span>
-                    <ul className="submenu-list">
-                      <li>
-                        <a onClick={() => navigate("/about")}>
-                          About
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/why-us")}>
-                          Why Us
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-
-                      <li>
-                        <a onClick={() => navigate("/industry")}>
-                          Portfolio{" "}
-                        </a>
-                        <span className="dropdown-icon2 two">
-                          <i className="bi bi-plus" />
-                        </span>
-                        <ul className="submenu-list">
-                          <li>
-                            <a onClick={() => navigate("/portfolio-grid")}>
-                              Portfolio Grid
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/blog-standard")}>
-                              Portfolio Masonary
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/blog-standard")}>
-                              Portfolio Info Flow
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/blog-standard")}>
-                              Portfolio List
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/blog-standard")}>
-                              Portfolio Details
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/team1")}>
-                          Our Team
-                        </a>
-                        <span className="dropdown-icon2 two">
-                          <i className="bi bi-plus" />
-                        </span>
-                        <ul className="submenu-list">
-                          <li>
-                            <a onClick={() => navigate("/team1")}>
-                              Team Style 1
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/team2")}>
-                              Team Style 2
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/features")}>
-                          Features
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/shop")}>Shop</a>
-                        <span className="dropdown-icon2 two">
-                          <i className="bi bi-plus" />
-                        </span>
-                        <ul className="submenu-list">
-                          <li>
-                            <a onClick={() => navigate("/shop")}>
-                              Shop
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/product-details")}>
-                              Product Details
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/blog-standard")}>
-                              Cart
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                          <li>
-                            <a onClick={() => navigate("/blog-standard")}>
-                              CheckOut
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/blog-standard")}>
-                          Pricing Plan
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/blog-standard")}>
-                          Faq
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/blog-standard")}>
-                          Error
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={10}
-                            height={10}
-                            viewBox="0 0 10 10"
-                          >
-                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/blog-standard")}>Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <div className="row gy-5 mb-20">
             <div className="col-lg-4 d-lg-flex align-items-center">
-              <div className="sidebar-contact">
+              <div className="sidebar-contact mt-100">
+                <div></div>
+
                 <div className="getin-touch-area mb-60">
-                  <h4>
+                  
+
+                  <ul
+                      className="mobile-menu-list"
+                      style={mobileMenuListStyles}
+                    >
+                      {menuItems.map((menuItem) => (
+                        <li
+                          key={menuItem.label}
+                          className="mobile-menu-item"
+                          style={mobileMenuItemStyles}
+                        >
+                          {menuItem.subItems ? (
+                            <>
+                              <a
+                                href="#"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  toggleSubMenu(menuItem.label);
+                                }}
+                                className="mobile-menu-link"
+                                style={mobileMenuLinkStyles}
+                              >
+                                {menuItem.label}
+                                <span
+                                  className="dropdown-icon"
+                                  style={dropdownIconStyles}
+                                >
+                                  {isActiveSubMenu(menuItem.label) ? "−" : "+"}
+                                </span>
+                              </a>
+                              {isActiveSubMenu(menuItem.label) && (
+                                <ul
+                                  className="mobile-sub-menu"
+                                  style={mobileSubMenuStyles}
+                                >
+                                  {menuItem.subItems.map((subItem) => (
+                                    <li
+                                      key={subItem.label}
+                                      className="mobile-sub-menu-item"
+                                      style={mobileSubMenuItemStyles}
+                                    >
+                                      <a
+                                        onClick={() => {
+                                          navigate(subItem.path);
+                                          setIsMenuOpen(false);
+                                        }}
+                                        className="mobile-menu-link"
+                                        style={mobileMenuLinkStyles}
+                                      >
+                                        {subItem.label}
+                                      </a>
+                                    </li>
+                                  ))}
+                                </ul>
+                              )}
+                            </>
+                          ) : (
+                            <a
+                              onClick={() => {
+                                navigate(menuItem.path);
+                                setIsMenuOpen(false);
+                              }}
+                              className="mobile-menu-link"
+                              style={mobileMenuLinkStyles}
+                            >
+                              {menuItem.label}
+                            </a>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  <h4 className="mt-40">
                     Get in Touch
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -858,7 +442,7 @@ const Navbar = () => {
           background: "rgba(255, 255, 255, 0.8)",
           backdropFilter: "blur(10px)",
           WebkitBackdropFilter: "blur(10px)", // For Safari support
-          cursor: "pointer"
+          cursor: "pointer",
         }}
       >
         <div className="container d-flex flex-nowrap align-items-center justify-content-between">
@@ -872,7 +456,7 @@ const Navbar = () => {
               />
             </a>
             <a onClick={() => navigate("/")} className="logo-light">
-              <img alt="image" className="img-fluid" src={logo_light} />
+              {/* <img alt="image" className="img-fluid" src={logo_light} /> */}
             </a>
           </div>
           <div className="main-menu d-lg-flex d-none">
@@ -1163,7 +747,14 @@ const Navbar = () => {
                   </h6>
                 </div>
               </div>
-              <div className="sidebar-btn" onClick={() => setIsOpen(!isOpen)}>
+              <div
+                className="sidebar-btn"
+                style={{ display: "block", cursor: "pointer" }}
+                onClick={() => {
+                  setIsOpen(!isOpen);
+                  toggleMenu();
+                }}
+              >
                 <svg
                   className="open"
                   xmlns="http://www.w3.org/2000/svg"
