@@ -530,6 +530,21 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="menu-item-has-children">
+                <a className="drop-down" onClick={() => navigate("/about")}>About Us</a>
+                <i className="bi bi-plus dropdown-icon" />
+                <ul className="sub-menu">
+                  
+                  <li>
+                    <a onClick={() => navigate("/why-us")}>Why Us</a>
+                  </li>
+                  <li>
+                    <a onClick={() => navigate("/case-study-details")}>
+                      Case Study 
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li className="menu-item-has-children">
                 <a className="drop-down">Services</a>
                 <i className="bi bi-plus dropdown-icon" />
                 <ul className="sub-menu">
