@@ -350,7 +350,7 @@ const Navbar = () => {
                       <div className="contact">
                         <span>Phone</span>
                         <h6>
-                          <a href="tel:+9917636844563">+991 - 763 684 4563</a>
+                          <a href="tel:+91 99093 88561">+91 99093 88561</a>
                         </h6>
                       </div>
                     </li>
@@ -368,8 +368,8 @@ const Navbar = () => {
                       <div className="contact">
                         <span>Email Now</span>
                         <h6>
-                          <a href="mailto:info@examplegmail.com">
-                            info@examplegmail.com
+                          <a href="mailto:info@tankarsolutions.com">
+                            info@tankarsolutions.com
                           </a>
                         </h6>
                       </div>
@@ -388,8 +388,8 @@ const Navbar = () => {
                       </div>
                       <div className="contact">
                         <h6>
-                          Canada City, Office-02, Road-11, House-3B/B, Section-H
-                        </h6>
+                        TRP Mall, East Court, C-3053, Bopal, Ahmedabad, Gujarat 380058
+</h6>
                       </div>
                     </li>
                   </ul>
@@ -408,18 +408,18 @@ const Navbar = () => {
                   </h6>
                   <ul className="social-area">
                     <li>
-                      <a href="https://dribbble.com/">
-                        <i className="bi bi-dribbble" /> Dribbble
+                      <a href="https://www.instagram.com/tankar_solutions_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        <i className="bi bi-instagram" /> Instagram
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.behance.net/">
-                        <i className="bi bi-behance" /> Behance
+                      <a href="https://www.linkedin.com/company/tankar-solutions-pvt-ltd/">
+                        <i className="bi bi-linkedin" /> LinkedIn
                       </a>
                     </li>
                     <li>
                       <a href="https://www.pinterest.com/">
-                        <i className="bi bi-pinterest" /> Pinterest
+                        <i className="bi bi-twitter" /> Twitter
                       </a>
                     </li>
                     <li>
