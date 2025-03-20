@@ -72,8 +72,7 @@ const About = () => {
                 <li>About Us </li>
               </ul>
               <h1>
-                We are a IT service Company working with talents on delivering
-                unique ideasessss.
+              Innovative IT solutions provider, ensuring security, efficiency, and digital transformation.
               </h1>
             </div>
             <div className="scroll-down-btn">
@@ -132,17 +131,10 @@ const About = () => {
                 </svg>
               </span>
               <h2>
-                We are a Startup agency working with young talents on delivering
-                unique ideas and creative work.
+                About US
               </h2>
               <p>
-                Where innovation meets passion in a journey that started with a
-                simple idea and a shared dream. Founded in recent year we
-                embarked on a mission to bring the new innovation and introduce
-                the technology. From humble beginnings to our current
-                aspirations, every step has been fueled by a relentless
-                commitment
-              </p>
+              At Tankar Solution Private Limited, we are dedicated to transforming businesses with cutting-edge IT solutions that drive efficiency, security, and growth. Specializing in software development, cybersecurity, ERP solutions, cloud computing, and IT consulting, we help organizations streamline operations and embrace digital transformation. Our expert team delivers tailored, scalable, and secure technology solutions, ensuring seamless integration and business continuity. With a strong focus on innovation, reliability, and customer satisfaction, we empower businesses to stay ahead in an ever-evolving digital landscape. At Tankar Solution, we don’t just provide IT services—we create future-ready solutions that enable businesses to thrive.</p>
             </div>
           </div>
         </div>
@@ -171,7 +163,7 @@ const About = () => {
                 </div>
                 <div className="content">
                   <div className="number">
-                    <h5 className="counter">150</h5>
+                    <h5 className="counter">150+</h5>
                     <span>Project</span>
                   </div>
                   <p>We Have Completed</p>
@@ -195,7 +187,7 @@ const About = () => {
                 </div>
                 <div className="content">
                   <div className="number">
-                    <h5 className="counter">98</h5>
+                    <h5 className="counter">99</h5>
                     <span>%</span>
                   </div>
                   <p>Customer Satisfaction</p>
@@ -216,10 +208,10 @@ const About = () => {
                 </div>
                 <div className="content">
                   <div className="number">
-                    <h5 className="counter">3</h5>
-                    <span>Mins</span>
+                    <h5 className="counter">15+</h5>
+                    {/* <span>Mins</span> */}
                   </div>
-                  <p>Average Answer Time</p>
+                  <p>Our Team Members</p>
                 </div>
               </li>
             </ul>
@@ -243,10 +235,9 @@ const About = () => {
                 />
               </div>
               <div className="content">
-                <h4>Expertise and Innovation</h4>
+                <h4> Leading IT Solutions Provider</h4>
                 <p>
-                  We pride ourselves staying at the front of innovation,
-                  constantly pushing boundaries a redefining what's possible.
+                Delivering cutting-edge technology services for businesses of all sizes.
                 </p>
               </div>
             </div>
@@ -264,10 +255,9 @@ const About = () => {
                 />
               </div>
               <div className="content">
-                <h4>Transparent Process</h4>
+                <h4>Expertise in Digital Transformation</h4>
                 <p>
-                  Our transparent process is designed to demystify the journey
-                  from concept to delivery.
+              operations with software development, cybersecurity, ERP, and cloud solutions.
                 </p>
               </div>
             </div>
@@ -285,11 +275,9 @@ const About = () => {
                 />
               </div>
               <div className="content">
-                <h4>Client-Centric Approach</h4>
+                <h4>Commitment to Innovation & Security</h4>
                 <p>
-                  Our dedicated team takes the time to listen, &amp;
-                  collaborate, ensuring that every interaction a step towards
-                  your success.
+                Ensuring robust, scalable, and future-ready IT infrastructure.
                 </p>
               </div>
             </div>
@@ -307,10 +295,9 @@ const About = () => {
                 />
               </div>
               <div className="content">
-                <h4>Cost-Effective</h4>
+                <h4>Customer-Centric Approach</h4>
                 <p>
-                  Our commitment to providing cost-effective solutions is
-                  ingrained in our mission.
+                Providing tailored solutions with  support for seamless business operations.
                 </p>
               </div>
             </div>
@@ -630,7 +617,7 @@ const About = () => {
           </svg>
         </span>
         <h2>
-          Bringing the best IT <span> Vendors To You.</span>
+        Who We Are, What We Do  <span> &</span> Why We Matter
         </h2>
       </div>
     </div>
@@ -653,11 +640,9 @@ const About = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Client Consultation</h4>
+                      <h4>Who We Are</h4>
                       <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
+                      Tankar Solution Private Limited is a leading IT services provider specializing in software development, cybersecurity, ERP solutions, and cloud computing.
                       </p>
                     </div>
                   </div>
@@ -675,11 +660,9 @@ const About = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Strategy Development</h4>
+                      <h4>What We Do</h4>
                       <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
+                      We deliver innovative, scalable, and secure IT solutions that help businesses streamline operations, enhance security, and achieve digital transformation.
                       </p>
                     </div>
                   </div>
@@ -697,11 +680,9 @@ const About = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Market Research</h4>
+                      <h4>Our Commitment</h4>
                       <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
+                      We focus on delivering high-quality, customized solutions with a strong emphasis on reliability, efficiency, and long-term business growth.
                       </p>
                     </div>
                   </div>
@@ -719,16 +700,14 @@ const About = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Campaign Planning</h4>
+                      <h4>Why We Matter</h4>
                       <p>
-                        Sed accumsan sem cursus luctus porta. amem Phasellu du
-                        enim, efficitur quis velit ac, fringilla posuere leo
-                        fusci.
+                      Our expertise and customer-centric approach ensure businesses stay ahead in an ever-evolving digital landscape.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="swiper-slide">
+                {/* <div className="swiper-slide">
                   <div className="single-process">
                     <div className="step">
                       <div className="number">
@@ -745,7 +724,7 @@ const About = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="slider-btn-area">
@@ -753,7 +732,7 @@ const About = () => {
                 <i className="bi bi-arrow-left" />
               </div>
               <div className="content">
-                <p>Overcome the IT Challenges</p>
+                <p>About Us connect your next step</p>
               </div>
               <div className="slider-btn home2-process-next">
                 <i className="bi bi-arrow-right" />
@@ -784,7 +763,7 @@ const About = () => {
               >
                 <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544Z" />
               </svg>
-              Discover the Advantage
+              Empowering Businesses with Innovative IT Solutions
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={14}
@@ -795,14 +774,11 @@ const About = () => {
               </svg>
             </span>
             <h2>
-              We are a IT service Company working with talents{" "}
-              <span>on delivering unique ideas.</span>
+            Innovative IT Solutions 
+              <span>with Expert Talent</span>
             </h2>
             <p>
-              Where innovation meets passion in a journey that started with a
-              simple idea and a shared dora Founded in recent year we embarked
-              on a mission told bring the new innovation and introduct the
-              technology. From humble beginnings to our current aspirations.
+            At Tankar Solution Private Limited, we are an IT services company committed to transforming businesses through cutting-edge technology and expert talent. Our team of skilled professionals brings innovative ideas to life, delivering customized, scalable, and secure IT solutions that drive efficiency and digital growth. From software development and cybersecurity to ERP solutions and cloud computing, we help businesses navigate the ever-evolving digital landscape with ease.
             </p>
           </div>
         </div>
@@ -820,10 +796,7 @@ const About = () => {
         <div className="col-lg-7">
           <div className="why-choose-content">
             <p>
-              Where innovation meets passion in a journey that started with a
-              simple idea and a shared dora Founded in recent year we embarked
-              on a mission told bring the new innovation and introduct the
-              technology. From humble beginnings to our current aspirations.
+            We believe in a customer-centric approach, ensuring that every solution is tailored to meet unique business needs. Our expertise in seamless integration, automation, and security empowers organizations to optimize their operations and stay ahead of industry challenges. 
             </p>
             <div className="about-coundown-area">
               <div className="row g-0">
@@ -834,7 +807,8 @@ const About = () => {
                 >
                   <div className="single-countdown">
                     <div className="number">
-                      <h2 className="counter">130</h2>
+                      <h2 className="counter">150</h2>
+                      <span>+</span>
                     </div>
                     <div className="content">
                       <p>Project Completed</p>
@@ -848,8 +822,8 @@ const About = () => {
                 >
                   <div className="single-countdown two">
                     <div className="number">
-                      <h2 className="counter">1</h2>
-                      <span>K</span>
+                      <h2 className="counter">100</h2>
+                      <span>+</span>
                     </div>
                     <div className="content">
                       <p>Awesome clients</p>
@@ -864,6 +838,7 @@ const About = () => {
                   <div className="single-countdown three">
                     <div className="number">
                       <h2 className="counter">6</h2>
+                      <span>+</span>
                     </div>
                     <div className="content">
                       <p>Years of Experience</p>
@@ -877,10 +852,11 @@ const About = () => {
                 >
                   <div className="single-countdown four">
                     <div className="number">
-                      <h2 className="counter">19</h2>
+                      <h2 className="counter">15</h2>
+                      <span>+</span>
                     </div>
                     <div className="content">
-                      <p>Awards Winning</p>
+                      <p>Our Team Members</p>
                     </div>
                   </div>
                 </div>
@@ -893,7 +869,7 @@ const About = () => {
   </div>
   {/* End Home5 Why choose Us section */}
   {/* Start Home4 Award section */}
-  <div className="home4-award-section mb-120">
+  {/* <div className="home4-award-section mb-120">
     <div className="container-fluid">
       <div className="row g-lg-4 gy-5">
         <div
@@ -1107,7 +1083,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
   {/* End Home4 Award section */}
   {/* Start Team Section */}
   <div className="home5-team-section mb-120">
@@ -1128,7 +1104,7 @@ const About = () => {
               >
                 <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544Z" />
               </svg>
-              Our Creative Team
+              Tankar Solution Peivate Limited
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={14}
@@ -1139,15 +1115,13 @@ const About = () => {
               </svg>
             </span>
             <h2>
-              Get to Know Creative <span> Minds At Zenfy.</span>
+              <span>  Our Creative Team  </span>
             </h2>
             <p>
-              Feel free adapt this based on the specific managed services,
-              features, and unique selling points your IT service company
-              provides.
+            At Tankar Solution Private Limited, our success is driven by a team of highly skilled and experienced professionals dedicated to delivering innovative IT solutions. Each team member brings expertise in software development, cybersecurity, cloud computing, ERP solutions, and IT consulting, ensuring we provide top-notch services to our clients.
             </p>
           </div>
-          <div className="star-btn mb-50 btn_wrapper">
+          {/* <div className="star-btn mb-50 btn_wrapper">
             <a href="#">
               <div className="bg">
                 <svg
@@ -1167,7 +1141,7 @@ const About = () => {
                 </svg>
               </div>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="col-xxl-7 col-xl-8">
           <div className="row g-4">
@@ -1179,7 +1153,7 @@ const About = () => {
               <div className="team-card2">
                 <div className="team-img">
                   <img src={team1} alt="" />
-                  <ul className="social-area">
+                  {/* <ul className="social-area">
                     <li>
                       <a href="https://www.facebook.com/">
                         <i className="bx bxl-facebook" />
@@ -1200,11 +1174,11 @@ const About = () => {
                         <i className="bx bxl-instagram-alt" />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
                 <div className="team-content text-center">
-                  <h4>Cassian Coleson</h4>
-                  <span>Founder at, Zenfy</span>
+                  <h4>Parth Savjadiya</h4>
+                  <span>CEO</span>
                 </div>
               </div>
             </div>
@@ -1216,7 +1190,7 @@ const About = () => {
               <div className="team-card2">
                 <div className="team-img">
                   <img src={team2} alt="" />
-                  <ul className="social-area">
+                  {/* <ul className="social-area">
                     <li>
                       <a href="https://www.facebook.com/">
                         <i className="bx bxl-facebook" />
@@ -1237,11 +1211,11 @@ const About = () => {
                         <i className="bx bxl-instagram-alt" />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
                 <div className="team-content text-center">
-                  <h4>Jacob Logan</h4>
-                  <span>Web Designer</span>
+                  <h4>Vikas Detroja</h4>
+                  <span>Managing Director</span>
                 </div>
               </div>
             </div>
@@ -1253,7 +1227,7 @@ const About = () => {
               <div className="team-card2">
                 <div className="team-img">
                   <img src={team3} alt="" />
-                  <ul className="social-area">
+                  {/* <ul className="social-area">
                     <li>
                       <a href="https://www.facebook.com/">
                         <i className="bx bxl-facebook" />
@@ -1274,15 +1248,15 @@ const About = () => {
                         <i className="bx bxl-instagram-alt" />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
                 <div className="team-content text-center">
-                  <h4>Charlotte Amelia</h4>
-                  <span>Software Developer</span>
+                  <h4>Fenil Patel</h4>
+                  <span>Director</span>
                 </div>
               </div>
             </div>
-            <div
+            {/* <div
               className="col-md-4 col-sm-6 wow animate fadeInDown"
               data-wow-delay="800ms"
               data-wow-duration="1500ms"
@@ -1318,8 +1292,8 @@ const About = () => {
                   <span>Graphic designer</span>
                 </div>
               </div>
-            </div>
-            <div
+            </div> */}
+            {/* <div
               className="col-md-4 col-sm-6 wow animate fadeInDown"
               data-wow-delay="600ms"
               data-wow-duration="1500ms"
@@ -1355,8 +1329,8 @@ const About = () => {
                   <span>Digital Marketer</span>
                 </div>
               </div>
-            </div>
-            <div
+            </div> */}
+            {/* <div
               className="col-md-4 col-sm-6 wow animate fadeInDown"
               data-wow-delay="400ms"
               data-wow-duration="1500ms"
@@ -1392,7 +1366,7 @@ const About = () => {
                   <span>HR, Manager</span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
