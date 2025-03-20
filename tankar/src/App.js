@@ -44,6 +44,7 @@ import Custom_Software from './pages/Custom_Software_Development';
 import Digital_Marketing_page from './pages/Digital_marketing_page';
 import Game_development from './pages/Game_Development';
 import ERP_Solution from './pages/ERP_Solution';
+import Why_us from './pages/Why_us';
 
 
 function App() {
@@ -84,6 +85,8 @@ function App() {
       <Route path="/it-solutions-dark" element={<It_Solutions_Dark />} />
       <Route path="/digital-marketing" element={<Digital_Marketing />} />
       <Route path="/digital-marketing-dark" element={<Digital_Marketing_Dark />} />
+      <Route path='/why-us' element={<Why_us />} />
+
 
 
       <Route path="/software-devlopment" element={<Software_Devlopment />} />

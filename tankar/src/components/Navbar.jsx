@@ -480,7 +480,7 @@ const Navbar = () => {
                     </span>
                     <ul className="submenu-list">
                       <li>
-                        <a onClick={() => navigate("/blog-standard")}>
+                        <a onClick={() => navigate("/about")}>
                           About
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -493,7 +493,21 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li>
-                        <a onClick={() => navigate("/blog-standard")}>
+                        <a onClick={() => navigate("/why-us")}>
+                          Why Us
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={10}
+                            height={10}
+                            viewBox="0 0 10 10"
+                          >
+                            <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
+                          </svg>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a onClick={() => navigate("/industry")}>
                           Portfolio{" "}
                         </a>
                         <span className="dropdown-icon2 two">
@@ -501,7 +515,7 @@ const Navbar = () => {
                         </span>
                         <ul className="submenu-list">
                           <li>
-                            <a onClick={() => navigate("/blog-standard")}>
+                            <a onClick={() => navigate("/portfolio-grid")}>
                               Portfolio Grid
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -568,7 +582,7 @@ const Navbar = () => {
                         </ul>
                       </li>
                       <li>
-                        <a onClick={() => navigate("/blog-standard")}>
+                        <a onClick={() => navigate("/team1")}>
                           Our Team
                         </a>
                         <span className="dropdown-icon2 two">
@@ -576,7 +590,7 @@ const Navbar = () => {
                         </span>
                         <ul className="submenu-list">
                           <li>
-                            <a onClick={() => navigate("/blog-standard")}>
+                            <a onClick={() => navigate("/team1")}>
                               Team Style 1
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -589,7 +603,7 @@ const Navbar = () => {
                             </a>
                           </li>
                           <li>
-                            <a onClick={() => navigate("/blog-standard")}>
+                            <a onClick={() => navigate("/team2")}>
                               Team Style 2
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -604,7 +618,7 @@ const Navbar = () => {
                         </ul>
                       </li>
                       <li>
-                        <a onClick={() => navigate("/blog-standard")}>
+                        <a onClick={() => navigate("/features")}>
                           Features
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -617,13 +631,13 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li>
-                        <a onClick={() => navigate("/blog-standard")}>Shop</a>
+                        <a onClick={() => navigate("/shop")}>Shop</a>
                         <span className="dropdown-icon2 two">
                           <i className="bi bi-plus" />
                         </span>
                         <ul className="submenu-list">
                           <li>
-                            <a onClick={() => navigate("/blog-standard")}>
+                            <a onClick={() => navigate("/shop")}>
                               Shop
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -636,7 +650,7 @@ const Navbar = () => {
                             </a>
                           </li>
                           <li>
-                            <a onClick={() => navigate("/blog-standard")}>
+                            <a onClick={() => navigate("/product-details")}>
                               Product Details
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -1031,6 +1045,9 @@ const Navbar = () => {
                 <ul className="sub-menu">
                   <li>
                     <a onClick={() => navigate("/about")}>About</a>
+                  </li>
+                  <li>
+                    <a onClick={() => navigate("/why-us")}>Why Us</a>
                   </li>
                   <li>
                     <a onClick={() => navigate("/industry")}>Industry</a>
