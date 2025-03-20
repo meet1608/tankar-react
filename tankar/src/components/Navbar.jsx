@@ -38,6 +38,39 @@ const Navbar = () => {
     {
       label: "Home",
       path: "/",
+      subItems: [
+        {
+          label: "Light Version",
+          path: "/",
+          subItems: [
+            { label: "Startup Agency", path: "/" },
+            { label: "Digital Marketing Agency", path: "/digital-marketing" },
+            { label: "Saas Product", path: "/saas" },
+            { label: "Creative Agency", path: "/creative-agency" },
+            { label: "It Solution", path: "/it-solutions" }
+          ]
+        },
+        {
+          label: "Dark Version",
+          path: "/index-dark",
+          subItems: [
+            { label: "Startup Agency", path: "/index-dark" },
+            { label: "Digital Marketing Agency", path: "/digital-marketing-dark" },
+            { label: "Saas Product", path: "/saas-dark" },
+            { label: "Creative Agency", path: "/creative-agency-dark" },
+            { label: "It Solution", path: "/it-solutions-dark" }
+          ]
+        }
+      ]
+    },
+    
+    {
+      label: "About Us",
+      path: "/about",
+      subItems: [
+        { label: "Why Us", path: "/why-us" },
+        { label: "Case Study", path: "/case-study-details" }
+      ]
     },
     {
       label: "Services",
@@ -51,26 +84,26 @@ const Navbar = () => {
         { label: "Custom Software Development", path: "/custom-software" },
         { label: "Digital Marketing", path: "/digital-marketing-page" },
         { label: "Game Development", path: "/game-development" },
-        { label: "ERP Solutions", path: "/erp-solution" },
-      ],
+        { label: "ERP Solutions", path: "/erp-solution" }
+      ]
     },
-    {
-      label: "Case Study",
-      subItems: [
-        { label: "Case Study Style 01", path: "/case-study1" },
-        { label: "Case Study Style 02", path: "/case-study2" },
-        { label: "Case Study Details", path: "/case-study-details" },
-      ],
-    },
+    // {
+    //   label: "Case Study",
+    //   subItems: [
+    //     { label: "Case Study Style 01", path: "/case-study1" },
+    //     { label: "Case Study Style 02", path: "/case-study2" },
+    //     { label: "Case Study Details", path: "/case-study-details" }
+    //   ]
+    // },
     {
       label: "Blog",
-      subItems: [{ label: "Blog Standard", path: "/blog-standard" }],
+      subItems: [{ label: "Blog Standard", path: "/blog-standard" }]
     },
     {
       label: "Pages",
       subItems: [
-        { label: "About", path: "/about" },
-        { label: "Why Us", path: "/why-us" },
+        // { label: "About", path: "/about" },
+        // { label: "Why Us", path: "/why-us" },
         { label: "Industry", path: "/industry" },
         {
           label: "Portfolio",
@@ -79,15 +112,15 @@ const Navbar = () => {
             { label: "Portfolio Masonary", path: "/portfolio-masonary" },
             { label: "Portfolio Info Flow", path: "/portfolio-info-flow" },
             { label: "Portfolio List", path: "/portfolio-list" },
-            { label: "Portfolio Details", path: "/portfolio-details" },
-          ],
+            { label: "Portfolio Details", path: "/portfolio-details" }
+          ]
         },
         {
           label: "Our Team",
           subItems: [
             { label: "Team Style 01", path: "/team1" },
-            { label: "Team Style 02", path: "/team2" },
-          ],
+            { label: "Team Style 02", path: "/team2" }
+          ]
         },
         { label: "Features", path: "/features" },
         {
@@ -96,19 +129,20 @@ const Navbar = () => {
             { label: "Shop", path: "/shop" },
             { label: "Product Details", path: "/product-details" },
             { label: "Cart", path: "/cart" },
-            { label: "CheckOut", path: "/checkout" },
-          ],
+            { label: "CheckOut", path: "/checkout" }
+          ]
         },
         { label: "Pricing Plan", path: "/pricing-plan" },
         { label: "Faqs", path: "/faqs" },
-        { label: "Error", path: "/error" },
-      ],
+        { label: "Error", path: "/error" }
+      ]
     },
     {
       label: "Contact",
-      path: "/contact",
-    },
+      path: "/contact"
+    }
   ];
+
 
   const navbarStyles = {
     display: "block",
@@ -180,6 +214,117 @@ const Navbar = () => {
   const dropdownIconStyles = {
     float: "right",
     cursor: "pointer",
+  };
+  const renderMenuItems = (items) => {
+    return items.map((menuItem) => (
+      <li
+        key={menuItem.label}
+        className="mobile-menu-item"
+        style={mobileMenuItemStyles}
+      >
+        {menuItem.subItems ? (
+          <>
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                toggleSubMenu(menuItem.label);
+              }}
+              className="mobile-menu-link"
+              style={mobileMenuLinkStyles}
+            >
+              {menuItem.label}
+              <span
+                className="dropdown-icon"
+                style={dropdownIconStyles}
+              >
+                {isActiveSubMenu(menuItem.label) ? "−" : "+"}
+              </span>
+            </a>
+            {isActiveSubMenu(menuItem.label) && (
+              <ul className="mobile-sub-menu" style={mobileSubMenuStyles}>
+                {menuItem.subItems.map((subItem) => (
+                  <li
+                    key={subItem.label}
+                    className="mobile-sub-menu-item"
+                    style={mobileSubMenuItemStyles}
+                  >
+                    {subItem.subItems ? (
+                      <>
+                        <a
+                          href="#"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            toggleSubMenu(subItem.label);
+                          }}
+                          className="mobile-menu-link"
+                          style={mobileMenuLinkStyles}
+                        >
+                          {subItem.label}
+                          <span
+                            className="dropdown-icon"
+                            style={dropdownIconStyles}
+                          >
+                            {isActiveSubMenu(subItem.label) ? "−" : "+"}
+                          </span>
+                        </a>
+                        {isActiveSubMenu(subItem.label) && (
+                          <ul
+                            className="mobile-sub-menu"
+                            style={mobileSubMenuStyles}
+                          >
+                            {subItem.subItems.map((subSubItem) => (
+                              <li
+                                key={subSubItem.label}
+                                className="mobile-sub-menu-item"
+                                style={mobileSubMenuItemStyles}
+                              >
+                                <a
+                                  onClick={() => {
+                                    navigate(subSubItem.path);
+                                    setIsMenuOpen(false);
+                                  }}
+                                  className="mobile-menu-link"
+                                  style={mobileMenuLinkStyles}
+                                >
+                                  {subSubItem.label}
+                                </a>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </>
+                    ) : (
+                      <a
+                        onClick={() => {
+                          navigate(subItem.path);
+                          setIsMenuOpen(false);
+                        }}
+                        className="mobile-menu-link"
+                        style={mobileMenuLinkStyles}
+                      >
+                        {subItem.label}
+                      </a>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </>
+        ) : (
+          <a
+            onClick={() => {
+              navigate(menuItem.path);
+              setIsMenuOpen(false);
+            }}
+            className="mobile-menu-link"
+            style={mobileMenuLinkStyles}
+          >
+            {menuItem.label}
+          </a>
+        )}
+      </li>
+    ));
   };
 
   return (
@@ -254,76 +399,9 @@ const Navbar = () => {
                 <div className="getin-touch-area mb-60">
                   
 
-                  <ul
-                      className="mobile-menu-list"
-                      style={mobileMenuListStyles}
-                    >
-                      {menuItems.map((menuItem) => (
-                        <li
-                          key={menuItem.label}
-                          className="mobile-menu-item"
-                          style={mobileMenuItemStyles}
-                        >
-                          {menuItem.subItems ? (
-                            <>
-                              <a
-                                href="#"
-                                onClick={(e) => {
-                                  e.preventDefault();
-                                  toggleSubMenu(menuItem.label);
-                                }}
-                                className="mobile-menu-link"
-                                style={mobileMenuLinkStyles}
-                              >
-                                {menuItem.label}
-                                <span
-                                  className="dropdown-icon"
-                                  style={dropdownIconStyles}
-                                >
-                                  {isActiveSubMenu(menuItem.label) ? "−" : "+"}
-                                </span>
-                              </a>
-                              {isActiveSubMenu(menuItem.label) && (
-                                <ul
-                                  className="mobile-sub-menu"
-                                  style={mobileSubMenuStyles}
-                                >
-                                  {menuItem.subItems.map((subItem) => (
-                                    <li
-                                      key={subItem.label}
-                                      className="mobile-sub-menu-item"
-                                      style={mobileSubMenuItemStyles}
-                                    >
-                                      <a
-                                        onClick={() => {
-                                          navigate(subItem.path);
-                                          setIsMenuOpen(false);
-                                        }}
-                                        className="mobile-menu-link"
-                                        style={mobileMenuLinkStyles}
-                                      >
-                                        {subItem.label}
-                                      </a>
-                                    </li>
-                                  ))}
-                                </ul>
-                              )}
-                            </>
-                          ) : (
-                            <a
-                              onClick={() => {
-                                navigate(menuItem.path);
-                                setIsMenuOpen(false);
-                              }}
-                              className="mobile-menu-link"
-                              style={mobileMenuLinkStyles}
-                            >
-                              {menuItem.label}
-                            </a>
-                          )}
-                        </li>
-                      ))}
-                    </ul>
+                <ul className="mobile-menu-list" style={mobileMenuListStyles}>
+  {renderMenuItems(menuItems)}
+</ul>
                   <h4 className="mt-40">
                     Get in Touch
                     <svg
@@ -596,7 +674,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
-              <li className="menu-item-has-children">
+              {/* <li className="menu-item-has-children">
                 <a
                   onClick={() => navigate("/case-study1")}
                   className="drop-down"
@@ -621,7 +699,7 @@ const Navbar = () => {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="menu-item-has-children">
                 <a
                   onClick={() => navigate("/blog-standard")}
@@ -642,12 +720,12 @@ const Navbar = () => {
                 <a className="drop-down">Pages</a>
                 <i className="bi bi-plus dropdown-icon" />
                 <ul className="sub-menu">
-                  <li>
+                  {/* <li>
                     <a onClick={() => navigate("/about")}>About</a>
                   </li>
                   <li>
                     <a onClick={() => navigate("/why-us")}>Why Us</a>
-                  </li>
+                  </li> */}
                   <li>
                     <a onClick={() => navigate("/industry")}>Industry</a>
                   </li>
