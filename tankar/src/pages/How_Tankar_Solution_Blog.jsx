@@ -529,29 +529,29 @@ const Blog_details2 = () => {
                 </li>
               </ul>
             </div>
-            <div className="single-widget">
-              <h5 className="widget-title">Social Share</h5>
-              <ul className="social-list">
+          <div className="social-share-area">
+              <h4>Social Share</h4>
+              <ul>
                 <li>
-                  <a href="https://www.linkedin.com/">
+                  <a href="https://www.linkedin.com/company/tankar-solutions-pvt-ltd/">
                     <i className="bi bi-linkedin" />
                     <span>LinkedIn</span>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/">
+                  <a href="#">
                     <i className="bi bi-facebook" />
                     <span>Facebook</span>
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/">
+                  <a href="#">
                     <i className="bi bi-twitter-x" />
                     <span>Twitter</span>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/">
+                  <a href="https://www.instagram.com/tankar_solutions_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                     <i className="bi bi-instagram" />
                     <span>Instagram</span>
                   </a>

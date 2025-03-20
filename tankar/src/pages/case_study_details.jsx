@@ -13,6 +13,9 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
+import case3 from '../assets/img/innerpage/case-thumb.jpg'
+import case4 from '../assets/img/innerpage/case-img-01.jpg'
+import case5 from '../assets/img/innerpage/case-img-02.jpg'
 const case_study_details = () => {
   return (
     <div>
@@ -69,37 +72,17 @@ const case_study_details = () => {
       <div className="row g-lg-4 gy-5 mb-80 ">
         <div className="col-lg-8">
           <div className="case-thumb">
-            <img src="assets/img/innerpage/case-thumb.jpg" alt="" />
+            <img src={case3} alt="" />
           </div>
           <div className="case-details-content">
-            <h3>Unveiling Creative Solutions</h3>
+            <h3>Transforming Digital Operations with Tankar Solution Private Limited</h3>
             <p>
-              Welcome to our Case Study Details Page, where we unravel the
-              stories behind our portfolio projects. Immerse yourself in the
-              intricacies of our design thinking, development challenges, and
-              triumphant solutions.
-            </p>
-            <p>
-              Each case study is a testament to our commitment to innovation and
-              client success. Join us on a journey through our work, showcasing
-              how we turn challenges into opportunities and ideas into impactful
-              digital experiences. Explore the behind-the-scenes narratives that
-              highlight our passion for problem-solving and our dedication to
-              delivering exceptional results.{" "}
-            </p>
+            A leading logistics firm faced significant challenges with its outdated IT infrastructure, causing operational inefficiencies and delayed deliveries. Their existing systems lacked automation, resulting in high manual workload, data silos, and poor tracking capabilities. Seeking a comprehensive digital transformation, they partnered with Tankar Solution Private Limited to modernize their IT ecosystem.</p>
+            <p>Tankar Solution implemented a custom ERP system with real-time tracking, automated workflows, and data integration across departments. The new system streamlined supply chain management, reduced operational costs by 30%, and improved delivery accuracy by 40%. Additionally, the company fortified cybersecurity measures, ensuring data security and compliance. With enhanced efficiency, the logistics firm experienced increased customer satisfaction and a 50% boost in productivity. This case study highlights how Tankar Solution’s cutting-edge IT services drive business growth through innovation, automation, and security-focused solutions.</p>
             <h3>Case Studies Unveiled</h3>
-            <p>
-              Step behind the curtain and explore the heart of our projects on
-              the Case Study Details Page. This curated collection delves into
-              the intricacies of our design processes, strategic thinking, and
-              collaborative endeavors.{" "}
-            </p>
-            <h3>What did Zenfy do</h3>
-            <p>
-              Urna Aenean onewaryzo eleifend vitae tellus a facilisis. Nunc
-              posuere at augue eget porta. Inei odio tellus, dignissim
-              fermentumara purus nec, consequat dapibus metus.
-            </p>
+            <p>At Tankar Solution Private Limited, we drive business success through innovative IT solutions, from ERP implementation and cybersecurity to custom software development and cloud integration. Our case studies showcase real-world success stories where we’ve helped businesses overcome challenges like outdated systems, security threats, and inefficiencies. By leveraging advanced technologies and strategic consulting, our clients have achieved higher productivity, cost savings, and operational excellence. These case studies reveal how our expertise transforms industries, empowering businesses to stay ahead in an ever-evolving digital landscape. Explore how Tankar Solution is revolutionizing IT solutions for modern enterprises.</p>
+            <h3>What did Tankar Solution Private Liited do</h3>
+            <p>Tankar Solution Private Limited is an IT services company specializing in software development, IT consulting, ERP solutions, cybersecurity, cloud solutions, and mobile & web development. The company helps businesses streamline operations, enhance security, and drive digital transformation by leveraging cutting-edge technology.</p>
             <ul className="features">
               <li>
                 <svg
@@ -114,8 +97,7 @@ const case_study_details = () => {
                     fill="white"
                   />
                 </svg>{" "}
-                Donec a urna porta lacinia erat sed sagittis arcu. Pellentesque
-                habitant morbi tristique senectus et netus.
+                Software Development: Custom software solutions tailored to business needs.
               </li>
               <li>
                 <svg
@@ -130,8 +112,7 @@ const case_study_details = () => {
                     fill="white"
                   />
                 </svg>{" "}
-                Mauris convallis est vel feugiat dapibus. Quisque velit erat,
-                ullamcorper viverra pharetra vitae, varius in dui.
+                ERP Solutions: Implementing enterprise resource planning systems for seamless business operations.
               </li>
               <li>
                 <svg
@@ -146,8 +127,8 @@ const case_study_details = () => {
                     fill="white"
                   />
                 </svg>{" "}
-                Aliquam mattis finibus ipsum nec commodo. Pellentesque et sapien
-                skoper that we are spoken dolor.
+                IT Consulting & Advisory: Providing expert guidance for digital transformation strategies.
+
               </li>
               <li>
                 <svg
@@ -162,32 +143,27 @@ const case_study_details = () => {
                     fill="white"
                   />
                 </svg>{" "}
-                Vivamus eu turpis ac lacus pretium commodo eu ut lorem. Aliquam
-                mattis finibus ipsum necless offer that.
+                Mobile & Web Development: Creating user-friendly applications for web and mobile platforms.
+
               </li>
             </ul>
             <div className="case-img-group">
               <div className="row g-4">
                 <div className="col-md-6">
                   <div className="case-img">
-                    <img src="assets/img/innerpage/case-img-01.jpg" alt="" />
+                    <img src={case4} alt="" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="case-img">
-                    <img src="assets/img/innerpage/case-img-02.jpg" alt="" />
+                    <img src={case5} alt="" />
                   </div>
                 </div>
               </div>
             </div>
             <h3>The Results</h3>
             <p>
-              urna Aenean onewaryzo eleifend vitae tellus a facilisis. Nunc
-              posuere at augue eget porta. Inei odio tellus, dignissim
-              fermentumara purus nec, consequat dapibus metus.Vivamus urna
-              worlda mauris, faucibus at egestas quis, fermentum egetonav neque.
-              Duis pharetra lectus nec risusonl pellentesque
-            </p>
+            Tankar Solution Private Limited has revolutionized businesses by delivering innovative IT solutions that optimize efficiency, enhance security, and drive digital transformation. By leveraging advanced technologies, we have helped companies streamline operations, reduce costs, and achieve sustainable growth.</p>
             <ul className="features two">
               <li>
                 <svg
@@ -202,8 +178,7 @@ const case_study_details = () => {
                     fill="white"
                   />
                 </svg>{" "}
-                Nulla vestibulum vestibulum varius told this.
-              </li>
+                Improved Collaboration              </li>
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -217,8 +192,7 @@ const case_study_details = () => {
                     fill="white"
                   />
                 </svg>{" "}
-                Est vel feugiat dapibus. Quisque velit ullamcorp.
-              </li>
+                Faster Decision-Making              </li>
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -232,8 +206,7 @@ const case_study_details = () => {
                     fill="white"
                   />
                 </svg>{" "}
-                Consequat congue sem. In convallis purus ut.
-              </li>
+                Enhanced Customer Experience              </li>
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -247,8 +220,7 @@ const case_study_details = () => {
                     fill="white"
                   />
                 </svg>{" "}
-                Pharetra vitae, varius in dui. Cras et aliquam.
-              </li>
+                Scalable IT Infrastructure               </li>
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -262,8 +234,7 @@ const case_study_details = () => {
                     fill="white"
                   />
                 </svg>{" "}
-                Vitae efficitur risus molestie. Donec laoreet.
-              </li>
+                Seamless System Integration              </li>
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -277,8 +248,7 @@ const case_study_details = () => {
                     fill="white"
                   />
                 </svg>{" "}
-                Tortor eget vestibulum vestibulum, leo cursus.
-              </li>
+                Higher Data Security              </li>
             </ul>
           </div>
         </div>
@@ -408,7 +378,7 @@ const case_study_details = () => {
               <h4>Social Share</h4>
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/tankar-solutions-pvt-ltd/">
                     <i className="bi bi-linkedin" />
                     <span>LinkedIn</span>
                   </a>
@@ -426,7 +396,7 @@ const case_study_details = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/tankar_solutions_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                     <i className="bi bi-instagram" />
                     <span>Instagram</span>
                   </a>
@@ -436,7 +406,7 @@ const case_study_details = () => {
           </div>
         </div>
       </div>
-      <div className="row">
+      {/* <div className="row">
         <div className="col-lg-12">
           <div className="details-navigation">
             <div className="single-navigation">
@@ -512,12 +482,12 @@ const case_study_details = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   </div>
   {/* End Case Study Details Section */}
   {/* Start Case Study card Section */}
-  <div className="relatate-case-study-section mb-120">
+  {/* <div className="relatate-case-study-section mb-120">
     <div className="container">
       <div className="row mb-60">
         <div className="col-lg-12">
@@ -645,7 +615,7 @@ const case_study_details = () => {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
   {/* End Case Study card Section */}
   {/* Start Contact section */}
  <div className="contact-section">
