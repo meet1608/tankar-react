@@ -102,7 +102,7 @@ const Blog_standard = () => {
                   </div>
                 </div> */}
                 <h4>
-                  <a href="blog-details.html">
+                  <a onClick={() => navigate('/blog/how-tankar-solution')} style={{ cursor: 'pointer' }}>
                   How Tankar Solution is Transforming Businesses with Cutting-Edge IT Services
                   </a>
                 </h4>
@@ -110,7 +110,7 @@ const Blog_standard = () => {
                 Tankar Solution is revolutionizing businesses with cutting-edge IT services, including software development, ERP solutions, and IT consulting, ensuring seamless digital transformation, enhanced efficiency, and sustainable growth for enterprises worldwide.</p>
               </div>
               <div className="star-btn">
-                <a href="#">
+                <a onClick={() => navigate('/blog/how-tankar-solution')} style={{ cursor: 'pointer' }}>
                   <div className="bg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -159,7 +159,7 @@ const Blog_standard = () => {
                   </div>
                 </div> */}
                 <h4>
-                  <a href="blog-details.html">
+                  <a onClick={() => navigate('/blog/the-future-of-it-consulting')} style={{ cursor: 'pointer' }}>
                   The Future of IT Consulting: How Tankar Solution Helps Companies Stay Ahead
                   </a>
                 </h4>
@@ -167,7 +167,7 @@ const Blog_standard = () => {
                 Tankar Solution drives the future of IT consulting by providing innovative strategies, advanced technologies, and tailored solutions, helping businesses optimize operations, enhance security, and stay ahead in the ever-evolving digital landscape.</p>
               </div>
               <div className="star-btn">
-                <a href="#">
+                <a onClick={() => navigate('/blog/the-future-of-it-consulting')} style={{ cursor: 'pointer' }}>
                   <div className="bg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -216,14 +216,14 @@ const Blog_standard = () => {
                   </div>
                 </div> */}
                 <h4>
-                  <a href="blog-details.html">
+                  <a onClick={() => navigate('/blog/revolutionizing-mobile')} style={{ cursor: 'pointer' }}>
                   Revolutionizing Mobile and Web Development: Tankar Solution’s Expertise                  </a>
                 </h4>
                 <p>
                 Tankar Solution revolutionizes mobile and web development with cutting-edge technologies, user-centric designs, and scalable solutions, ensuring seamless performance, enhanced security, and exceptional user experiences for businesses across diverse industries.</p>
               </div>
               <div className="star-btn">
-                <a href="#">
+                <a onClick={() => navigate('/blog/revolutionizing-mobile')} style={{ cursor: 'pointer' }}>
                   <div className="bg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -272,14 +272,14 @@ const Blog_standard = () => {
                   </div>
                 </div> */}
                 <h4>
-                  <a href="blog-details.html">
+                  <a onClick={() => navigate('/blog/strengthening-cybersecurity')} style={{ cursor: 'pointer' }}>
                   Strengthening Cybersecurity: How Tankar Solution Protects Your Digital Assets                 </a>
                 </h4>
                 <p>
                 Tankar Solution strengthens cybersecurity with advanced threat detection, robust encryption, and proactive security measures, safeguarding your digital assets from cyber threats while ensuring data integrity, compliance, and business continuity.</p>
               </div>
               <div className="star-btn">
-                <a href="#">
+                <a onClick={() => navigate('/blog/strengthening-cybersecurity')} style={{ cursor: 'pointer' }}>
                   <div className="bg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -328,14 +328,14 @@ const Blog_standard = () => {
                   </div>
                 </div> */}
                 <h4>
-                  <a href="blog-details.html">
+                  <a onClick={() => navigate('/blog/the-role-of-ui-ux')} style={{ cursor: 'pointer' }}>
                   The Role of UI/UX in Digital Success: Tankar Solution’s Design Approach                </a>
                 </h4>
                 <p>
                 Tankar Solution enhances digital success with intuitive UI/UX design, creating seamless, engaging, and user-friendly experiences that drive customer satisfaction, improve conversions, and optimize business growth across web and mobile platforms.</p>
               </div>
               <div className="star-btn">
-                <a href="#">
+                <a onClick={() => navigate('/blog/the-role-of-ui-ux')} style={{ cursor: 'pointer' }}>
                   <div className="bg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

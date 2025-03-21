@@ -45,6 +45,11 @@ import Digital_Marketing_page from './pages/Digital_marketing_page';
 import Game_development from './pages/Game_Development';
 import ERP_Solution from './pages/ERP_Solution';
 import Why_us from './pages/Why_us';
+import Blog1 from './pages/How_Tankar_Solution_Blog';
+import Blog2 from './pages/The_Future_of_IT_Consulting_Blog2';
+import Blog3 from './pages/Revolutionizing_Mobile_Blog3';
+import Blog4 from './pages/Strengthening_Cybersecurity_Blog4';
+import Blog5 from './pages/UX_Blog5';
 
 
 function App() {
@@ -98,6 +103,12 @@ function App() {
       <Route path='/digital-marketing-page' element={<Digital_Marketing_page />} />
       <Route path='/game-development' element={<Game_development />} />
       <Route path='/erp-solution' element={<ERP_Solution />} />
+      <Route path='/blog/how-tankar-solution' element={<Blog1 />} />
+      <Route path='/blog/the-future-of-it-consulting' element={<Blog2 />} />
+      <Route path='/blog/revolutionizing-mobile' element={<Blog3 />} />
+      <Route path='/blog/strengthening-cybersecurity' element={<Blog4 />} />
+      <Route path='/blog/the-role-of-ui-ux' element={<Blog5 />} />
+
 
 
     </Routes>
