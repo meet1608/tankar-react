@@ -13,6 +13,19 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
+import port1 from '../assets/img/home4/portfolio-img-01.jpg'
+import port2 from '../assets/img/home4/portfolio-img-02.jpg'
+import port3 from '../assets/img/home4/portfolio-img-03.jpg'
+import port6 from '../assets/img/home4/portfolio-img-06.jpg'
+import port7 from '../assets/img/home4/portfolio-img-07.jpg'
+import port8 from '../assets/img/home4/portfolio-img-08.jpg'
+import port9 from '../assets/img/home4/portfolio-img-09.jpg'
+import port10 from '../assets/img/home4/portfolio-img-10.jpg'
+import port11 from '../assets/img/home4/portfolio-img-11.jpg'
+
+
+
+
 const Portfolio_grid = () => {
   return (
     <div>
@@ -70,7 +83,7 @@ const Portfolio_grid = () => {
         >
           <div className="eg-card2">
             <div className="card-img">
-              <img src="assets/img/home4/portfolio-img-01.jpg" alt="" />
+              <img src={port1} alt="" />
             </div>
             <div className="card-content">
               <span>Client: Egenslab</span>
@@ -95,7 +108,7 @@ const Portfolio_grid = () => {
         >
           <div className="eg-card2">
             <div className="card-img">
-              <img src="assets/img/home4/portfolio-img-02.jpg" alt="" />
+              <img src={port2} alt="" />
             </div>
             <div className="card-content">
               <span>Client: Egenslab</span>
@@ -122,7 +135,7 @@ const Portfolio_grid = () => {
         >
           <div className="eg-card2">
             <div className="card-img">
-              <img src="assets/img/home4/portfolio-img-03.jpg" alt="" />
+              <img src={port3} alt="" />
             </div>
             <div className="card-content">
               <span>Client: Egenslab</span>
@@ -147,7 +160,7 @@ const Portfolio_grid = () => {
         >
           <div className="eg-card2">
             <div className="card-img">
-              <img src="assets/img/home4/portfolio-img-06.jpg" alt="" />
+              <img src={port6} alt="" />
             </div>
             <div className="card-content">
               <span>Client: Egenslab</span>
@@ -172,7 +185,7 @@ const Portfolio_grid = () => {
         >
           <div className="eg-card2">
             <div className="card-img">
-              <img src="assets/img/home4/portfolio-img-07.jpg" alt="" />
+              <img src={port7} alt="" />
             </div>
             <div className="card-content">
               <span>Client: Egenslab</span>
@@ -199,7 +212,7 @@ const Portfolio_grid = () => {
         >
           <div className="eg-card2">
             <div className="card-img">
-              <img src="assets/img/home4/portfolio-img-08.jpg" alt="" />
+              <img src={port8} alt="" />
             </div>
             <div className="card-content">
               <span>Client: Egenslab</span>
@@ -224,7 +237,7 @@ const Portfolio_grid = () => {
         >
           <div className="eg-card2">
             <div className="card-img">
-              <img src="assets/img/home4/portfolio-img-09.jpg" alt="" />
+              <img src={port9} alt="" />
             </div>
             <div className="card-content">
               <span>Client: Egenslab</span>
@@ -249,7 +262,7 @@ const Portfolio_grid = () => {
         >
           <div className="eg-card2">
             <div className="card-img">
-              <img src="assets/img/home4/portfolio-img-10.jpg" alt="" />
+              <img src={port10} alt="" />
             </div>
             <div className="card-content">
               <span>Client: Egenslab</span>
@@ -276,7 +289,7 @@ const Portfolio_grid = () => {
         >
           <div className="eg-card2">
             <div className="card-img">
-              <img src="assets/img/home4/portfolio-img-11.jpg" alt="" />
+              <img src={port11} alt="" />
             </div>
             <div className="card-content">
               <span>Client: Egenslab</span>

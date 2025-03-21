@@ -87,6 +87,11 @@ const Navbar = () => {
         { label: "ERP Solutions", path: "/erp-solution" }
       ]
     },
+    {
+      label: "Portfolio",
+      path: "/portfolio-grid",
+    },
+
     // {
     //   label: "Case Study",
     //   subItems: [
@@ -105,16 +110,16 @@ const Navbar = () => {
         // { label: "About", path: "/about" },
         // { label: "Why Us", path: "/why-us" },
         { label: "Industry", path: "/industry" },
-        {
-          label: "Portfolio",
-          subItems: [
-            { label: "Portfolio Grid", path: "/portfolio-grid" },
-            { label: "Portfolio Masonary", path: "/portfolio-masonary" },
-            { label: "Portfolio Info Flow", path: "/portfolio-info-flow" },
-            { label: "Portfolio List", path: "/portfolio-list" },
-            { label: "Portfolio Details", path: "/portfolio-details" }
-          ]
-        },
+        // {
+        //   label: "Portfolio",
+        //   subItems: [
+        //     { label: "Portfolio Grid", path: "/portfolio-grid" },
+        //     { label: "Portfolio Masonary", path: "/portfolio-masonary" },
+        //     { label: "Portfolio Info Flow", path: "/portfolio-info-flow" },
+        //     { label: "Portfolio List", path: "/portfolio-list" },
+        //     { label: "Portfolio Details", path: "/portfolio-details" }
+        //   ]
+        // },
         {
           label: "Our Team",
           subItems: [
@@ -674,6 +679,15 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
+              <li >
+                <a
+                  onClick={() => navigate("/portfolio-grid")}
+                  // className="drop-down"
+                >
+                  Portfolio
+                </a>
+              </li>
+
               {/* <li className="menu-item-has-children">
                 <a
                   onClick={() => navigate("/case-study1")}
@@ -729,7 +743,7 @@ const Navbar = () => {
                   <li>
                     <a onClick={() => navigate("/industry")}>Industry</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a onClick={() => navigate("/portfolio-grid")}>Portfolio</a>
                     <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
                     <i className="d-lg-none d-flex bi bi-plus dropdown-icon" />
@@ -760,7 +774,7 @@ const Navbar = () => {
                         </a>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li>
                     <a onClick={() => navigate("/team1")}>Our Team</a>
                     <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
