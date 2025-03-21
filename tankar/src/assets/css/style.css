@@ -13990,16 +13990,16 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   }
 }
 .partnership-area .single-pertner:hover {
-  background-color: var(--title-color);
+  background-color: none;
 }
 .partnership-area .single-pertner:hover svg {
   stroke: var(--primary-color1);
 }
 .partnership-area .single-pertner:hover span {
-  color: var(--dark-white-color);
+  color: none;
 }
 .partnership-area .single-pertner:hover p {
-  color: var(--dark-white-color);
+  color: none;
 }
 .partnership-area .single-pertner:hover .partner-logos .black {
   display: none;

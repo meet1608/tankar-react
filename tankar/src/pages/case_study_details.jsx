@@ -13,9 +13,9 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
-import case3 from '../assets/img/innerpage/case-thumb.jpg'
-import case4 from '../assets/img/innerpage/case-img-01.jpg'
-import case5 from '../assets/img/innerpage/case-img-02.jpg'
+import case3 from '../assets/img/about_us/case_study.jpg'
+import case4 from '../assets/img/about_us/case_study1.jpg'
+import case5 from '../assets/img/about_us/case_study2.jpg'
 const case_study_details = () => {
   return (
     <div>

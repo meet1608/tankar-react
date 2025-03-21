@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import why1 from '../assets/img/home3/project-management-tab-img1.jpg'
-import why2 from '../assets/img/home3/project-management-tab-img2.jpg'
-import why3 from '../assets/img/home3/project-management-tab-img3.jpg'
-import why4 from '../assets/img/home3/project-management-tab-img4.jpg'
+import why1 from '../assets/img/about_us/Mission.jpg'
+import why2 from '../assets/img/about_us/vision.jpg'
+import why3 from '../assets/img/about_us/statement.jpg'
+import why4 from '../assets/img/about_us/core_value.jpg'
+import why5 from '../assets/img/about_us/bussiness_goal.jpg'
 
 const Why_us = () => {
   return (
@@ -720,7 +721,7 @@ const Why_us = () => {
                 <div className="col-lg-6">
                   <div className="project-management-tab-img-wrap">
                     <img
-                      src="assets/img/home3/project-management-tab-img5.jpg"
+                      src={why5}
                       alt=""
                     />
                   </div>

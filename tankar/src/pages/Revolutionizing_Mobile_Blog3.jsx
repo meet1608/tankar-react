@@ -19,9 +19,9 @@ import member from '../assets/img/innerpage/comment-author-02.jpg'
 import blog6 from '../assets/img/blog/blog3-1.jpg'
 import blog7 from '../assets/img/blog/blog3-3.jpg'
 import blog8 from '../assets/img/blog/blog3-4.jpg'
-import sliderblog1 from '../assets/img/innerpage/popular-post-img1.png'
-import sliderblog2 from '../assets/img/innerpage/popular-post-img2.png'
-import sliderblog3 from '../assets/img/innerpage/popular-post-img3.png'
+import sliderblog1 from '../assets/img/blog/blog1-5.jpg'
+import sliderblog2 from '../assets/img/blog/blog2-5.jpg'
+import sliderblog3 from '../assets/img/blog/blog3-5.jpg'
 
 
 const Blog_details2 = () => {
@@ -414,11 +414,11 @@ const Blog_details2 = () => {
                 </li>
               </ul>
             </div>
-            <div className="single-widget mb-30">
+              <div className="single-widget mb-30">
               <h5 className="widget-title">Popular Post </h5>
               <div className="recent-post-widget mb-20">
                 <div className="recent-post-img">
-                  <a href="blog-details.html">
+                  <a href="#">
                     <img
                       src={sliderblog1}
                       alt=""
@@ -426,17 +426,17 @@ const Blog_details2 = () => {
                   </a>
                 </div>
                 <div className="recent-post-content">
-                  <a href="blog-grid.html">20 February, 2024</a>
+                  <a href="#">05 January, 2025</a>
                   <h6>
-                    <a href="blog-details.html">
-                      Looking Inspiration Traveling The World.
+                    <a href="#">
+                    How Tankar Solution is Transforming Businesses with Cutting-Edge IT Services
                     </a>
                   </h6>
                 </div>
               </div>
               <div className="recent-post-widget mb-20">
                 <div className="recent-post-img">
-                  <a href="blog-details.html">
+                  <a href="#">
                     <img
                       src={sliderblog2}
                       alt=""
@@ -444,17 +444,16 @@ const Blog_details2 = () => {
                   </a>
                 </div>
                 <div className="recent-post-content">
-                  <a href="blog-grid.html">12 January, 2024</a>
+                  <a href="#">05 January, 2025</a>
                   <h6>
-                    <a href="blog-details.html">
-                      Challenges creating a multi-brand system.
-                    </a>
+                    <a href="#">
+                    Revolutionizing Mobile and Web Development: Tankar Solution’s Expertise                    </a>
                   </h6>
                 </div>
               </div>
               <div className="recent-post-widget mb-20">
                 <div className="recent-post-img">
-                  <a href="blog-details.html">
+                  <a href="#">
                     <img
                       src={sliderblog3}
                       alt=""
@@ -462,16 +461,15 @@ const Blog_details2 = () => {
                   </a>
                 </div>
                 <div className="recent-post-content">
-                  <a href="blog-grid.html">04 January, 2024</a>
+                  <a href="#">05 January, 2025</a>
                   <h6>
-                    <a href="blog-details.html">
-                      Decoding the Cloud And Deep Dive Creative.
-                    </a>
+                    <a href="#">
+                    The Role of UI/UX in Digital Success: Tankar Solution’s Design Approach                    </a>
                   </h6>
                 </div>
               </div>
             </div>
-            <div className="single-widget mb-30">
+           {/* <div className="single-widget mb-30">
               <h5 className="widget-title">New Tags</h5>
               <ul className="tag-list">
                 <li>
@@ -502,36 +500,36 @@ const Blog_details2 = () => {
                   <a href="blog-grid.html ">Natural</a>
                 </li>
               </ul>
-            </div>
-          <div className="social-share-area">
-              <h4>Social Share</h4>
-              <ul>
-                <li>
-                  <a href="https://www.linkedin.com/company/tankar-solutions-pvt-ltd/">
-                    <i className="bi bi-linkedin" />
-                    <span>LinkedIn</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="bi bi-facebook" />
-                    <span>Facebook</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="bi bi-twitter-x" />
-                    <span>Twitter</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/tankar_solutions_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                    <i className="bi bi-instagram" />
-                    <span>Instagram</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
+            </div> */}
+          <div class="single-widget">
+                            <h5 class="widget-title">Social Share</h5>
+                            <ul class="social-list">
+                                <li>
+                                    <a href="https://www.linkedin.com/">
+                                        <i class="bi bi-linkedin"></i>
+                                        <span>LinkedIn</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/">
+                                        <i class="bi bi-facebook"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/">
+                                        <i class="bi bi-twitter-x"></i>
+                                        <span>Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/">
+                                        <i class="bi bi-instagram"></i>
+                                        <span>Instagram</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
           </div>
         </div>
       </div>
