@@ -57,9 +57,9 @@ import auth2 from '../assets/img/home2/testi-author-02.png'
 import test3 from '../assets/img/home1/icon/testimonial-card-logo3.svg'
 import auth3 from '../assets/img/home2/testi-author-03.png'
 import test4 from '../assets/img/home1/icon/testimonial-card-logo4.svg'
-import blog1 from '../assets/img/home1/blog-img1.jpg'
-import blog2 from '../assets/img/home1/blog-img2.jpg'
-import blog3 from '../assets/img/home1/blog-img3.jpg'
+import blog1 from '../assets/img/blog/blog1.jpg'
+import blog2 from '../assets/img/blog/blog3.jpg'
+import blog3 from '../assets/img/blog/blog5.jpg'
 const Index = () => {
   return (
     <div>

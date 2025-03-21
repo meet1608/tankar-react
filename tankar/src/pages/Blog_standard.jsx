@@ -14,9 +14,11 @@ import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
 import { useNavigate } from 'react-router-dom';
-import blog1 from '../assets/img/home4/blog-img1.jpg'
-import blog2 from '../assets/img/home4/blog-img2.jpg'
-import blog4 from '../assets/img/home4/blog-img4.jpg'
+import blog1 from '../assets/img/blog/blog1.jpg'
+import blog2 from '../assets/img/blog/blog2.jpg'
+import blog3 from '../assets/img/blog/blog3.jpg'
+import blog4 from '../assets/img/blog/blog4.jpg'
+import blog5 from '../assets/img/blog/blog5.jpg'
 import pop1 from '../assets/img/innerpage/popular-post-img1.png'
 import pop2 from '../assets/img/innerpage/popular-post-img2.png'
 import pop3 from '../assets/img/innerpage/popular-post-img3.png'
@@ -195,11 +197,11 @@ const Blog_standard = () => {
           >
             <div className="blog-card-img-wrap">
               <a href="blog-details.html" className="card-img">
-                <img src={blog4} alt="" />
+                <img src={blog3} alt="" />
               </a>
               <a href="blog-grid.html" className="date">
                 <span>
-                  <strong>05</strong> JanuaryMay
+                  <strong>05</strong> January
                 </span>
               </a>
             </div>
@@ -255,7 +257,7 @@ const Blog_standard = () => {
               </a>
               <a href="blog-grid.html" className="date">
                 <span>
-                  <strong>05</strong> JanuaryMay
+                  <strong>05</strong> January
                 </span>
               </a>
             </div>
@@ -307,11 +309,11 @@ const Blog_standard = () => {
           >
             <div className="blog-card-img-wrap">
               <a href="blog-details.html" className="card-img">
-                <img src={blog4} alt="" />
+                <img src={blog5} alt="" />
               </a>
               <a href="blog-grid.html" className="date">
                 <span>
-                  <strong>05</strong> JanuaryMay
+                  <strong>05</strong> January
                 </span>
               </a>
             </div>

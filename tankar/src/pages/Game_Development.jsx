@@ -13,8 +13,8 @@ import "../assets/css/slick.css";
 import "../assets/css/style.css";
 import "../assets/css/style.css.map";
 import "../assets/css/swiper-bundle.min.css";
-import Software_img1 from "../assets/img/innerpage/service-details-feature-img.jpg";
-import Software_img2 from "../assets/img/innerpage/service-details-faq-img.jpg";
+import Software_img1 from "../assets/img/Services/Game Development1.jpg";
+import Software_img2 from "../assets/img/Services/Game Development2.jpg";
 const Service_details = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -94,7 +94,7 @@ const Service_details = () => {
                       <li>
                         <a href="index.html">Home</a>
                       </li>
-                      <li>Service Details</li>
+                      <li>Game Devlopment</li>
                     </ul>
                     <h1>
                       We are a IT service Company working with talents on
@@ -134,7 +134,7 @@ const Service_details = () => {
                 >
                   <div className="service-details-top-content">
                     <h2>
-                    Game <span>Development.</span>
+                    Game <span>Development</span>
                     </h2>
                     <p>
                     Our game development services are designed to create immersive and engaging gaming experiences. We specialize in:

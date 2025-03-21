@@ -13,8 +13,8 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
-import Software_img1 from '../assets/img/innerpage/service-details-feature-img.jpg';
-import Software_img2 from '../assets/img/innerpage/service-details-faq-img.jpg';
+import Software_img1 from '../assets/img/Services/Web Development1.jpg';
+import Software_img2 from '../assets/img/Services/Web Development2.jpg';
 const service_details = () => {
   return (
     <div>
@@ -683,120 +683,132 @@ const service_details = () => {
           </div>
         </div>
       </div>
-      <div className="row g-4">
-        <div
-          className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-          data-wow-delay="200ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="tools-card">
-            <div className="tools-icon">
-              <img src="assets/img/innerpage/icon/figma-icon.svg" alt="" />
+     <div className="row g-4">
+              <div
+                className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="tools-card">
+                  <div className="tools-icon">
+                    <img
+                      src="assets/img/innerpage/icon/figma-icon.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div className="tools-name">
+                    <span>Figma</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
+                data-wow-delay="400ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="tools-card">
+                  <div className="tools-icon">
+                    <img src="assets/img/innerpage/icon/vs-icon.svg" alt="" />
+                  </div>
+                  <div className="tools-name">
+                    <span>Visual Studio</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
+                data-wow-delay="600ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="tools-card">
+                  <div className="tools-icon">
+                    <img src="assets/img/innerpage/icon/git-icon.svg" alt="" />
+                  </div>
+                  <div className="tools-name">
+                    <span>Git</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
+                data-wow-delay="800ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="tools-card">
+                  <div className="tools-icon">
+                    <img
+                      src="assets/img/innerpage/icon/react-icon.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div className="tools-name">
+                    <span>React</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
+                data-wow-delay="800ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="tools-card">
+                  <div className="tools-icon">
+                    <img src="assets/img/innerpage/icon/php-icon.svg" alt="" />
+                  </div>
+                  <div className="tools-name">
+                    <span>Php</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
+                data-wow-delay="600ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="tools-card">
+                  <div className="tools-icon">
+                    <img
+                      src="assets/img/innerpage/icon/mysql-icon.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div className="tools-name">
+                    <span>MySQL</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
+                data-wow-delay="400ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="tools-card">
+                  <div className="tools-icon">
+                    <img
+                      src="assets/img/innerpage/icon/gitlab-icon.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div className="tools-name">
+                    <span>Gitlab</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="tools-card">
+                  <div className="tools-icon">
+                    <img src="assets/img/innerpage/icon/aws-icon.svg" alt="" />
+                  </div>
+                  <div className="tools-name">
+                    <span>AWS</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="tools-name">
-              <span> HTML & CSS</span>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-          data-wow-delay="400ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="tools-card">
-            <div className="tools-icon">
-              <img src="assets/img/innerpage/icon/vs-icon.svg" alt="" />
-            </div>
-            <div className="tools-name">
-              <span>JavaScript</span>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-          data-wow-delay="600ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="tools-card">
-            <div className="tools-icon">
-              <img src="assets/img/innerpage/icon/git-icon.svg" alt="" />
-            </div>
-            <div className="tools-name">
-              <span>React.js</span>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-          data-wow-delay="800ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="tools-card">
-            <div className="tools-icon">
-              <img src="assets/img/innerpage/icon/react-icon.svg" alt="" />
-            </div>
-            <div className="tools-name">
-              <span> MySQL</span>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-          data-wow-delay="800ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="tools-card">
-            <div className="tools-icon">
-              <img src="assets/img/innerpage/icon/php-icon.svg" alt="" />
-            </div>
-            <div className="tools-name">
-              <span>Node.js</span>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-          data-wow-delay="600ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="tools-card">
-            <div className="tools-icon">
-              <img src="assets/img/innerpage/icon/mysql-icon.svg" alt="" />
-            </div>
-            <div className="tools-name">
-              <span>MongoDB</span>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-          data-wow-delay="400ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="tools-card">
-            <div className="tools-icon">
-              <img src="assets/img/innerpage/icon/gitlab-icon.svg" alt="" />
-            </div>
-            <div className="tools-name">
-              <span>Next.js</span>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
-          data-wow-delay="200ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="tools-card">
-            <div className="tools-icon">
-              <img src="assets/img/innerpage/icon/aws-icon.svg" alt="" />
-            </div>
-            <div className="tools-name">
-              <span>Tailwind CSS / Bootstrap</span>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   {/* End Service Details Tools section */}

@@ -44,9 +44,9 @@ import team3 from '../assets/img/home5/team-03.jpg'
 import team4 from '../assets/img/home5/team-04.jpg'
 import team5 from '../assets/img/home5/team-05.jpg'
 import team6 from '../assets/img/home5/team-06.jpg'
-import blog1 from '../assets/img/home5/blog-img-01.jpg'
-import blog2 from '../assets/img/home5/blog-img-02.jpg'
-import blog3 from '../assets/img/home5/blog-img-03.jpg'
+import blog1 from '../assets/img/blog/blog1.jpg'
+import blog2 from '../assets/img/blog/blog3.jpg'
+import blog3 from '../assets/img/blog/blog5.jpg'
  
 const About = () => {
   return (
@@ -1471,7 +1471,7 @@ const About = () => {
           <div className="blog-card style-2 two">
             <div className="blog-card-img-wrap">
               <a href="blog-details.html" className="card-img">
-                <img src={blog1} alt="" />
+                <img src={blog2} alt="" />
               </a>
               <a href="blog-grid.html" className="date">
                 <span>

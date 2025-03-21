@@ -14,11 +14,11 @@ import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
 // import blog4 from '../assets/img/innerpage/comment-author-01.jpg'
-import blog5 from '../assets/img/innerpage/blog-details-thumb-img.jpg'
+import blog5 from '../assets/img/blog/blog2.jpg'
 import member from '../assets/img/innerpage/comment-author-02.jpg'
-import blog6 from '../assets/img/innerpage/blog-details-img1.jpg'
-import blog7 from '../assets/img/innerpage/blog-details-img2.jpg'
-import blog8 from '../assets/img/innerpage/blog-details-img3.jpg'
+import blog6 from '../assets/img/blog/blog2-1.jpg'
+import blog7 from '../assets/img/blog/blog2-3.jpg'
+import blog8 from '../assets/img/blog/blog2-4.jpg'
 import sliderblog1 from '../assets/img/innerpage/popular-post-img1.png'
 import sliderblog2 from '../assets/img/innerpage/popular-post-img2.png'
 import sliderblog3 from '../assets/img/innerpage/popular-post-img3.png'
