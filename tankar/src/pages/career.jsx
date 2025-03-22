@@ -24,6 +24,7 @@ import comp4 from "../assets/img/home2/company-logo-04.png";
 import comp5 from "../assets/img/home2/company-logo-05.png";
 import comp6 from "../assets/img/home2/company-logo-06.png";
 import comp7 from "../assets/img/home2/company-logo-07.png";
+import comp8 from "../assets/img/about_us/client7.png";
 import feature from "../assets/img/home2/feature-img1.jpg";
 import feature2 from "../assets/img/home2/feature-img2.jpg";
 import feature3 from "../assets/img/home2/feature-img3.jpg";
