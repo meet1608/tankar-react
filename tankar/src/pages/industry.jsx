@@ -14,6 +14,30 @@ import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
 import Component from './Component';
+import industry1 from '../assets/img/industry/industry.jpg'
+import industry2 from '../assets/img/industry/industry1.jpg'
+import industry3 from '../assets/img/industry/industry2.jpg'
+import industry4 from '../assets/img/industry/industry3.jpg'
+import industry5 from '../assets/img/industry/industry4.jpg'
+import industry6 from '../assets/img/industry/industry5.jpg'
+import industry7 from '../assets/img/industry/industry6.jpg'
+import industry8 from '../assets/img/industry/industry7.jpg'
+import industry9 from '../assets/img/industry/industry8.jpg'
+import industry10 from '../assets/img/industry/industry9.jpg'
+import industry11 from '../assets/img/industry/industry10.jpg'
+import industry12 from '../assets/img/industry/industry11.jpg'
+import industry13 from '../assets/img/industry/industry12.jpg'
+import industry14 from '../assets/img/industry/industry13.jpg'
+import industry15 from '../assets/img/industry/industry14.jpg'
+import industry16 from '../assets/img/industry/industry15.jpg'
+import industry17 from '../assets/img/industry/industry16.jpg'
+import industry18 from '../assets/img/industry/industry17.jpg'
+import industry19 from '../assets/img/industry/industry18.jpg'
+import industry20 from '../assets/img/industry/industry19.jpg'
+import industry21 from '../assets/img/industry/industry20.jpg'
+import industry22 from '../assets/img/industry/industry21.jpg'
+import industry23 from '../assets/img/industry/industry22.jpg'
+
 const Industry = () => {
   return (
     <div>
@@ -37,7 +61,7 @@ const Industry = () => {
                 </li>
                 <li>Industry</li>
               </ul>
-              <h1>Challenge In Every Industry.</h1>
+              <h1>In Every Industry.</h1>
             </div>
             <div className="scroll-down-btn">
               <a href="#industry-card-section">
@@ -71,7 +95,7 @@ const Industry = () => {
         >
           <div className="industry-card">
             <div className="industry-img">
-              <img src="assets/img/home5/industry-01.jpg" alt="" />
+              <img src={industry1} alt="" />
             </div>
             <div className="industry-content">
               <h5>Finance and Banking</h5>
@@ -85,7 +109,7 @@ const Industry = () => {
         >
           <div className="industry-card">
             <div className="industry-img">
-              <img src="assets/img/home5/industry-02.jpg" alt="" />
+              <img src={industry2} alt="" />
             </div>
             <div className="industry-content">
               <h5>Retail and E-commerce </h5>
@@ -99,7 +123,7 @@ const Industry = () => {
         >
           <div className="industry-card">
             <div className="industry-img">
-              <img src="assets/img/home5/industry-03.jpg" alt="" />
+              <img src={industry3} alt="" />
             </div>
             <div className="industry-content">
               <h5>Manufacturing</h5>
@@ -113,7 +137,7 @@ const Industry = () => {
         >
           <div className="industry-card">
             <div className="industry-img">
-              <img src="assets/img/home5/industry-04.jpg" alt="" />
+              <img src={industry4} alt="" />
             </div>
             <div className="industry-content">
               <h5>Education</h5>
@@ -127,77 +151,7 @@ const Industry = () => {
         >
           <div className="industry-card">
             <div className="industry-img">
-              <img src="assets/img/home5/industry-05.jpg" alt="" />
-            </div>
-            <div className="industry-content">
-              <h5>Telecommunications</h5>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-          data-wow-delay="600ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="industry-card">
-            <div className="industry-img">
-              <img src="assets/img/home5/industry-06.jpg" alt="" />
-            </div>
-            <div className="industry-content">
-              <h5>Energy and Utilities</h5>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-          data-wow-delay="400ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="industry-card">
-            <div className="industry-img">
-              <img src="assets/img/home5/industry-07.jpg" alt="" />
-            </div>
-            <div className="industry-content">
-              <h5>Nonprofit and NGOs</h5>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-          data-wow-delay="400ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="industry-card">
-            <div className="industry-img">
-              <img src="assets/img/home5/industry-08.jpg" alt="" />
-            </div>
-            <div className="industry-content">
-              <h5>Industry Manufacturing</h5>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-          data-wow-delay="600ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="industry-card">
-            <div className="industry-img">
-              <img src="assets/img/home5/industry-09.jpg" alt="" />
-            </div>
-            <div className="industry-content">
-              <h5>Transportation Logistics</h5>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-          data-wow-delay="800ms"
-          data-wow-duration="1500ms"
-        >
-          <div className="industry-card">
-            <div className="industry-img">
-              <img src="assets/img/home5/industry-10.jpg" alt="" />
+              <img src={industry5} alt="" />
             </div>
             <div className="industry-content">
               <h5>Healthcare</h5>
@@ -206,15 +160,86 @@ const Industry = () => {
         </div>
         <div
           className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="600ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry6} alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>Fashion</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="400ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry7} alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>Nonprofit</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="400ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry8} alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>Startup</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="600ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry9} alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>Restaurent</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
           data-wow-delay="800ms"
           data-wow-duration="1500ms"
         >
           <div className="industry-card">
             <div className="industry-img">
-              <img src="assets/img/home5/industry-11.jpg" alt="" />
+              <img src={industry10} alt="" />
             </div>
             <div className="industry-content">
-              <h5>Banks &amp; Insurance</h5>
+              <h5>Builder</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="800ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry11}  alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>Logistic &
+              Distribution</h5>
             </div>
           </div>
         </div>
@@ -225,10 +250,11 @@ const Industry = () => {
         >
           <div className="industry-card">
             <div className="industry-img">
-              <img src="assets/img/home5/industry-12.jpg" alt="" />
+              <img src={industry12}  alt="" />
             </div>
             <div className="industry-content">
-              <h5>Consulting Providers</h5>
+              <h5>Travel &
+              Hospitality</h5>
             </div>
           </div>
         </div>
@@ -239,10 +265,11 @@ const Industry = () => {
         >
           <div className="industry-card">
             <div className="industry-img">
-              <img src="assets/img/home5/industry-13.jpg" alt="" />
+              <img src={industry13}  alt="" />
             </div>
             <div className="industry-content">
-              <h5>Hospitality and Tourism</h5>
+              <h5>Retail &
+              Ecommerce</h5>
             </div>
           </div>
         </div>
@@ -253,10 +280,11 @@ const Industry = () => {
         >
           <div className="industry-card">
             <div className="industry-img">
-              <img src="assets/img/home5/industry-14.jpg" alt="" />
+              <img src={industry14}  alt="" />
             </div>
             <div className="industry-content">
-              <h5>Construction</h5>
+              <h5>Retail Franchise
+              Store</h5>
             </div>
           </div>
         </div>
@@ -267,10 +295,126 @@ const Industry = () => {
         >
           <div className="industry-card">
             <div className="industry-img">
-              <img src="assets/img/home5/industry-15.jpg" alt="" />
+              <img src={industry15}  alt="" />
             </div>
             <div className="industry-content">
-              <h5>Entertainment and Media</h5>
+              <h5>Hotel &
+              Resort</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="600ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry16}  alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>Solar Panel &
+              Industry</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="600ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry17} alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>Resource
+Management
+</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="600ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry18}  alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>Machinary</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="600ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry19}  alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>Contractor</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="600ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry20}  alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>Agri Culture</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="600ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry21}  alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>Government</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="600ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry22}  alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>Finance</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="600ms"
+          data-wow-duration="1500ms"
+        >
+          <div className="industry-card">
+            <div className="industry-img">
+              <img src={industry23}  alt="" />
+            </div>
+            <div className="industry-content">
+              <h5>IT Sector</h5>
             </div>
           </div>
         </div>
@@ -308,8 +452,8 @@ const Industry = () => {
               </svg>
             </span>
             <h2>
-              How to Find an Industry Expertise{" "}
-              <span> for IT Professionals.</span>
+            Finding the Right Industry Expert:{" "}
+              <span> A Guide for IT Professionals</span>
             </h2>
           </div>
         </div>
@@ -333,9 +477,7 @@ const Industry = () => {
               <div className="content">
                 <h4>Expertise and Innovation</h4>
                 <p>
-                  We pride ourselves staying at the front of innovation,
-                  constantly pushing boundaries a redefining what's possible.
-                </p>
+                We combine expertise and innovation to deliver cutting-edge IT solutions, ensuring scalability, security, and efficiency for long-term business success.</p>
               </div>
             </div>
           </div>
@@ -354,9 +496,8 @@ const Industry = () => {
               <div className="content">
                 <h4>Transparent Process</h4>
                 <p>
-                  Our transparent process is designed to demystify the journey
-                  from concept to delivery.
-                </p>
+                Our Transparent Process ensures clear communication, real-time updates, and client involvement at every stage, fostering trust, efficiency, and seamless project execution for successful IT solutions.
+</p>
               </div>
             </div>
           </div>
@@ -375,9 +516,7 @@ const Industry = () => {
               <div className="content">
                 <h4>Client-Centric Approach</h4>
                 <p>
-                  Our dedicated team takes the time to listen, &amp;
-                  collaborate, ensuring that every interaction a step towards
-                  your success.
+                Our Client-Centric Approach focuses on understanding unique business needs, delivering tailored solutions, ensuring seamless communication, and providing dedicated support for long-term success and customer satisfaction.
                 </p>
               </div>
             </div>
@@ -397,8 +536,7 @@ const Industry = () => {
               <div className="content">
                 <h4>Cost-Effective</h4>
                 <p>
-                  Our commitment to providing cost-effective solutions is
-                  ingrained in our mission.
+                Our Cost-Effective Solutions provide high-quality IT services at competitive prices, ensuring maximum value, scalability, and efficiency without compromising on innovation, security, or performance.
                 </p>
               </div>
             </div>
