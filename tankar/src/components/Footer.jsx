@@ -23,6 +23,9 @@ import tankar_Icon from '../assets/img/tankar_icon.png';
 
 const Footer = () => {
   return (    
+    <>
+  
+    
   <footer className="footer-section ">
         <div className="container">
             <div className="footer-top">
@@ -160,6 +163,7 @@ const Footer = () => {
             </div>
         </div>
     </footer>
+    </>
   )
 }
 

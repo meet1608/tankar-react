@@ -15,7 +15,7 @@ import "../assets/css/style.css";
 import "../assets/css/style.css.map";
 import "../assets/css/swiper-bundle.min.css";
 import banner from "../assets/img/home2/home2-banner-img.png";
-
+import Component from "./Component";
 import comp1 from "../assets/img/home2/company-logo-01.png";
 import comp2 from "../assets/img/home2/company-logo-02.png";
 import comp3 from "../assets/img/home2/company-logo-03.png";
@@ -3283,6 +3283,7 @@ const Career = () => {
           </div>
         </div>
       </>
+      <Component />
 
       <Footer />
     </div>
