@@ -13,7 +13,11 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
+<<<<<<< Updated upstream
 import Component from './Component';
+=======
+import user from '../assets/img/team/user.jpg'
+>>>>>>> Stashed changes
 const Team2 = () => {
   return (
     <div>
@@ -64,29 +68,8 @@ const Team2 = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6">
           <div className="team-card2">
             <div className="team-img">
-              <img src="assets/img/home4/home4-teams-img1.png" alt="" />
-              <ul className="social-area">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/">
-                    <i className="bx bxl-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.pinterest.com/">
-                    <i className="bx bxl-pinterest-alt" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <i className="bx bxl-instagram-alt" />
-                  </a>
-                </li>
-              </ul>
+              <img src={user} alt="" />
+              
             </div>
             <div className="team-content text-center">
               <h4>Cassian Coleson</h4>
@@ -97,29 +80,8 @@ const Team2 = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6">
           <div className="team-card2">
             <div className="team-img">
-              <img src="assets/img/home4/home4-teams-img2.png" alt="" />
-              <ul className="social-area">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/">
-                    <i className="bx bxl-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.pinterest.com/">
-                    <i className="bx bxl-pinterest-alt" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <i className="bx bxl-instagram-alt" />
-                  </a>
-                </li>
-              </ul>
+              <img src={user} alt="" />
+              
             </div>
             <div className="team-content text-center">
               <h4>Jacob Logan</h4>
@@ -130,29 +92,8 @@ const Team2 = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6">
           <div className="team-card2">
             <div className="team-img">
-              <img src="assets/img/home4/home4-teams-img3.png" alt="" />
-              <ul className="social-area">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/">
-                    <i className="bx bxl-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.pinterest.com/">
-                    <i className="bx bxl-pinterest-alt" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <i className="bx bxl-instagram-alt" />
-                  </a>
-                </li>
-              </ul>
+              <img src={user} alt="" />
+              
             </div>
             <div className="team-content text-center">
               <h4>Charlotte Amelia</h4>
@@ -163,29 +104,8 @@ const Team2 = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6">
           <div className="team-card2">
             <div className="team-img">
-              <img src="assets/img/home4/home4-teams-img4.png" alt="" />
-              <ul className="social-area">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/">
-                    <i className="bx bxl-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.pinterest.com/">
-                    <i className="bx bxl-pinterest-alt" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <i className="bx bxl-instagram-alt" />
-                  </a>
-                </li>
-              </ul>
+              <img src={user} alt="" />
+              
             </div>
             <div className="team-content text-center">
               <h4>Sofia Scarlett</h4>
@@ -196,29 +116,8 @@ const Team2 = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6">
           <div className="team-card2">
             <div className="team-img">
-              <img src="assets/img/home4/home4-teams-img5.png" alt="" />
-              <ul className="social-area">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/">
-                    <i className="bx bxl-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.pinterest.com/">
-                    <i className="bx bxl-pinterest-alt" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <i className="bx bxl-instagram-alt" />
-                  </a>
-                </li>
-              </ul>
+              <img src={user} alt="" />
+              
             </div>
             <div className="team-content text-center">
               <h4>Maverick Dylan</h4>
@@ -229,29 +128,8 @@ const Team2 = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6">
           <div className="team-card2">
             <div className="team-img">
-              <img src="assets/img/home4/home4-teams-img6.png" alt="" />
-              <ul className="social-area">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/">
-                    <i className="bx bxl-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.pinterest.com/">
-                    <i className="bx bxl-pinterest-alt" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <i className="bx bxl-instagram-alt" />
-                  </a>
-                </li>
-              </ul>
+              <img src={user} alt="" />
+              
             </div>
             <div className="team-content text-center">
               <h4>Violet Penelope</h4>
@@ -262,29 +140,8 @@ const Team2 = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6">
           <div className="team-card2">
             <div className="team-img">
-              <img src="assets/img/home4/home4-teams-img7.png" alt="" />
-              <ul className="social-area">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/">
-                    <i className="bx bxl-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.pinterest.com/">
-                    <i className="bx bxl-pinterest-alt" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <i className="bx bxl-instagram-alt" />
-                  </a>
-                </li>
-              </ul>
+              <img src={user} alt="" />
+              
             </div>
             <div className="team-content text-center">
               <h4>Robert Smiths</h4>
@@ -295,29 +152,8 @@ const Team2 = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6">
           <div className="team-card2">
             <div className="team-img">
-              <img src="assets/img/home4/home4-teams-img8.png" alt="" />
-              <ul className="social-area">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/">
-                    <i className="bx bxl-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.pinterest.com/">
-                    <i className="bx bxl-pinterest-alt" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <i className="bx bxl-instagram-alt" />
-                  </a>
-                </li>
-              </ul>
+              <img src={user} alt="" />
+              
             </div>
             <div className="team-content text-center">
               <h4>Thomas Charles</h4>
@@ -328,29 +164,8 @@ const Team2 = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6">
           <div className="team-card2">
             <div className="team-img">
-              <img src="assets/img/home4/home4-teams-img9.png" alt="" />
-              <ul className="social-area">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/">
-                    <i className="bx bxl-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.pinterest.com/">
-                    <i className="bx bxl-pinterest-alt" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <i className="bx bxl-instagram-alt" />
-                  </a>
-                </li>
-              </ul>
+              <img src={user} alt="" />
+              
             </div>
             <div className="team-content text-center">
               <h4>Khusani Juie</h4>
@@ -361,29 +176,8 @@ const Team2 = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6">
           <div className="team-card2">
             <div className="team-img">
-              <img src="assets/img/home4/home4-teams-img10.png" alt="" />
-              <ul className="social-area">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/">
-                    <i className="bx bxl-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.pinterest.com/">
-                    <i className="bx bxl-pinterest-alt" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <i className="bx bxl-instagram-alt" />
-                  </a>
-                </li>
-              </ul>
+              <img src={user} alt="" />
+              
             </div>
             <div className="team-content text-center">
               <h4>Thomas Charles</h4>
@@ -394,29 +188,8 @@ const Team2 = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6">
           <div className="team-card2">
             <div className="team-img">
-              <img src="assets/img/home4/home4-teams-img11.png" alt="" />
-              <ul className="social-area">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/">
-                    <i className="bx bxl-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.pinterest.com/">
-                    <i className="bx bxl-pinterest-alt" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <i className="bx bxl-instagram-alt" />
-                  </a>
-                </li>
-              </ul>
+              <img src={user} alt="" />
+              
             </div>
             <div className="team-content text-center">
               <h4>Joseph Thomas</h4>
