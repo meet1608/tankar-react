@@ -12,6 +12,7 @@ export const services = [
     description: "We build robust, scalable, and high-performance software tailored to your business needs, leveraging the latest technologies for seamless operations.",
     icon: Service1, 
     delay: "200ms",
+    path:"/software-devlopment"
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ export const services = [
     description: "Get expert guidance on IT strategies, system architecture, and digital transformation to optimize your business processes and enhance efficiency.",
     icon: Service2,
     delay: "400ms",
+    path:"/it-consulting"
   },
   {
     id: 3,
@@ -26,6 +28,7 @@ export const services = [
     description: "Craft visually stunning and user-friendly interfaces that enhance user experience, engagement, and accessibility across all digital platforms.",
     icon: Service3,
     delay: "600ms",
+    path:"/ui-ux"
   },
   {
     id: 4,
@@ -33,6 +36,7 @@ export const services = [
     description: "Develop fast, responsive, and SEO-friendly websites using cutting-edge technologies to provide an engaging online experience for your users.",
     icon: Service4,
     delay: "800ms",
+    path:"/web-devlopment"
   },
   {
     id: 5,
@@ -40,6 +44,7 @@ export const services = [
     description: "Create intuitive, high-performance mobile applications for iOS and Android, ensuring seamless user experiences and business growth.",
     icon: Service5,
     delay: "400ms",
+    path:"/mobile-app"
   },
   {
     id: 6,
@@ -47,5 +52,6 @@ export const services = [
     description: "Boost your brand’s online presence with data-driven digital marketing strategies, including SEO, social media marketing, PPC, and content marketing.",
     icon: Service6,
     delay: "200ms",
+    path:"/digital-marketing-page"
   }
 ];

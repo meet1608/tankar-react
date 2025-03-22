@@ -61,7 +61,9 @@ import blog1 from '../assets/img/blog/blog1.jpg'
 import blog2 from '../assets/img/blog/blog3.jpg'
 import blog3 from '../assets/img/blog/blog5.jpg'
 import { services } from '../constant/services';
+import { useNavigate } from 'react-router-dom';
 const Index = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <Navbar />
@@ -563,7 +565,8 @@ const Index = () => {
                     <img src={service.icon} alt="" width={50} height={50} />
                     <p>{service.description}</p>
                   </div>
-                  <a href="service-details.html" className="explore-btn">
+                  <button className="explore-btn" onClick={() => navigate(service.path)}>
+  
                     EXPLORE MORE
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -574,7 +577,7 @@ const Index = () => {
                       <path d="M12.1691 4.97333L0.234337 4.95394C0.172187 4.95394 0.112583 4.9041 0.0686358 4.81538C0.024689 4.72666 0 4.60634 0 4.48087C0 4.35541 0.024689 4.23509 0.0686358 4.14637C0.112583 4.05765 0.172187 4.00781 0.234337 4.00781L12.1694 4.02721C12.2315 4.02721 12.2911 4.07705 12.3351 4.16576C12.379 4.25448 12.4037 4.37481 12.4037 4.50027C12.4037 4.62573 12.379 4.74606 12.3351 4.83478C12.2911 4.92349 12.2313 4.97333 12.1691 4.97333Z" />
                       <path d="M16.9998 4.50591C14.3171 5.49934 10.9879 7.19858 8.9248 9L10.5521 4.50024L8.93094 0C10.9922 1.80378 14.3185 3.50681 16.9998 4.50591Z" />
                     </svg>
-                  </a>
+                  </button>
                 </div>
               </div>
             ))}

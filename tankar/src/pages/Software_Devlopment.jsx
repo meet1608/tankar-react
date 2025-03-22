@@ -16,7 +16,7 @@ import '../assets/css/swiper-bundle.min.css';
 import Software_img1 from '../assets/img/Services/Software Development1.jpg';
 import Software_img2 from '../assets/img/Services/Software Development2.jpg';
 // import design1 from '../assets/img/innerpage/icon/figma-icon.svg'
-const service_details = () => {
+const Software_Devlopment = () => {
   return (
     <div>
       <Navbar />
@@ -1016,4 +1016,4 @@ const service_details = () => {
   )
 }
 
-export default service_details;
+export default Software_Devlopment;
