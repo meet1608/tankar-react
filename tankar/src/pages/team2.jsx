@@ -13,11 +13,11 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
-<<<<<<< Updated upstream
+
 import Component from './Component';
-=======
+
 import user from '../assets/img/team/user.jpg'
->>>>>>> Stashed changes
+
 const Team2 = () => {
   return (
     <div>

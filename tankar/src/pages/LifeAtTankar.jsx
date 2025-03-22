@@ -13,15 +13,15 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
-<<<<<<< Updated upstream
+
 import Component from './Component';
-=======
+
 import tankar1 from '../assets/img/life_tankar/tankar1.jpg';
 import tankar2 from '../assets/img/life_tankar/tankar2.jpg';
 import tankar3 from '../assets/img/life_tankar/tankar3.jpg';
 import banner2 from '../assets/img/life_tankar/banner.png';
 import about from '../assets/img/life_tankar/about.jpg';
->>>>>>> Stashed changes
+
 const LifeAtTankar = () => {
   return (
     <div>
