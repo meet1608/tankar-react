@@ -13,6 +13,7 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
+import Component from './Component';
 const Error = () => {
   return (
     <div>
@@ -51,7 +52,7 @@ const Error = () => {
     </div>
   </div>
 </div>
-
+<Component />
       <Footer />
     </div>
   )

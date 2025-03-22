@@ -13,6 +13,7 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
+import Component from './Component';
 const It_Solutions_Dark = () => {
   return (
     <div>
@@ -2593,7 +2594,7 @@ const It_Solutions_Dark = () => {
     </div>
   </div>
 </>
-
+<Component />
       <Footer />
     </div>
   )

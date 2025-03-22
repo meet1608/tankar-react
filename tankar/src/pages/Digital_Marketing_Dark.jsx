@@ -13,6 +13,7 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
+import Component from './Component';
 const Digital_Marketing_Dark = () => {
   return (
     <div>
@@ -3114,7 +3115,7 @@ const Digital_Marketing_Dark = () => {
     </div>
   </div>
 </>
-
+<Component />
       <Footer />
     </div>
   )

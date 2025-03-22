@@ -23,6 +23,9 @@ import tankar_Icon from '../assets/img/tankar_icon.png';
 
 const Footer = () => {
   return (    
+    <>
+  
+    
   <footer className="footer-section ">
         <div className="container">
             <div className="footer-top">
@@ -86,45 +89,7 @@ const Footer = () => {
                             <div className="content">
                                 <p>Tankar Solutions Pvt. Ltd. is a leading IT service provider specializing in software development, cybersecurity, cloud solutions, and IT consulting.</p>
                             </div>
-                            {/* <ul className="rating-area">
-                                <li>
-                                    <a href="https://clutch.co/" className="single-rating">
-                                        <div className="review">
-                                            <span>Review On</span>
-                                            <img src={clutch} alt=""  className="logo-dark" />
-                                            <img src={white_clutch} alt="" className="logo-light"/>
-                                        </div>
-                                        <div className="rating">
-                                            <ul className="star">
-                                                <li><i className="bi bi-star-fill"></i></li>
-                                                <li><i className="bi bi-star-fill"></i></li>
-                                                <li><i className="bi bi-star-fill"></i></li>
-                                                <li><i className="bi bi-star-fill"></i></li>
-                                                <li><i className="bi bi-star-half"></i></li>
-                                            </ul>
-                                            <span>(50 reviews)</span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.google.com/" className="single-rating google">
-                                        <div className="review">
-                                            <span>Review On</span>
-                                            <img src={google} alt=""/>
-                                        </div>
-                                        <div className="rating">
-                                            <ul className="star">
-                                                <li><i className="bi bi-star-fill"></i></li>
-                                                <li><i className="bi bi-star-fill"></i></li>
-                                                <li><i className="bi bi-star-fill"></i></li>
-                                                <li><i className="bi bi-star-fill"></i></li>
-                                                <li><i className="bi bi-star-half"></i></li>
-                                            </ul>
-                                            <span>(50 reviews)</span>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>  */}
+                            
                         </div>
                     </div>
                 </div>
@@ -198,6 +163,7 @@ const Footer = () => {
             </div>
         </div>
     </footer>
+    </>
   )
 }
 

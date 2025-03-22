@@ -14,19 +14,20 @@ import "../assets/css/slick.css";
 import "../assets/css/style.css";
 import "../assets/css/style.css.map";
 import "../assets/css/swiper-bundle.min.css";
-import banner from "../assets/img/career/banner.jpg";
 
-import comp1 from "../assets/img/about_us/client.png";
-import comp2 from "../assets/img/about_us/client1.png";
-import comp3 from "../assets/img/about_us/client2.png";
-import comp4 from "../assets/img/about_us/client3.png";
-import comp5 from "../assets/img/about_us/client4.png";
-import comp6 from "../assets/img/about_us/client5.png";
-import comp7 from "../assets/img/about_us/client6.png";
-import comp8 from "../assets/img/about_us/client7.png";
-import feature from "../assets/img/career/Why1.jpg";
-import feature2 from "../assets/img/career/Why2.jpg";
-import feature3 from "../assets/img/career/Why3.jpg";
+import banner from "../assets/img/home2/home2-banner-img.png";
+import Component from "./Component";
+import comp1 from "../assets/img/home2/company-logo-01.png";
+import comp2 from "../assets/img/home2/company-logo-02.png";
+import comp3 from "../assets/img/home2/company-logo-03.png";
+import comp4 from "../assets/img/home2/company-logo-04.png";
+import comp5 from "../assets/img/home2/company-logo-05.png";
+import comp6 from "../assets/img/home2/company-logo-06.png";
+import comp7 from "../assets/img/home2/company-logo-07.png";
+import feature from "../assets/img/home2/feature-img1.jpg";
+import feature2 from "../assets/img/home2/feature-img2.jpg";
+import feature3 from "../assets/img/home2/feature-img3.jpg";
+
 import marketing from "../assets/img/home2/marketing-activity-graf-img.png";
 import marketing_dark from "../assets/img/home2/marketing-activity-graf-img-dark.png";
 import performance from "../assets/img/home2/marketing-performance-graf-img.png";
@@ -3258,6 +3259,7 @@ const Career = () => {
           </div>
         </div> */}
       </>
+      <Component />
 
       <Footer />
     </div>

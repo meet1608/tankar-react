@@ -13,6 +13,7 @@ import '../assets/css/slick.css';
 import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
+import Component from './Component';
 const Checkout = () => {
   return (
     <div>
@@ -335,7 +336,7 @@ const Checkout = () => {
     </div>
   </div>
 </>
-
+<Component />
         <Footer />
       
     </div>
