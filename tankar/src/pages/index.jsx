@@ -18,10 +18,10 @@ import logo_light from '../assets/img/home1/icon/clutch-logo-white.svg'
 import home_banner1 from '../assets/img/home1/banner-img1.webp'
 import home_banner2 from '../assets/img/home1/banner-img2.jpg'
 import home_banner3 from '../assets/img/home1/banner-img3.jpg'
-import about1 from '../assets/img/home1/icon/about-feature-card-icon1.svg'
-import about2 from '../assets/img/home1/icon/about-feature-card-icon2.svg'
-import about3 from '../assets/img/home1/icon/about-feature-card-icon3.svg'
-import about4 from '../assets/img/home1/icon/about-feature-card-icon4.svg'
+import icon1 from '../assets/img/home1/icon/about-feature-card-icon1.svg'
+import icon2 from '../assets/img/home1/icon/about-feature-card-icon2.svg'
+import icon3 from '../assets/img/home1/icon/about-feature-card-icon3.svg'
+import icon4 from '../assets/img/home1/icon/about-feature-card-icon4.svg'
 import port1 from '../assets/img/home1/portfolio-img-01.jpg'
 import port2 from '../assets/img/home1/portfolio-img-02.jpg'
 import port3 from '../assets/img/home1/portfolio-img-03.jpg'
@@ -290,7 +290,10 @@ const Index = () => {
   
   {/* End Banner section */}
   {/* Start Home1 About section */}
-  <div className="home1-about-section mb-110">
+  <div
+    className="home1-about-section scroll-margin pt-120 mb-120"
+    id="about-section"
+  >
     <div className="container">
       <div className="row mb-90">
         <div
@@ -324,17 +327,10 @@ const Index = () => {
                 </svg>
               </span>
               <h2>
-                We are a Startup agency working with young talents on delivering
-                unique ideas and creative work.
+                About US
               </h2>
               <p>
-                Where innovation meets passion in a journey that started with a
-                simple idea and a shared dream. Founded in recent year we
-                embarked on a mission to bring the new innovation and introduce
-                the technology. From humble beginnings to our current
-                aspirations, every step has been fueled by a relentless
-                commitment
-              </p>
+              At Tankar Solution Private Limited, we are dedicated to transforming businesses with cutting-edge IT solutions that drive efficiency, security, and growth. Specializing in software development, cybersecurity, ERP solutions, cloud computing, and IT consulting, we help organizations streamline operations and embrace digital transformation. Our expert team delivers tailored, scalable, and secure technology solutions, ensuring seamless integration and business continuity. With a strong focus on innovation, reliability, and customer satisfaction, we empower businesses to stay ahead in an ever-evolving digital landscape. At Tankar Solution, we don’t just provide IT services—we create future-ready solutions that enable businesses to thrive.</p>
             </div>
           </div>
         </div>
@@ -363,7 +359,7 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <div className="number">
-                    <h5 className="counter">150</h5>
+                    <h5 className="counter">150+</h5>
                     <span>Project</span>
                   </div>
                   <p>We Have Completed</p>
@@ -387,7 +383,7 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <div className="number">
-                    <h5 className="counter">98</h5>
+                    <h5 className="counter">99</h5>
                     <span>%</span>
                   </div>
                   <p>Customer Satisfaction</p>
@@ -408,10 +404,10 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <div className="number">
-                    <h5 className="counter">3</h5>
-                    <span>Mins</span>
+                    <h5 className="counter">15+</h5>
+                    {/* <span>Mins</span> */}
                   </div>
-                  <p>Average Answer Time</p>
+                  <p>Our Team Members</p>
                 </div>
               </li>
             </ul>
@@ -430,15 +426,14 @@ const Index = () => {
             <div className="feature-card">
               <div className="icon">
                 <img
-                  src={about1}
+                  src={icon1}
                   alt=""
                 />
               </div>
               <div className="content">
-                <h4>Expertise and Innovation</h4>
+                <h4> Leading IT Solutions Provider</h4>
                 <p>
-                  We pride ourselves staying at the front of innovation,
-                  constantly pushing boundaries a redefining what's possible.
+                Delivering cutting-edge technology services for businesses of all sizes.
                 </p>
               </div>
             </div>
@@ -451,15 +446,14 @@ const Index = () => {
             <div className="feature-card">
               <div className="icon">
                 <img
-                  src={about2}
+                  src={icon2}
                   alt=""
                 />
               </div>
               <div className="content">
-                <h4>Transparent Process</h4>
+                <h4>Expertise in Digital Transformation</h4>
                 <p>
-                  Our transparent process is designed to demystify the journey
-                  from concept to delivery.
+              operations with software development, cybersecurity, ERP, and cloud solutions.
                 </p>
               </div>
             </div>
@@ -472,16 +466,14 @@ const Index = () => {
             <div className="feature-card">
               <div className="icon">
                 <img
-                  src={about3}
+                  src={icon3}
                   alt=""
                 />
               </div>
               <div className="content">
-                <h4>Client-Centric Approach</h4>
+                <h4>Commitment to Innovation & Security</h4>
                 <p>
-                  Our dedicated team takes the time to listen, &amp;
-                  collaborate, ensuring that every interaction a step towards
-                  your success.
+                Ensuring robust, scalable, and future-ready IT infrastructure.
                 </p>
               </div>
             </div>
@@ -494,15 +486,14 @@ const Index = () => {
             <div className="feature-card">
               <div className="icon">
                 <img
-                  src={about4}
+                  src={icon4}
                   alt=""
                 />
               </div>
               <div className="content">
-                <h4>Cost-Effective</h4>
+                <h4>Customer-Centric Approach</h4>
                 <p>
-                  Our commitment to providing cost-effective solutions is
-                  ingrained in our mission.
+                Providing tailored solutions with  support for seamless business operations.
                 </p>
               </div>
             </div>

@@ -69,7 +69,8 @@ const Navbar = () => {
       path: "/about",
       subItems: [
         { label: "Why Us", path: "/why-us" },
-        { label: "Case Study", path: "/case-study-details" }
+        { label: "Case Study", path: "/case-study-details" },
+        { label: "Career", path: "/career" }
       ]
     },
     {
@@ -623,6 +624,11 @@ const Navbar = () => {
                   <li>
                     <a onClick={() => navigate("/case-study-details")}>
                       Case Study 
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={() => navigate("/career")}>
+                      Career
                     </a>
                   </li>
                 </ul>

@@ -50,6 +50,7 @@ import Blog2 from './pages/The_Future_of_IT_Consulting_Blog2';
 import Blog3 from './pages/Revolutionizing_Mobile_Blog3';
 import Blog4 from './pages/Strengthening_Cybersecurity_Blog4';
 import Blog5 from './pages/UX_Blog5';
+import Career from './pages/career';
 
 
 function App() {
@@ -91,6 +92,7 @@ function App() {
       <Route path="/digital-marketing" element={<Digital_Marketing />} />
       <Route path="/digital-marketing-dark" element={<Digital_Marketing_Dark />} />
       <Route path='/why-us' element={<Why_us />} />
+      <Route path='/career' element={<Career />} />
 
 
 
