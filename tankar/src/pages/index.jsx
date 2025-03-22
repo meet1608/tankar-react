@@ -35,27 +35,27 @@ import study_img2 from '../assets/img/home1/case-study-img2.jpg'
 import study_img3 from '../assets/img/home1/case-study-img3.jpg'
 import study_img4 from '../assets/img/home1/case-study-img4.jpg'
 import study_img5 from '../assets/img/home1/case-study-img5.jpg'
-import app1 from '../assets/img/home1/approach-img1.png'
-import app2 from '../assets/img/home1/approach-img2.png'
-import app3 from '../assets/img/home1/approach-img3.png'
-import app4 from '../assets/img/home1/approach-img4.png'
-import comp1 from '../assets/img/home1/company-logo-01.png'
-import comp2 from '../assets/img/home1/company-logo-02.png'
-import comp3 from '../assets/img/home1/company-logo-03.png'
-import comp4 from '../assets/img/home1/company-logo-04.png'
-import comp5 from '../assets/img/home1/company-logo-05.png'
-import comp6 from '../assets/img/home1/company-logo-06.png'
-import comp7 from '../assets/img/home1/company-logo-07.png'
+import app1 from '../assets/img/home/discovery_consultation.png'
+import app2 from '../assets/img/home/planning_strategy.png'
+import app3 from '../assets/img/home/design_development.png'
+import app4 from '../assets/img/home/quality_assurance.png'
+import comp1 from '../assets/img/about_us/client.png'
+import comp2 from '../assets/img/about_us/client1.png'
+import comp3 from '../assets/img/about_us/client2.png'
+import comp4 from '../assets/img/about_us/client3.png'
+import comp5 from '../assets/img/about_us/client4.png'
+import comp6 from '../assets/img/about_us/client5.png'
+import comp7 from '../assets/img/about_us/client6.png'
 import clutch from '../assets/img/home1/icon/clutch-logo.svg'
 import clutch_white from '../assets/img/home1/icon/clutch-logo-white.svg'
 import google from '../assets/img/home1/icon/google-logo.svg'
-import auth from '../assets/img/home2/testi-author-05.png'
+import auth from '../assets/img/home/user.png'
 import card from '../assets/img/home1/icon/testimonial-card-logo1.svg'
-import auth1 from '../assets/img/home2/testi-author-01.png'
+import auth1 from '../assets/img/home/user.png'
 import test from '../assets/img/home1/icon/testimonial-card-logo2.svg'
-import auth2 from '../assets/img/home2/testi-author-02.png'
+import auth2 from '../assets/img/home/user.png'
 import test3 from '../assets/img/home1/icon/testimonial-card-logo3.svg'
-import auth3 from '../assets/img/home2/testi-author-03.png'
+import auth3 from '../assets/img/home/user.png'
 import test4 from '../assets/img/home1/icon/testimonial-card-logo4.svg'
 import blog1 from '../assets/img/blog/blog1.jpg'
 import blog2 from '../assets/img/blog/blog3.jpg'
@@ -718,7 +718,7 @@ const Index = () => {
 
   {/* End Portfolio section */}
   {/* Start Process section */}
-  <div className="home1-process-section mb-110">
+  {/* <div className="home1-process-section mb-110">
     <div className="container">
       <div className="row mb-60">
         <div
@@ -1215,10 +1215,10 @@ const Index = () => {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
   {/* End Process section */}
   {/* Start Banner With Case Study Slider section */}
-  <div className="banner-with-case-study-slider-section mb-110">
+  {/* <div className="banner-with-case-study-slider-section mb-110">
     <div className="row g-0">
       <div className="col-xl-4 col-lg-5">
         <div className="banner-area">
@@ -1514,7 +1514,7 @@ const Index = () => {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
   {/* End Banner With Case Study Slider section */}
   {/* Start Approach section */}
   <div className="home1-approach-section mb-110">
@@ -1549,7 +1549,7 @@ const Index = () => {
                 </g>
               </svg>
             </span>
-            <h2>The Zenfy Approach</h2>
+            <h2>The Tankar Solution Private Lited</h2>
           </div>
         </div>
       </div>
@@ -1575,25 +1575,20 @@ const Index = () => {
                     <span>Step 01</span>
                     <h5>Discovery &amp; Consultation</h5>
                     <p>
-                      Foren your case studies issoni crucial touris then
-                      attention of your audience.
+                    During this phase, we collaborate with clients to understand their needs, industry challenges, and business goals. Our expert team conducts detailed research and discussions to lay a strong foundation for a customized IT solution.
                     </p>
                     <ul>
                       <li>
-                        <strong>Brainstorming: </strong>Collaborate to generate
-                        and refine innovative ideas.
+                        <strong>Identify business challenges and objectives.</strong>
                       </li>
                       <li>
-                        <strong>Problem Identification: </strong>Identify market
-                        gaps and challenges your startup.
+                        <strong>Conduct in-depth market and competitor analysis.</strong>
                       </li>
                       <li>
-                        <strong>Strategic Planning: </strong>Develop a roadmap
-                        by strategically aligning innovative ideas.
+                        <strong>Gather client requirements and expectations.</strong>
                       </li>
                       <li>
-                        <strong>Solution Proposals: </strong>Offer specialised
-                        remedies based on identified market gaps.
+                        <strong>Define project scope and feasibility.</strong>
                       </li>
                     </ul>
                   </div>
@@ -1619,8 +1614,7 @@ const Index = () => {
                     <span>Step 02</span>
                     <h5>Planning and Strategy </h5>
                     <p>
-                      Strategic planning for optimal results in a concise,
-                      effective approach.
+                    This stage involves meticulous planning, ensuring that every aspect of the project aligns with business objectives. We focus on a structured, strategic approach that guarantees a smooth and efficient development process.
                     </p>
                     <ul>
                       <li>
@@ -1628,18 +1622,13 @@ const Index = () => {
                         and improve creative concepts.
                       </li>
                       <li>
-                        <strong>Resource Allocation: </strong>Optimize planning
-                        by efficiently allocating resources and ensuring a
-                        streamlined approach.
+                        <strong>Develop a clear project roadmap and timeline.</strong>
                       </li>
                       <li>
-                        <strong>Problem Identification: </strong>Determine your
-                        startup's obstacles and market gaps.
+                        <strong>Define technology stack and resource allocation.</strong>
                       </li>
                       <li>
-                        <strong>Solution Development: </strong>Translate
-                        identified challenges into strategic solutions and
-                        business growth.
+                        <strong>Establish key milestones and deliverables.</strong>
                       </li>
                     </ul>
                   </div>
@@ -1665,26 +1654,20 @@ const Index = () => {
                     <span>Step 03</span>
                     <h5>Design &amp; Development</h5>
                     <p>
-                      Crafting seamless experiences through innovative design
-                      and development.
+                    Our team transforms ideas into visually appealing, functional, and user-friendly solutions. We prioritize innovation, efficiency, and performance to develop high-quality software that enhances user experience and business operations.
                     </p>
                     <ul>
                       <li>
-                        <strong>Generating ideas: </strong>Come up with and work
-                        through creative ideas together.
+                        <strong>Create wireframes, UI/UX prototypes, and user journeys. </strong>
                       </li>
                       <li>
-                        <strong>Prototyping Excellence: </strong>Transform ideas
-                        into tangible prototypes and user-centric design.
+                        <strong>Develop robust, scalable, and secure applications.</strong>
                       </li>
                       <li>
-                        <strong>Iterative Development: </strong>Continuously
-                        refine and enhance solutions based on identified
-                        problems.
+                        <strong> Implement coding best practices and latest technologies.</strong>
                       </li>
                       <li>
-                        <strong>Problem Identification: </strong>Identify market
-                        gaps and challenges your startup.
+                        <strong>Ensure seamless integration with existing systems.</strong>
                       </li>
                     </ul>
                   </div>
@@ -1710,27 +1693,21 @@ const Index = () => {
                     <span>Step 04</span>
                     <h5>Quality Assurance</h5>
                     <p>
-                      Ensuring excellence through meticulous testing and
-                      validation processes.
+                    Before deployment, our quality assurance experts rigorously test the solution to ensure flawless performance, security, and scalability. We focus on delivering high-quality, reliable, and fully optimized IT solutions for long-term success.
                     </p>
                     <ul>
                       <li>
-                        <strong>Idea generation: </strong>Collaborate together
-                        to generate and develop creative ideas.
+                        <strong>Conduct thorough testing, including functional and security checks.</strong>
                       </li>
                       <li>
-                        <strong>Continuous Testing:: </strong>Rigorous quality
-                        assurance through ongoing testing ensures robust
+                        <strong>Identify and resolve bugs and performance issues.</strong>
                         solutions.
                       </li>
                       <li>
-                        <strong>Performance Testing: </strong>Rigorously
-                        evaluate the functionality and efficiency of your
-                        startup's systems.
+                        <strong>Optimize the application for seamless user experience.</strong>
                       </li>
                       <li>
-                        <strong>Problem Identification: </strong>Identify market
-                        gaps and challenges your startup.
+                        <strong>Ensure compliance with industry standards.</strong>
                       </li>
                     </ul>
                   </div>
@@ -1862,9 +1839,15 @@ const Index = () => {
               </span>
               <h2>Happy Client Stories</h2>
               <p>
-                These voices echo the confidence and satisfaction of clients
-                who've witnessed firsthand the impact of our solutions. At
-                Zenfy, our clients aren't just partners.
+              Our happy clients trust Tankar Solution for innovative IT services, seamless integration, and robust security. Their success stories highlight our commitment to delivering cutting-edge solutions that drive growth and efficiency.
+
+
+
+
+
+
+
+
               </p>
             </div>
             <ul className="rating-area">
@@ -1951,10 +1934,7 @@ const Index = () => {
                   <div className="testimonial-card3 style-2">
                     <span>Great Digital Marketing!</span>
                     <p>
-                      “You can adjust the length and style of the line to match
-                      the overall design and formatting of your document. Some
-                      other divider options include dashes, stars, or even a
-                      graphical element.”
+                    "Tankar Solution’s expert team provided us with seamless software development and integration services. Their innovative approach and commitment to excellence have greatly enhanced our business operations."
                     </p>
                     <div className="author-and-logo-area">
                       <div className="author-area">
@@ -1965,16 +1945,16 @@ const Index = () => {
                           />
                         </div>
                         <div className="content">
-                          <h6>Luke Julian</h6>
-                          <span>CEO At astra.com</span>
+                          <h6>Sneha Iyer</h6>
+                          {/* <span>Coo</span> */}
                         </div>
                       </div>
-                      <div className="logo">
+                      {/* <div className="logo">
                         <img
                           src={card}
                           alt=""
                         />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -1982,10 +1962,9 @@ const Index = () => {
                   <div className="testimonial-card3 style-2">
                     <span>Great Consulting!</span>
                     <p>
-                      “The line's length and style can be changed to better fit
-                      your document's general layout and style. Stars, dashes,
-                      or even a graphical element are some other divider
-                      alternatives.”
+                    "Tankar Solution transformed our IT infrastructure with their cutting-edge solutions. Their expertise in cybersecurity and cloud integration has significantly improved our operations and data security."
+
+
                     </p>
                     <div className="author-and-logo-area">
                       <div className="author-area">
@@ -1996,16 +1975,16 @@ const Index = () => {
                           />
                         </div>
                         <div className="content">
-                          <h6>David Beckham</h6>
-                          <span>CEO At astra.com</span>
+                          <h6>Rohan Mehta</h6>
+                          {/* <span>IT Manager</span> */}
                         </div>
                       </div>
-                      <div className="logo">
+                      {/* <div className="logo">
                         <img
                           src={test}
                           alt=""
                         />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -2013,10 +1992,9 @@ const Index = () => {
                   <div className="testimonial-card3 style-2">
                     <span>Great Digital Marketing!</span>
                     <p>
-                      “You can adjust the length and style of the line to match
-                      the overall design and formatting of your document. Some
-                      other divider options include dashes, stars, or even a
-                      graphical element.”
+                    "The team at Tankar Solution is highly professional and responsive. Their ERP solutions streamlined our workflow, boosting efficiency and reducing operational costs. Highly recommended!"
+
+
                     </p>
                     <div className="author-and-logo-area">
                       <div className="author-area">
@@ -2027,16 +2005,16 @@ const Index = () => {
                           />
                         </div>
                         <div className="content">
-                          <h6>Daniel Scoot</h6>
-                          <span>CEO At astra.com</span>
+                          <h6>Priya Shah</h6>
+                          {/* <span>CEO</span> */}
                         </div>
                       </div>
-                      <div className="logo">
+                      {/* <div className="logo">
                         <img
                           src={test3}
                           alt=""
                         />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -2044,10 +2022,7 @@ const Index = () => {
                   <div className="testimonial-card3 style-2">
                     <span>Great Consulting!</span>
                     <p>
-                      “The line's length and style can be changed to better fit
-                      your document's general layout and style. Stars, dashes,
-                      or even a graphical element are some other divider
-                      alternatives.”
+                    "From software development to IT consulting, Tankar Solution has been a game-changer for our company. Their innovative approach and 24/7 support make them a trusted technology partner."
                     </p>
                     <div className="author-and-logo-area">
                       <div className="author-area">
@@ -2058,16 +2033,16 @@ const Index = () => {
                           />
                         </div>
                         <div className="content">
-                          <h6>Flurance Miyagi</h6>
-                          <span>CEO At astra.com</span>
+                          <h6>Arjun Patel</h6>
+                          {/* <span>Director</span> */}
                         </div>
                       </div>
-                      <div className="logo">
+                      {/* <div className="logo">
                         <img
                           src={test4}
                           alt=""
                         />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
