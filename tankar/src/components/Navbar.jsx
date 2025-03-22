@@ -38,32 +38,8 @@ const Navbar = () => {
     {
       label: "Home",
       path: "/",
-      subItems: [
-        {
-          label: "Light Version",
-          path: "/",
-          subItems: [
-            { label: "Startup Agency", path: "/" },
-            { label: "Digital Marketing Agency", path: "/digital-marketing" },
-            { label: "Saas Product", path: "/saas" },
-            { label: "Creative Agency", path: "/creative-agency" },
-            { label: "It Solution", path: "/it-solutions" }
-          ]
-        },
-        {
-          label: "Dark Version",
-          path: "/index-dark",
-          subItems: [
-            { label: "Startup Agency", path: "/index-dark" },
-            { label: "Digital Marketing Agency", path: "/digital-marketing-dark" },
-            { label: "Saas Product", path: "/saas-dark" },
-            { label: "Creative Agency", path: "/creative-agency-dark" },
-            { label: "It Solution", path: "/it-solutions-dark" }
-          ]
-        }
-      ]
     },
-    
+
     {
       label: "About Us",
       path: "/about",
@@ -71,8 +47,8 @@ const Navbar = () => {
         { label: "Why Us", path: "/why-us" },
         { label: "Case Study", path: "/case-study-details" },
         { label: "Career", path: "/career" },
-        { label: "LifeAtTankar", path: "/lifetankar" }
-      ]
+        { label: "LifeAtTankar", path: "/lifetankar" },
+      ],
     },
     {
       label: "Services",
@@ -86,8 +62,8 @@ const Navbar = () => {
         { label: "Custom Software Development", path: "/custom-software" },
         { label: "Digital Marketing", path: "/digital-marketing-page" },
         { label: "Game Development", path: "/game-development" },
-        { label: "ERP Solutions", path: "/erp-solution" }
-      ]
+        { label: "ERP Solutions", path: "/erp-solution" },
+      ],
     },
     {
       label: "Portfolio",
@@ -104,7 +80,7 @@ const Navbar = () => {
     // },
     {
       label: "Blog",
-      subItems: [{ label: "Blog Standard", path: "/blog-standard" }]
+      subItems: [{ label: "Blog Standard", path: "/blog-standard" }],
     },
     {
       label: "Pages",
@@ -126,8 +102,8 @@ const Navbar = () => {
           label: "Our Team",
           subItems: [
             { label: "Team Style 01", path: "/team1" },
-            { label: "Team Style 02", path: "/team2" }
-          ]
+            { label: "Team Style 02", path: "/team2" },
+          ],
         },
         { label: "Features", path: "/features" },
         {
@@ -136,20 +112,19 @@ const Navbar = () => {
             { label: "Shop", path: "/shop" },
             { label: "Product Details", path: "/product-details" },
             { label: "Cart", path: "/cart" },
-            { label: "CheckOut", path: "/checkout" }
-          ]
+            { label: "CheckOut", path: "/checkout" },
+          ],
         },
         { label: "Pricing Plan", path: "/pricing-plan" },
         { label: "Faqs", path: "/faqs" },
-        { label: "Error", path: "/error" }
-      ]
+        { label: "Error", path: "/error" },
+      ],
     },
     {
       label: "Contact",
-      path: "/contact"
-    }
+      path: "/contact",
+    },
   ];
-
 
   const navbarStyles = {
     display: "block",
@@ -241,10 +216,7 @@ const Navbar = () => {
               style={mobileMenuLinkStyles}
             >
               {menuItem.label}
-              <span
-                className="dropdown-icon"
-                style={dropdownIconStyles}
-              >
+              <span className="dropdown-icon" style={dropdownIconStyles}>
                 {isActiveSubMenu(menuItem.label) ? "−" : "+"}
               </span>
             </a>
@@ -404,11 +376,9 @@ const Navbar = () => {
                 <div></div>
 
                 <div className="getin-touch-area mb-60">
-                  
-
-                <ul className="mobile-menu-list" style={mobileMenuListStyles}>
-  {renderMenuItems(menuItems)}
-</ul>
+                  <ul className="mobile-menu-list" style={mobileMenuListStyles}>
+                    {renderMenuItems(menuItems)}
+                  </ul>
                   <h4 className="mt-40">
                     Get in Touch
                     <svg
@@ -473,8 +443,9 @@ const Navbar = () => {
                       </div>
                       <div className="contact">
                         <h6>
-                        TRP Mall, East Court, C-3053, Bopal, Ahmedabad, Gujarat 380058
-</h6>
+                          TRP Mall, East Court, C-3053, Bopal, Ahmedabad,
+                          Gujarat 380058
+                        </h6>
                       </div>
                     </li>
                   </ul>
@@ -546,106 +517,36 @@ const Navbar = () => {
           </div>
           <div className="main-menu d-lg-flex d-none">
             <ul className="menu-list">
-              <li className="menu-item-has-children active">
+              <li>
                 <a onClick={() => navigate("/")} className="drop-down">
                   Home
                 </a>
+              </li>
+              <li className="menu-item-has-children">
+                <a className="drop-down">About Us</a>
                 <i className="bi bi-plus dropdown-icon" />
                 <ul className="sub-menu">
-                  <li className="active">
-                    <a onClick={() => navigate("/")}>Light Version</a>
-                    <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
-                    <i className="d-lg-none d-flex bi bi-plus dropdown-icon" />
-                    <ul className="sub-menu">
-                      <li className="active">
-                        <a onClick={() => navigate("/")}>Startup Agency</a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/digital-marketing")}>
-                          Digital Marketing Agency
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/saas")}>Saas Product</a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/creative-agency")}>
-                          Creative Agency
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/it-solutions")}>
-                          It Solution
-                        </a>
-                      </li>
-                    </ul>
+                  <li>
+                    <a onClick={() => navigate("/about")}>Company Overview</a>
                   </li>
                   <li>
-                    <a onClick={() => navigate("/index-dark")}>Dark Version</a>
-                    <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
-                    <i className="d-lg-none d-flex bi bi-plus dropdown-icon" />
-                    <ul className="sub-menu">
-                      <li>
-                        <a onClick={() => navigate("/index-dark")}>
-                          Startup Agency
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/digital-marketing-dark")}>
-                          Digital Marketing Agency
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/saas-dark")}>
-                          Saas Product
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/creative-agency-dark")}>
-                          Creative Agency
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/it-solutions-dark")}>
-                          It Solution
-                        </a>
-                      </li>
-                    </ul>
+                    <a onClick={() => navigate("/team2")}>Our Team</a>
+                  </li>
+
+                  <li>
+                    <a onClick={() => navigate("/lifetankar")}>Life @ Tankar</a>
+                  </li>
+                  <li>
+                    <a onClick={() => navigate("/career")}>Career</a>
                   </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
-                <a className="drop-down" onClick={() => navigate("/about")}>About Us</a>
+                <a className="drop-down" onClick={() => navigate("/service")}>
+                  Services
+                </a>
                 <i className="bi bi-plus dropdown-icon" />
                 <ul className="sub-menu">
-                  
-                  <li>
-                    <a onClick={() => navigate("/why-us")}>Why Us</a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/case-study-details")}>
-                      Case Study 
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/career")}>
-                      Career
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/lifetankar")}>
-                      Life @ Tankar
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a className="drop-down">Services</a>
-                <i className="bi bi-plus dropdown-icon" />
-                <ul className="sub-menu">
-                  <li>
-                    <a onClick={() => navigate("/service")}>Service style 01</a>
-                  </li>
                   <li>
                     <a onClick={() => navigate("/software-devlopment")}>
                       Software Development
@@ -691,14 +592,23 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
-              <li >
-                <a
-                  onClick={() => navigate("/portfolio-grid")}
-                  // className="drop-down"
-                >
-                  Portfolio
-                </a>
+              <li className="menu-item-has-children">
+                <a className="drop-down">Our Work</a>
+                <i className="bi bi-plus dropdown-icon" />
+                <ul className="sub-menu">
+                  <li>
+                    <a onClick={() => navigate("/case-study-details")}>
+                      Case Studies
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={() => navigate("/portfolio-grid")}>
+                      Portfolio
+                    </a>
+                  </li>
+                </ul>
               </li>
+              
 
               {/* <li className="menu-item-has-children">
                 <a
@@ -726,117 +636,18 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li> */}
-              <li className="menu-item-has-children">
-                <a
-                  onClick={() => navigate("/blog-standard")}
-                  className="drop-down"
-                >
-                  Blog
+              <li>
+                <a onClick={() => navigate("/blog-standard")} className="drop-down">
+                  Blogs
                 </a>
-                <i className="bi bi-plus dropdown-icon" />
-                <ul className="sub-menu">
-                  <li>
-                    <a onClick={() => navigate("/blog-standard")}>
-                      Blog Standard
-                    </a>
-                  </li>
-                </ul>
               </li>
-              <li className="menu-item-has-children">
-                <a className="drop-down">Pages</a>
-                <i className="bi bi-plus dropdown-icon" />
-                <ul className="sub-menu">
-                  {/* <li>
-                    <a onClick={() => navigate("/about")}>About</a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/why-us")}>Why Us</a>
-                  </li> */}
-                  <li>
-                    <a onClick={() => navigate("/industry")}>Industry</a>
-                  </li>
-                  {/* <li>
-                    <a onClick={() => navigate("/portfolio-grid")}>Portfolio</a>
-                    <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
-                    <i className="d-lg-none d-flex bi bi-plus dropdown-icon" />
-                    <ul className="sub-menu">
-                      <li>
-                        <a onClick={() => navigate("/portfolio-grid")}>
-                          Portfolio Grid
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/portfolio-masonary")}>
-                          Portfolio Masonary
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/portfolio-info-flow")}>
-                          Portfolio Info Flow
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/portfolio-list")}>
-                          Portfolio List
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/portfolio-details")}>
-                          Portfolio Details
-                        </a>
-                      </li>
-                    </ul>
-                  </li> */}
-                  <li>
-                    <a onClick={() => navigate("/team1")}>Our Team</a>
-                    <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
-                    <i className="d-lg-none d-flex bi bi-plus dropdown-icon" />
-                    <ul className="sub-menu">
-                      <li>
-                        <a onClick={() => navigate("/team1")}>Team Style 01</a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/team2")}>Team Style 02</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/features")}>Features</a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/shop")}>Shop</a>
-                    <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
-                    <i className="d-lg-none d-flex bi bi-plus dropdown-icon" />
-                    <ul className="sub-menu">
-                      <li>
-                        <a onClick={() => navigate("/shop")}>Shop</a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/product-details")}>
-                          Product Details
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/cart")}>Cart</a>
-                      </li>
-                      <li>
-                        <a onClick={() => navigate("/checkout")}>CheckOut</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/pricing-plan")}>
-                      Pricing Plan
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/faqs")}>Faqs</a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/error")}>Error</a>
-                  </li>
-                </ul>
+              <li>
+                <a onClick={() => navigate("/industry")} className="drop-down">
+                  Industry
+                </a>
               </li>
+              
+             
               <li>
                 <a onClick={() => navigate("/contact")} className="drop-down">
                   Contact
