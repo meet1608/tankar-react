@@ -35,14 +35,12 @@ const LifeAtTankar = () => {
         <div className="col-xl-10">
           <div className="banner-wrapper">
             <h1>
-              Where Vision Takes <br />
-              <span>Flight Creative</span> Design Beyond Limits
+            Where Vision  <br />
+              <span>Takes Flight  </span> Creativity Beyond Limits
             </h1>
             <div className="banner-content-and-btn">
               <p>
-                Where innovation meets passion in a journey that started with
-                simpo idea and a shared dr. Founded in recent year we embarked
-                one anda mission to bring the new innovation and introduct the.
+              At Tankar Solutions, innovation meets passion. Our journey began with a simple idea and a shared dream—to push the boundaries of technology and creativity. Founded in recent years, we embarked on a mission to bring cutting-edge innovations and introduce transformative digital solutions.
               </p>
               <div className="banner-btn">
                 <a href="about.html">
@@ -57,12 +55,7 @@ const LifeAtTankar = () => {
                       <path d="M98.3017 1.80374C99.6675 1.0391 101.332 1.0391 102.698 1.80374L113.268 7.72125C114.41 8.36074 115.743 8.57185 117.027 8.31663L128.908 5.95498C130.443 5.64981 132.027 6.16433 133.09 7.31359L141.313 16.2077C142.202 17.1689 143.404 17.7815 144.704 17.9356L156.734 19.3609C158.288 19.5451 159.635 20.5238 160.291 21.9452L165.364 32.9453C165.912 34.134 166.866 35.0883 168.055 35.6365L179.055 40.7094C180.476 41.3648 181.455 42.7119 181.639 44.2662L183.064 56.2956C183.218 57.5955 183.831 58.798 184.792 59.6867L193.686 67.9105C194.836 68.9731 195.35 70.5566 195.045 72.0919L192.683 83.9729C192.428 85.2569 192.639 86.5897 193.279 87.732L199.196 98.3017C199.961 99.6675 199.961 101.332 199.196 102.698L193.279 113.268C192.639 114.41 192.428 115.743 192.683 117.027L195.045 128.908C195.35 130.443 194.836 132.027 193.686 133.09L184.792 141.313C183.831 142.202 183.218 143.404 183.064 144.704L181.639 156.734C181.455 158.288 180.476 159.635 179.055 160.291L168.055 165.364C166.866 165.912 165.912 166.866 165.364 168.055L160.291 179.055C159.635 180.476 158.288 181.455 156.734 181.639L144.704 183.064C143.404 183.218 142.202 183.831 141.313 184.792L133.09 193.686C132.027 194.836 130.443 195.35 128.908 195.045L117.027 192.683C115.743 192.428 114.41 192.639 113.268 193.279L102.698 199.196C101.332 199.961 99.6675 199.961 98.3017 199.196L87.732 193.279C86.5897 192.639 85.2569 192.428 83.9729 192.683L72.0919 195.045C70.5566 195.35 68.9731 194.836 67.9105 193.686L59.6867 184.792C58.798 183.831 57.5955 183.218 56.2956 183.064L44.2662 181.639C42.7119 181.455 41.3648 180.476 40.7094 179.055L35.6365 168.055C35.0883 166.866 34.134 165.912 32.9453 165.364L21.9452 160.291C20.5238 159.635 19.5451 158.288 19.3609 156.734L17.9356 144.704C17.7815 143.404 17.1689 142.202 16.2077 141.313L7.31359 133.09C6.16433 132.027 5.64981 130.443 5.95498 128.908L8.31663 117.027C8.57185 115.743 8.36074 114.41 7.72126 113.268L1.80374 102.698C1.0391 101.332 1.0391 99.6675 1.80374 98.3017L7.72125 87.732C8.36074 86.5897 8.57185 85.2569 8.31663 83.9729L5.95498 72.0919C5.64981 70.5566 6.16432 68.9731 7.31359 67.9105L16.2077 59.6867C17.1689 58.798 17.7815 57.5955 17.9356 56.2956L19.3609 44.2662C19.5451 42.7119 20.5238 41.3648 21.9452 40.7094L32.9453 35.6365C34.134 35.0883 35.0883 34.134 35.6365 32.9453L40.7094 21.9452C41.3648 20.5238 42.7119 19.5451 44.2662 19.3609L56.2956 17.9356C57.5955 17.7815 58.798 17.1689 59.6867 16.2077L67.9105 7.31359C68.9731 6.16432 70.5566 5.64981 72.0919 5.95498L83.9729 8.31663C85.2569 8.57185 86.5897 8.36074 87.732 7.72126L98.3017 1.80374Z" />
                     </svg>
                   </div>
-                  <div className="details-button">
-                    Learn More
-                    <svg viewBox="0 0 13 20">
-                      <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
-                    </svg>
-                  </div>
+                  
                 </a>
               </div>
             </div>
@@ -143,18 +136,15 @@ const LifeAtTankar = () => {
                     <circle cx={5} cy={5} r={5} />
                   </g>
                 </svg>
-                Unveiling Work Zenfy
+                Unveiling Life at Tankar
               </span>
               <h2>
-                We are a Creative agency working with young talents on
-                delivering unique ideas and creative work.
+              Where Innovation Meets Passion
               </h2>
               <p>
-                Where innovation meets passion in a journey that started with a
-                simple idea and a shared dr. Founded in recent year we embarked
-                on a mission to bring the new innovation and introduct the
-                technology. From humble beginnings to our current aspirations.
+              At Tankar Solutions, we are more than just a technology company—we are a team of innovators, problem-solvers, and creative thinkers. We believe in pushing boundaries and working with young talents to deliver groundbreaking solutions.
               </p>
+              <p>From a simple idea to a thriving IT powerhouse, our journey has been fueled by dedication, creativity, and the drive to make a difference.</p>
             </div>
             <a href="about.html" className="explore-btn">
               Learn More
