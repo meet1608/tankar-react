@@ -70,7 +70,8 @@ const Navbar = () => {
       subItems: [
         { label: "Why Us", path: "/why-us" },
         { label: "Case Study", path: "/case-study-details" },
-        { label: "Career", path: "/career" }
+        { label: "Career", path: "/career" },
+        { label: "LifeAtTankar", path: "/lifetankar" }
       ]
     },
     {
@@ -629,6 +630,11 @@ const Navbar = () => {
                   <li>
                     <a onClick={() => navigate("/career")}>
                       Career
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={() => navigate("/lifetankar")}>
+                      Life @ Tankar
                     </a>
                   </li>
                 </ul>

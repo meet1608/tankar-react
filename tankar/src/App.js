@@ -51,6 +51,7 @@ import Blog3 from './pages/Revolutionizing_Mobile_Blog3';
 import Blog4 from './pages/Strengthening_Cybersecurity_Blog4';
 import Blog5 from './pages/UX_Blog5';
 import Career from './pages/career';
+import LifeAtTankar from './pages/LifeAtTankar';
 
 
 function App() {
@@ -93,7 +94,7 @@ function App() {
       <Route path="/digital-marketing-dark" element={<Digital_Marketing_Dark />} />
       <Route path='/why-us' element={<Why_us />} />
       <Route path='/career' element={<Career />} />
-
+      <Route path='/lifetankar' element={<LifeAtTankar/>} />
 
 
       <Route path="/software-devlopment" element={<Software_Devlopment />} />
