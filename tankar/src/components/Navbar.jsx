@@ -68,7 +68,15 @@ const Navbar = () => {
     {
       label: "Our Work",
       subItems: [
-        { label: "Our Work", path: "/case-study-details" },
+        {
+          label: "Case Study",
+          path: "/case-study1",
+          subItems: [
+            { label: "Case Study Details", path: "/case-study-details" },
+           
+          ]
+        },
+        
         { label: "Portfolio", path: "/portfolio-grid" },
       ],
     },
@@ -566,10 +574,18 @@ const Navbar = () => {
                 <i className="bi bi-plus dropdown-icon" />
                 <ul className="sub-menu">
                   <li>
-                    <a onClick={() => navigate("/case-study-details")}>
+                    <a onClick={() => navigate("/case-study1")}>
                       Case Studies
                     </a>
+                    <ul className="sub-menu">
+                    <li>
+                    <a onClick={() => navigate("/case-study-details")}>
+                      Case Study Details
+                    </a>
                   </li>
+                  </ul>
+                  </li>
+               
                   <li>
                     <a onClick={() => navigate("/portfolio-grid")}>Portfolio</a>
                   </li>
