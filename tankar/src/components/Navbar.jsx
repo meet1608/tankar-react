@@ -89,7 +89,7 @@ const Navbar = () => {
     },
     {
       label: "Blogs",
-      path: "/blog-standard",
+      path: "/blogs",
     },
 
     // {
@@ -600,8 +600,8 @@ const Navbar = () => {
   </li> 
   */}
 
-  <li className={`menu-item ${isActive("/blog-standard")  ? 'active' : ''}`}>
-    <a onClick={() => navigate("/blog-standard")} className={`drop-down ${isActive("/blog-standard") ? 'active' : ''}`}>
+  <li className={`menu-item ${isActive("/blogs")  ? 'active' : ''}`}>
+    <a onClick={() => navigate("/blogs")} className={`drop-down ${isActive("/blogs") ? 'active' : ''}`}>
       Blogs
     </a>
   </li>

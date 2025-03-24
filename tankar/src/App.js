@@ -7,7 +7,6 @@ import Service_details from './pages/service_details';
 import Case_study1 from './pages/case_study1';
 import Case_study2 from './pages/case_study2';
 import About from './pages/about';
-import Blog_standard from './pages/Blog_standard';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import Contact from './pages/Contact';
@@ -54,6 +53,7 @@ import Mobile_App_Development from './pages/Mobile_App_Devlopment';
 import Software_Development from './pages/Software_Devlopment';
 import CaseStudy from './pages/case_study';
 import CaseStudyDetails from './pages/CaseStudyDetails';
+import Blogs from './pages/Blogs';
 
 
 function App() {
@@ -67,7 +67,7 @@ function App() {
       <Route path="/case-study2" element={<Case_study2 />} />
       <Route path="/case-study/:id" element={<CaseStudyDetails />} />
       <Route path="/about" element={<About />} />
-      <Route path="/blog-standard" element={<Blog_standard />} />
+      <Route path="/blogs" element={<Blogs />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/contact" element={<Contact />} />
