@@ -19470,3 +19470,17 @@ body:not(.is-mobile) .tt-style-switch:hover {
     transform: none;
   }
 }/*# sourceMappingURL=style.css.map */
+/* In your style.css or a similar CSS file */
+.mobile-menu-link.active {
+  font-weight: bold;
+  color: #007bff; /* Or any color you want */
+}
+.drop-down.active {
+  font-weight: bold; /* Make the text bold */
+  color: blue; /* Change the text color */
+  /* Add any other styles you want */
+}
+.active {
+  color: #007bff; /* Change to your desired active color */
+  font-weight: bold; /* Optional: Add bold font for active items */
+}

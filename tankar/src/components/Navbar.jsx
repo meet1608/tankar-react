@@ -12,6 +12,7 @@ import "../assets/css/style.css";
 import "../assets/css/style.css.map";
 import "../assets/css/swiper-bundle.min.css";
 import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import logo from "../assets/img/logo.svg";
 import logo_light from "../assets/img/logo-light.svg";
 import tankar_light from "../assets/img/tankar_logo_1.png";
@@ -20,6 +21,12 @@ const Navbar = () => {
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [subMenuStates, setSubMenuStates] = useState({});
+  const location = useLocation();
+  
+    const isActive = (path) => {
+      return location.pathname === path;
+    };
+      
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -179,7 +186,7 @@ const Navbar = () => {
     return items.map((menuItem) => (
       <li
         key={menuItem.label}
-        className="mobile-menu-item"
+        className={`mobile-menu-item ${isActive(menuItem.path) ? 'active' : ''}`}
         style={mobileMenuItemStyles}
       >
         {menuItem.subItems ? (
@@ -190,7 +197,7 @@ const Navbar = () => {
                 e.preventDefault();
                 toggleSubMenu(menuItem.label);
               }}
-              className="mobile-menu-link"
+              className={`mobile-menu-link ${isActive(menuItem.path) ? 'active' : ''}`}
               style={mobileMenuLinkStyles}
             >
               {menuItem.label}
@@ -203,7 +210,7 @@ const Navbar = () => {
                 {menuItem.subItems.map((subItem) => (
                   <li
                     key={subItem.label}
-                    className="mobile-sub-menu-item"
+                    className={`mobile-sub-menu-item ${isActive(subItem.path) ? 'active' : ''}`}
                     style={mobileSubMenuItemStyles}
                   >
                     {subItem.subItems ? (
@@ -214,7 +221,7 @@ const Navbar = () => {
                             e.preventDefault();
                             toggleSubMenu(subItem.label);
                           }}
-                          className="mobile-menu-link"
+                          className={`mobile-menu-link ${isActive(subItem.path) ? 'active' : ''}`}
                           style={mobileMenuLinkStyles}
                         >
                           {subItem.label}
@@ -233,7 +240,7 @@ const Navbar = () => {
                             {subItem.subItems.map((subSubItem) => (
                               <li
                                 key={subSubItem.label}
-                                className="mobile-sub-menu-item"
+                                className={`mobile-sub-menu-item ${isActive(subSubItem.path) ? 'active' : ''}`}
                                 style={mobileSubMenuItemStyles}
                               >
                                 <a
@@ -241,7 +248,7 @@ const Navbar = () => {
                                     navigate(subSubItem.path);
                                     setIsMenuOpen(false);
                                   }}
-                                  className="mobile-menu-link"
+                                  className={`mobile-menu-link ${isActive(subSubItem.path) ? 'active' : ''}`}
                                   style={mobileMenuLinkStyles}
                                 >
                                   {subSubItem.label}
@@ -257,7 +264,7 @@ const Navbar = () => {
                           navigate(subItem.path);
                           setIsMenuOpen(false);
                         }}
-                        className="mobile-menu-link"
+                        className={`mobile-menu-link ${isActive(subItem.path) ? 'active' : ''}`}
                         style={mobileMenuLinkStyles}
                       >
                         {subItem.label}
@@ -274,7 +281,7 @@ const Navbar = () => {
               navigate(menuItem.path);
               setIsMenuOpen(false);
             }}
-            className="mobile-menu-link"
+            className={`mobile-menu-link ${isActive(menuItem.path) ? 'active' : ''}`}
             style={mobileMenuLinkStyles}
           >
             {menuItem.label}
@@ -493,23 +500,83 @@ const Navbar = () => {
             </a>
           </div>
           <div className="main-menu d-lg-flex d-none">
-            <ul className="menu-list">
-              <li>
-                <a onClick={() => navigate("/")} className="drop-down">
-                  Home
-                </a>
-              </li>
-              <li className="menu-item-has-children">
-                <a className="drop-down">About Us</a>
-                <i className="bi bi-plus dropdown-icon" />
-                <ul className="sub-menu">
-                  <li>
-                    <a onClick={() => navigate("/about")}>Company Overview</a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/team2")}>Our Team</a>
-                  </li>
+          <ul className="menu-list">
+  <li className={`menu-item ${isActive("/")  ? 'active' : ''}`}>
+    <a onClick={() => navigate("/")} className={`${isActive("/") ? 'active' : ''}`}>
+      Home
+    </a>
+  </li>
+  <li className={`menu-item-has-children ${isActive("/about") || isActive("/team2") || isActive("/lifetankar") || isActive("/career") ? 'active' : ''}`}>
+    <a className="drop-down">About Us</a>
+    <i className="bi bi-plus dropdown-icon" />
+    <ul className="sub-menu">
+      <li>
+        <a onClick={() => navigate("/about")} className={isActive("/about") ? 'active' : ''}>Company Overview</a>
+      </li>
+      <li>
+        <a onClick={() => navigate("/team2")} className={isActive("/team2") ? 'active' : ''}>Our Team</a>
+      </li>
+      <li>
+        <a onClick={() => navigate("/lifetankar")} className={isActive("/lifetankar") ? 'active' : ''}>Life @ Tankar</a>
+      </li>
+      <li>
+        <a onClick={() => navigate("/career")} className={isActive("/career") ? 'active' : ''}>Career</a>
+      </li>
+    </ul>
+  </li>
+  <li className={`menu-item-has-children ${isActive("/service") || isActive("/software-devlopment") || isActive("/it-consulting") || isActive("/ui-ux") || isActive("/web-devlopment") || isActive("/mobile-app") || isActive("/custom-software") || isActive("/digital-marketing-page") || isActive("/game-devlopment") || isActive("/erp-solution") ? 'active' : ''}`}>
+    <a className="drop-down" onClick={() => navigate("/service")}>
+      Services
+    </a>
+    <i className="bi bi-plus dropdown-icon" />
+    <ul className="sub-menu">
+      <li>
+        <a onClick={() => navigate("/software-devlopment")} className={isActive("/software-devlopment") ? 'active' : ''}>
+          Software Development
+        </a>
+      </li>
+      <li>
+        <a onClick={() => navigate("/it-consulting")} className={isActive("/it-consulting") ? 'active' : ''}>
+          IT Consulting & Advisory
+        </a>
+      </li>
+      <li>
+        <a onClick={() => navigate("/ui-ux")} className={isActive("/ui-ux") ? 'active' : ''}>UI/UX Design</a>
+      </li>
+      <li>
+        <a onClick={() => navigate("/web-devlopment")} className={isActive("/web-devlopment") ? 'active' : ''}>
+          Web Development
+        </a>
+      </li>
+      <li>
+        <a onClick={() => navigate("/mobile-app")} className={isActive("/mobile-app") ? 'active' : ''}>
+          Mobile App Development
+        </a>
+      </li>
+      <li>
+        <a onClick={() => navigate("/custom-software")} className={isActive("/custom-software") ? 'active' : ''}>
+          Custom Software Development
+        </a>
+      </li>
+      <li>
+        <a onClick={() => navigate("/digital-marketing-page")} className={isActive("/digital-marketing-page") ? 'active' : ''}>
+          Digital Marketing
+        </a>
+      </li>
+      <li>
+        <a onClick={() => navigate("/game-development")} className={isActive("/game-development") ? 'active' : ''}>
+          Game Development
+        </a>
+      </li>
+      <li>
+        <a onClick={() => navigate("/erp-solution")} className={isActive("/erp-solution") ? 'active' : ''}>
+          ERP Solutions
+        </a>
+      </li>
+    </ul>
+  </li>
 
+<<<<<<< HEAD
                   <li>
                     <a onClick={() => navigate("/lifetankar")}>Life @ Tankar</a>
                   </li>
@@ -591,53 +658,52 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
+=======
+  <li className={`menu-item-has-children ${isActive("/case-study-details") || isActive("/portfolio-grid") ? 'active' : ''}`}>
+    <a className="drop-down">Our Work</a>
+    <i className="bi bi-plus dropdown-icon" />
+    <ul className="sub-menu">
+      <li>
+        <a onClick={() => navigate("/case-study-details")} className={isActive("/case-study-details") ? 'active' : ''}>
+          Case Studies
+        </a>
+      </li>
+      <li>
+        <a onClick={() => navigate("/portfolio-grid")} className={isActive("/portfolio-grid") ? 'active' : ''}>Portfolio</a>
+      </li>
+    </ul>
+  </li>
 
-              {/* <li className="menu-item-has-children">
-                <a
-                  onClick={() => navigate("/case-study1")}
-                  className="drop-down"
-                >
-                  Case Study
-                </a>
-                <i className="bi bi-plus dropdown-icon" />
-                <ul className="sub-menu">
-                  <li>
-                    <a onClick={() => navigate("/case-study1")}>
-                      Case Study Style 01
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/case-study2")}>
-                      Case Study Style 02
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/case-study-details")}>
-                      Case Study Details
-                    </a>
-                  </li>
-                </ul>
-              </li> */}
-              <li>
-                <a
-                  onClick={() => navigate("/blog-standard")}
-                  className="drop-down"
-                >
-                  Blogs
-                </a>
-              </li>
-              <li>
-                <a onClick={() => navigate("/industry")} className="drop-down">
-                  Industry
-                </a>
-              </li>
+  {/* Uncomment if needed */}
+  {/* 
+  <li className={`menu-item-has-children ${isActive('/case-study') ? 'active' : ''}`}>
+    <a onClick={() => navigate('/case-study')} className="drop-down">Case Study</a> 
+    ...
+  </li> 
+  */}
 
-              <li>
-                <a onClick={() => navigate("/contact")} className="drop-down">
-                  Contact
-                </a>
-              </li>
-            </ul>
+  <li className={`menu-item ${isActive("/blog-standard")  ? 'active' : ''}`}>
+    <a onClick={() => navigate("/blog-standard")} className={`drop-down ${isActive("/blog-standard") ? 'active' : ''}`}>
+      Blogs
+    </a>
+  </li>
+
+  <li className={`menu-item ${isActive("/industry")  ? 'active' : ''}`}>
+    <a onClick={() => navigate("/industry")} className={`drop-down ${isActive("/industry") ? 'active' : ''}`}>
+      Industry
+    </a>
+  </li>
+
+  <li className={`menu-item ${isActive("/contact")  ? 'active' : ''}`}> 
+    <a onClick={() => navigate("/contact")} className={`drop-down ${isActive("/contact") ? 'active' : ''}`}>
+      Contact
+    </a> 
+  </li>
+
+</ul>
+>>>>>>> d36a0a2 (navbar selection done)
+
+
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">
             <div className="right-sidebar-and-hotline-area">
