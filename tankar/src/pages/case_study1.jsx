@@ -14,6 +14,15 @@ import '../assets/css/style.css';
 import '../assets/css/style.css.map';
 import '../assets/css/swiper-bundle.min.css';
 import Component from './Component';
+import case1 from '../assets/img/innerpage/case-study-img1.jpg'
+import case2 from '../assets/img/innerpage/case-study-img1.jpg'
+import case3 from '../assets/img/innerpage/case-study-img1.jpg'
+import case4 from '../assets/img/innerpage/case-study-img1.jpg'
+import case5 from '../assets/img/innerpage/case-study-img1.jpg'
+import case6 from '../assets/img/innerpage/case-study-img1.jpg'
+import case7 from '../assets/img/innerpage/case-study-img1.jpg'
+import case8 from '../assets/img/innerpage/case-study-img1.jpg'
+import case9 from '../assets/img/innerpage/case-study-img1.jpg'
 const case_study1 = () => {
   return (
     <div>
@@ -71,12 +80,12 @@ const case_study1 = () => {
         >
           <div className="case-study-card style-2">
             <div className="card-img">
-              <img src="assets/img/innerpage/case-study-img1.jpg" alt="" />
+              <img src={case1} alt="" />
             </div>
             <div className="card-content">
-              <a href="case-study.html">Startup Company</a>
+              <a href="#">Startup Company</a>
               <h4>
-                <a href="case-study-details.html">
+                <a href="#">
                   Navigating Growth A Startup Agency Success Story.
                 </a>
               </h4>
@@ -85,7 +94,7 @@ const case_study1 = () => {
                 strategies employed, and the remarkable oun achieved through our
                 collaborative efforts.
               </p>
-              <a href="case-study-details.html" className="learn-more-btn">
+              <a href="#" className="learn-more-btn">
                 Learn MORE
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -107,12 +116,12 @@ const case_study1 = () => {
         >
           <div className="case-study-card style-2">
             <div className="card-img">
-              <img src="assets/img/innerpage/case-study-img2.jpg" alt="" />
+              <img src={case2} alt="" />
             </div>
             <div className="card-content">
-              <a href="case-study.html">Design Agency</a>
+              <a href="#">Design Agency</a>
               <h4>
-                <a href="case-study-details.html">
+                <a href="#">
                   Customer Centric Strategies Acquiring Retaining.
                 </a>
               </h4>
@@ -120,7 +129,7 @@ const case_study1 = () => {
                 This case study unveils the strategic roadmap, the technology
                 stack deployed, and the tangible benefits reaped by Egenslab.
               </p>
-              <a href="case-study-details.html" className="learn-more-btn">
+              <a href="#" className="learn-more-btn">
                 Learn MORE
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -142,12 +151,12 @@ const case_study1 = () => {
         >
           <div className="case-study-card style-2">
             <div className="card-img">
-              <img src="assets/img/innerpage/case-study-img3.jpg" alt="" />
+              <img src={case3} alt="" />
             </div>
             <div className="card-content">
-              <a href="case-study.html">Digital Transformation</a>
+              <a href="#">Digital Transformation</a>
               <h4>
-                <a href="case-study-details.html">
+                <a href="#">
                   Tech Breakthroughs Solution Pioneering Digital Age.
                 </a>
               </h4>
@@ -156,7 +165,7 @@ const case_study1 = () => {
                 strategies employed, and the remarkable oun achieved through our
                 collaborative efforts.
               </p>
-              <a href="case-study-details.html" className="learn-more-btn">
+              <a href="#" className="learn-more-btn">
                 Learn MORE
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -178,12 +187,12 @@ const case_study1 = () => {
         >
           <div className="case-study-card style-2">
             <div className="card-img">
-              <img src="assets/img/home1/case-study-img1.jpg" alt="" />
+              <img src={case4} alt="" />
             </div>
             <div className="card-content">
-              <a href="case-study.html">Startup Company</a>
+              <a href="#">Startup Company</a>
               <h4>
-                <a href="case-study-details.html">
+                <a href="#">
                   Navigating Growth A Startup Agency Success Story.
                 </a>
               </h4>
@@ -192,7 +201,7 @@ const case_study1 = () => {
                 strategies employed, and the remarkable oun achieved through our
                 collaborative efforts.
               </p>
-              <a href="case-study-details.html" className="learn-more-btn">
+              <a href="#" className="learn-more-btn">
                 Learn MORE
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -214,12 +223,12 @@ const case_study1 = () => {
         >
           <div className="case-study-card style-2">
             <div className="card-img">
-              <img src="assets/img/home1/case-study-img2.jpg" alt="" />
+              <img src={case5} alt="" />
             </div>
             <div className="card-content">
-              <a href="case-study.html">It Agency</a>
+              <a href="#">It Agency</a>
               <h4>
-                <a href="case-study-details.html">
+                <a href="#">
                   Digital Transformation Long Journey to Industry.
                 </a>
               </h4>
@@ -227,7 +236,7 @@ const case_study1 = () => {
                 This case study unveils the strategic roadmap, the technology
                 stack deployed, and the tangible benefits reaped by Egenslab.
               </p>
-              <a href="case-study-details.html" className="learn-more-btn">
+              <a href="#" className="learn-more-btn">
                 Learn MORE
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -249,12 +258,12 @@ const case_study1 = () => {
         >
           <div className="case-study-card style-2">
             <div className="card-img">
-              <img src="assets/img/home1/case-study-img3.jpg" alt="" />
+              <img src={case6} alt="" />
             </div>
             <div className="card-content">
-              <a href="case-study.html">Creative Agency</a>
+              <a href="#">Creative Agency</a>
               <h4>
-                <a href="case-study-details.html">
+                <a href="#">
                   Overcoming Expansion An Initial Agency's Triumph
                 </a>
               </h4>
@@ -263,7 +272,7 @@ const case_study1 = () => {
                 strategies employed, and the remarkable oun achieved through our
                 collaborative efforts.
               </p>
-              <a href="case-study-details.html" className="learn-more-btn">
+              <a href="#" className="learn-more-btn">
                 Learn MORE
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -285,12 +294,12 @@ const case_study1 = () => {
         >
           <div className="case-study-card style-2">
             <div className="card-img">
-              <img src="assets/img/home1/case-study-img4.jpg" alt="" />
+              <img src={case7} alt="" />
             </div>
             <div className="card-content">
-              <a href="case-study.html">Marketing</a>
+              <a href="#">Marketing</a>
               <h4>
-                <a href="case-study-details.html">
+                <a href="#">
                   A Business Consulting to Increase Marketing Analaytic
                 </a>
               </h4>
@@ -298,7 +307,7 @@ const case_study1 = () => {
                 This case study unveils the strategic roadmap, the technology
                 stack deployed, and the tangible benefits reaped by Egenslab.
               </p>
-              <a href="case-study-details.html" className="learn-more-btn">
+              <a href="#" className="learn-more-btn">
                 Learn MORE
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -320,12 +329,12 @@ const case_study1 = () => {
         >
           <div className="case-study-card style-2">
             <div className="card-img">
-              <img src="assets/img/innerpage/case-study-img4.jpg" alt="" />
+              <img src={case8} alt="" />
             </div>
             <div className="card-content">
-              <a href="case-study.html">Global Impact</a>
+              <a href="#">Global Impact</a>
               <h4>
-                <a href="case-study-details.html">
+                <a href="#">
                   Small Business Triumph Over coming Challenges.
                 </a>
               </h4>
@@ -334,7 +343,7 @@ const case_study1 = () => {
                 strategies employed, and the remarkable oun achieved through our
                 collaborative efforts.
               </p>
-              <a href="case-study-details.html" className="learn-more-btn">
+              <a href="#" className="learn-more-btn">
                 Learn MORE
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -356,12 +365,12 @@ const case_study1 = () => {
         >
           <div className="case-study-card style-2">
             <div className="card-img">
-              <img src="assets/img/innerpage/case-study-img5.jpg" alt="" />
+              <img src={case9} alt="" />
             </div>
             <div className="card-content">
-              <a href="case-study.html">Global Impact</a>
+              <a href="#">Global Impact</a>
               <h4>
-                <a href="case-study-details.html">
+                <a href="#">
                   Global Impact Scaling Across Operations Borders.
                 </a>
               </h4>
@@ -370,7 +379,7 @@ const case_study1 = () => {
                 strategies employed, and the remarkable oun achieved through our
                 collaborative efforts.
               </p>
-              <a href="case-study-details.html" className="learn-more-btn">
+              <a href="#" className="learn-more-btn">
                 Learn MORE
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -392,7 +401,7 @@ const case_study1 = () => {
           data-wow-delay="400ms"
           data-wow-duration="1500ms"
         >
-          <a href="package-grid.html" className="load-btn">
+          <a href="#" className="load-btn">
             <span>
               Load More
               <svg viewBox="0 0 13 20">
