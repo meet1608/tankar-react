@@ -576,95 +576,13 @@ const Navbar = () => {
     </ul>
   </li>
 
-<<<<<<< HEAD
-                  <li>
-                    <a onClick={() => navigate("/lifetankar")}>Life @ Tankar</a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/career")}>Career</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a className="drop-down" onClick={() => navigate("/service")}>
-                  Services
-                </a>
-                <i className="bi bi-plus dropdown-icon" />
-                <ul className="sub-menu">
-                  <li>
-                    <a onClick={() => navigate("/software-development")}>
-                      Software Development
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/it-consulting")}>
-                      IT Consulting & Advisory{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/ui-ux")}>UI/UX Design </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/web-development")}>
-                      Web Development
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/mobile-app")}>
-                      Mobile App Development
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/custom-software")}>
-                      Custom Software Development
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/digital-marketing-page")}>
-                      Digital Marketing
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/game-development")}>
-                      Game Development{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={() => navigate("/erp-solution")}>
-                      ERP Solutions{" "}
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a className="drop-down">Our Work</a>
-                <i className="bi bi-plus dropdown-icon" />
-                <ul className="sub-menu">
-                  <li>
-                    <a onClick={() => navigate("/case-study1")}>
-                      Case Studies
-                    </a>
-                    <ul className="sub-menu">
-                    <li>
-                    <a onClick={() => navigate("/case-study-details")}>
-                      Case Study Details
-                    </a>
-                  </li>
-                  </ul>
-                  </li>
-               
-                  <li>
-                    <a onClick={() => navigate("/portfolio-grid")}>Portfolio</a>
-                  </li>
-                </ul>
-              </li>
-=======
+
   <li className={`menu-item-has-children ${isActive("/case-study-details") || isActive("/portfolio-grid") ? 'active' : ''}`}>
     <a className="drop-down">Our Work</a>
     <i className="bi bi-plus dropdown-icon" />
     <ul className="sub-menu">
       <li>
-        <a onClick={() => navigate("/case-study-details")} className={isActive("/case-study-details") ? 'active' : ''}>
+        <a onClick={() => navigate("/case-study")} className={isActive("/case-study-details") ? 'active' : ''}>
           Case Studies
         </a>
       </li>
@@ -701,8 +619,6 @@ const Navbar = () => {
   </li>
 
 </ul>
->>>>>>> d36a0a2 (navbar selection done)
-
 
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">

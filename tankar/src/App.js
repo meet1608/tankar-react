@@ -6,7 +6,6 @@ import Service from './pages/service';
 import Service_details from './pages/service_details';
 import Case_study1 from './pages/case_study1';
 import Case_study2 from './pages/case_study2';
-import Case_study_details from './pages/case_study_details';
 import About from './pages/about';
 import Blog_standard from './pages/Blog_standard';
 import Cart from './pages/Cart';
@@ -53,6 +52,8 @@ import LifeAtTankar from './pages/LifeAtTankar';
 import Web_Development from './pages/Web_Devlopment';
 import Mobile_App_Development from './pages/Mobile_App_Devlopment';
 import Software_Development from './pages/Software_Devlopment';
+import CaseStudy from './pages/case_study';
+import CaseStudyDetails from './pages/CaseStudyDetails';
 
 
 function App() {
@@ -62,9 +63,9 @@ function App() {
       <Route path="/" element={<Index />} />
       <Route path="/service" element={<Service />} />
       
-      <Route path="/case-study1" element={<Case_study1 />} />
+      <Route path="/case-study" element={<CaseStudy />} />
       <Route path="/case-study2" element={<Case_study2 />} />
-      <Route path="/case-study-details" element={<Case_study_details />} />
+      <Route path="/case-study/:id" element={<CaseStudyDetails />} />
       <Route path="/about" element={<About />} />
       <Route path="/blog-standard" element={<Blog_standard />} />
       <Route path="/cart" element={<Cart />} />
