@@ -37,7 +37,7 @@ const Footer = () => {
                             </div>
                             <div className="menu-container">
                                 <ul className="widget-list">
-                                    <li><a href="service-details.html">Software Devlopment</a></li>
+                                    <li><a href="service-details.html">Software Development</a></li>
                                     <li><a href="service-details.html">IT Consulting & Advisory</a></li>
                                     <li><a href="service-details.html">Cyber Security</a></li>
                                     <li><a href="service-details.html">Web Development</a></li>
@@ -128,7 +128,7 @@ const Footer = () => {
                     </div>
                     <div className="content">
                         <span>Address</span>
-                        <h6><a href="https://maps.app.goo.gl/XjA1o15Juv7h27hn6">TRP Mall, C-3053, Bopal, Ahmedabad, Gujarat 380058</a></h6>
+                        <h6><a href="https://maps.app.goo.gl/XjA1o15Juv7h27hn6">C-3053, TRP Mall, Bopal, Ahmedabad, Gujarat - 380058</a></h6>
                     </div>
                 </div>
                 <div className="hotline-area">
@@ -148,7 +148,7 @@ const Footer = () => {
             </div>
             <div className="footer-bottom">
                 <div className="copyright-area">
-                    <p>Copyright © 2025  <a href="#">Tankar Solution.</a> All Rights Reserved. </p>
+                    <p>Copyright © 2025  <a href="#">Tankar Solutions Private Limited.</a> All Rights Reserved. </p>
                 </div>
                 <div className="footer-bottom-right">
                     <ul>

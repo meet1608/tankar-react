@@ -44,10 +44,10 @@ const Navbar = () => {
       label: "About Us",
       path: "/about",
       subItems: [
-        { label: "Why Us", path: "/why-us" },
-        { label: "Case Study", path: "/case-study-details" },
+        { label: "Company Overview", path: "/about" },
+        { label: "Our Team", path: "/team2" },
+        { label: "Life @ Tankar", path: "/lifetankar" },
         { label: "Career", path: "/career" },
-        { label: "LifeAtTankar", path: "/lifetankar" },
       ],
     },
     {
@@ -66,8 +66,15 @@ const Navbar = () => {
       ],
     },
     {
-      label: "Portfolio",
-      path: "/portfolio-grid",
+      label: "Our Work",
+      subItems: [
+        { label: "Our Work", path: "/case-study-details" },
+        { label: "Portfolio", path: "/portfolio-grid" },
+      ],
+    },
+    {
+      label: "Blogs",
+      path: "/blog-standard",
     },
 
     // {
@@ -78,47 +85,10 @@ const Navbar = () => {
     //     { label: "Case Study Details", path: "/case-study-details" }
     //   ]
     // },
+
     {
-      label: "Blog",
-      subItems: [{ label: "Blog Standard", path: "/blog-standard" }],
-    },
-    {
-      label: "Pages",
-      subItems: [
-        // { label: "About", path: "/about" },
-        // { label: "Why Us", path: "/why-us" },
-        { label: "Industry", path: "/industry" },
-        // {
-        //   label: "Portfolio",
-        //   subItems: [
-        //     { label: "Portfolio Grid", path: "/portfolio-grid" },
-        //     { label: "Portfolio Masonary", path: "/portfolio-masonary" },
-        //     { label: "Portfolio Info Flow", path: "/portfolio-info-flow" },
-        //     { label: "Portfolio List", path: "/portfolio-list" },
-        //     { label: "Portfolio Details", path: "/portfolio-details" }
-        //   ]
-        // },
-        {
-          label: "Our Team",
-          subItems: [
-            { label: "Team Style 01", path: "/team1" },
-            { label: "Team Style 02", path: "/team2" },
-          ],
-        },
-        { label: "Features", path: "/features" },
-        {
-          label: "Shop",
-          subItems: [
-            { label: "Shop", path: "/shop" },
-            { label: "Product Details", path: "/product-details" },
-            { label: "Cart", path: "/cart" },
-            { label: "CheckOut", path: "/checkout" },
-          ],
-        },
-        { label: "Pricing Plan", path: "/pricing-plan" },
-        { label: "Faqs", path: "/faqs" },
-        { label: "Error", path: "/error" },
-      ],
+      label: "Industry",
+      path: "/industry",
     },
     {
       label: "Contact",
@@ -443,8 +413,7 @@ const Navbar = () => {
                       </div>
                       <div className="contact">
                         <h6>
-                          TRP Mall, East Court, C-3053, Bopal, Ahmedabad,
-                          Gujarat 380058
+                          C-3053, TRP Mall, Bopal, Ahmedabad, Gujarat - 380058
                         </h6>
                       </div>
                     </li>
@@ -602,13 +571,10 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li>
-                    <a onClick={() => navigate("/portfolio-grid")}>
-                      Portfolio
-                    </a>
+                    <a onClick={() => navigate("/portfolio-grid")}>Portfolio</a>
                   </li>
                 </ul>
               </li>
-              
 
               {/* <li className="menu-item-has-children">
                 <a
@@ -637,7 +603,10 @@ const Navbar = () => {
                 </ul>
               </li> */}
               <li>
-                <a onClick={() => navigate("/blog-standard")} className="drop-down">
+                <a
+                  onClick={() => navigate("/blog-standard")}
+                  className="drop-down"
+                >
                   Blogs
                 </a>
               </li>
@@ -646,8 +615,7 @@ const Navbar = () => {
                   Industry
                 </a>
               </li>
-              
-             
+
               <li>
                 <a onClick={() => navigate("/contact")} className="drop-down">
                   Contact
@@ -673,7 +641,7 @@ const Navbar = () => {
                 <div className="content">
                   <span>Any Question</span>
                   <h6>
-                    <a href="tel:+990737621432">+990-737 621 432</a>
+                    <a href="tel:+919909388561">+91 99093 88561</a>
                   </h6>
                 </div>
               </div>
