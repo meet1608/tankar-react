@@ -46,10 +46,10 @@ const Blog_details2 = () => {
                 <li>
                   <a href="index.html">Home</a>
                 </li>
-                <li>Revolutionizing Mobile and Web Development: Tankar Solution’s Expertise</li>
+                <li>Revolutionizing Mobile and Web Development: Tankar Solutions Private Limited’s Expertise</li>
               </ul>
               <h1>
-              Tankar Solution pioneers user-centric mobile and web development for performance.
+              Tankar Solutions Private Limited pioneers user-centric mobile and web development for performance.
               </h1>
             </div>
             <div className="scroll-down-btn">
@@ -125,12 +125,12 @@ const Blog_details2 = () => {
         <div className="col-lg-8">
           <div className="blog-details-content mb-0">
             <p className="first-para">
-            In today's fast-paced digital landscape, businesses need high-performing mobile and web applications to stay ahead. Tankar Solution specializes in delivering cutting-edge development services that combine innovation, functionality, and user-centric design. Our expert team leverages the latest technologies, such as AI-powered automation, cloud-based solutions, and responsive frameworks, to create scalable applications that meet the evolving demands of businesses across industries. Whether it’s an interactive mobile app or a feature-rich website, we ensure seamless integration, top-tier security, and an exceptional user experience.
+            In today's fast-paced digital landscape, businesses need high-performing mobile and web applications to stay ahead. Tankar Solutions Private Limited specializes in delivering cutting-edge development services that combine innovation, functionality, and user-centric design. Our expert team leverages the latest technologies, such as AI-powered automation, cloud-based solutions, and responsive frameworks, to create scalable applications that meet the evolving demands of businesses across industries. Whether it’s an interactive mobile app or a feature-rich website, we ensure seamless integration, top-tier security, and an exceptional user experience.
 
 
             </p>
             <p className="second-para">
-            At Tankar Solution, we follow an agile development approach, enabling faster deployment and adaptability to market changes. Our web development solutions prioritize speed, SEO optimization, and cross-platform compatibility, ensuring maximum reach and engagement. For mobile applications, we craft intuitive and high-performance apps for both iOS and Android, tailored to business objectives. With a focus on innovation and precision, we empower businesses to enhance their digital presence and achieve long-term success.
+            At Tankar Solutions Private Limited, we follow an agile development approach, enabling faster deployment and adaptability to market changes. Our web development solutions prioritize speed, SEO optimization, and cross-platform compatibility, ensuring maximum reach and engagement. For mobile applications, we craft intuitive and high-performance apps for both iOS and Android, tailored to business objectives. With a focus on innovation and precision, we empower businesses to enhance their digital presence and achieve long-term success.
             </p>
             <blockquote className="text-center mb-50">
               <p className="blockquote-text">
@@ -155,7 +155,7 @@ const Blog_details2 = () => {
             <h3>Unveiling Digital Excellence
             </h3>
             <p>
-            Discover how Tankar Solution is redefining mobile and web development with innovative technologies. Our expertise in crafting high-performance applications ensures seamless user experiences, scalability, and security. Stay ahead with our tailored solutions designed for modern businesses.
+            Discover how Tankar Solutions Private Limited is redefining mobile and web development with innovative technologies. Our expertise in crafting high-performance applications ensures seamless user experiences, scalability, and security. Stay ahead with our tailored solutions designed for modern businesses.
 
 
             </p>
@@ -178,16 +178,7 @@ const Blog_details2 = () => {
             <h3>Exploring Our Development Mastery
             </h3>
             <p>
-            Tankar Solution specializes in building robust mobile and web applications that empower businesses to thrive in the digital world. With a focus on cutting-edge frameworks, intuitive UI/UX, and agile development practices, we deliver solutions that drive success and efficiency.
-
-
-
-
-
-
-
-
-            </p>
+            Tankar Solutions Private Limited specializes in building robust mobile and web applications that empower businesses to thrive in the digital world. With a focus on cutting-edge frameworks, intuitive UI/UX, and agile development practices, we deliver solutions that drive success and efficiency.</p>
             <ul>
               <li>
                 <svg
@@ -430,7 +421,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    How Tankar Solution is Transforming Businesses with Cutting-Edge IT Services
+                    How Tankar Solutions Private Limited is Transforming Businesses with Cutting-Edge IT Services
                     </a>
                   </h6>
                 </div>
@@ -448,7 +439,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    Revolutionizing Mobile and Web Development: Tankar Solution’s Expertise                    </a>
+                    Revolutionizing Mobile and Web Development: Tankar Solutions Private Limited’s Expertise                    </a>
                   </h6>
                 </div>
               </div>
@@ -465,7 +456,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    The Role of UI/UX in Digital Success: Tankar Solution’s Design Approach                    </a>
+                    The Role of UI/UX in Digital Success: Tankar Solutions Private Limited’s Design Approach                    </a>
                   </h6>
                 </div>
               </div>

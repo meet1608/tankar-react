@@ -49,7 +49,7 @@ const LifeAtTankar = () => {
             </h1>
             <div className="banner-content-and-btn">
               <p>
-              At Tankar Solutions, innovation meets passion. Our journey began with a simple idea and a shared dream—to push the boundaries of technology and creativity. Founded in recent years, we embarked on a mission to bring cutting-edge innovations and introduce transformative digital solutions.
+              At Tankar Solutions Private Limited, innovation meets passion. Our journey began with a simple idea and a shared dream—to push the boundaries of technology and creativity. Founded in recent years, we embarked on a mission to bring cutting-edge innovations and introduce transformative digital solutions.
               </p>
               <div className="banner-btn">
                 <a href="#">
@@ -152,7 +152,7 @@ const LifeAtTankar = () => {
               Where Innovation Meets Passion
               </h2>
               <p>
-              At Tankar Solutions, we are more than just a technology company—we are a team of innovators, problem-solvers, and creative thinkers. We believe in pushing boundaries and working with young talents to deliver groundbreaking solutions.
+              At Tankar Solutions Private Limited, we are more than just a technology company—we are a team of innovators, problem-solvers, and creative thinkers. We believe in pushing boundaries and working with young talents to deliver groundbreaking solutions.
               </p>
               <p>From a simple idea to a thriving IT powerhouse, our journey has been fueled by dedication, creativity, and the drive to make a difference.</p>
             </div>

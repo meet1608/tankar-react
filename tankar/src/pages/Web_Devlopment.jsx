@@ -16,7 +16,7 @@ import '../assets/css/swiper-bundle.min.css';
 import Software_img1 from '../assets/img/Services/Web Development1.jpg';
 import Software_img2 from '../assets/img/Services/Web Development2.jpg';
 import Component from './Component';
-const service_details = () => {
+const Web_Development = () => {
   return (
     <div>
       <Navbar />
@@ -76,7 +76,7 @@ const service_details = () => {
               <h2>
                 Web <span>Development</span>
               </h2>
-              <p>At Tankar Solution, we craft dynamic and high-performing web solutions tailored to your business needs. From sleek corporate websites to complex web applications, we harness the latest technologies to create seamless digital experiences. Our team is dedicated to innovation, ensuring your online presence is powerful, scalable, and future-ready.</p>
+              <p>At Tankar Solutions Private Limited, we craft dynamic and high-performing web solutions tailored to your business needs. From sleek corporate websites to complex web applications, we harness the latest technologies to create seamless digital experiences. Our team is dedicated to innovation, ensuring your online presence is powerful, scalable, and future-ready.</p>
               <ul className="key-features">
                 <li>
                   <svg
@@ -463,7 +463,7 @@ const service_details = () => {
                 <i className="bi bi-arrow-left" />
               </div>
               <div className="content">
-                <p>Web Devlopment Steps</p>
+                <p>Web Development Steps</p>
               </div>
               <div className="slider-btn home2-process-next">
                 <i className="bi bi-arrow-right" />
@@ -822,4 +822,4 @@ const service_details = () => {
   )
 }
 
-export default service_details;
+export default Web_Development;

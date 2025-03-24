@@ -95,7 +95,7 @@ const Service_details = () => {
                       <li>
                         <a href="index.html">Home</a>
                       </li>
-                      <li>Custom Software Devlopment</li>
+                      <li>Custom Software Development</li>
                     </ul>
                     <h1>
                       We are a IT service Company working with talents on

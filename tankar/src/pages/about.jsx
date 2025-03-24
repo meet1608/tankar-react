@@ -1494,7 +1494,7 @@ const About = () => {
               </div> */}
               <h4>
                 <a href="blog-details.html">
-                Revolutionizing Mobile and Web Development: Tankar Solution’s Expertise                </a>
+                Revolutionizing Mobile and Web Development: Tankar Solutions Private Limited’s Expertise</a>
               </h4>
               <a href="blog-details.html" className="read-more-btn">
                 Read More
@@ -1543,7 +1543,7 @@ const About = () => {
               </div> */}
               <h4>
                 <a href="blog-details.html">
-                The Role of UI/UX in Digital Success: Tankar Solution’s Design Approach                </a>
+                The Role of UI/UX in Digital Success: Tankar Solutions Private Limited’s Design Approach                </a>
               </h4>
               <a href="blog-details.html" className="read-more-btn">
                 Read More

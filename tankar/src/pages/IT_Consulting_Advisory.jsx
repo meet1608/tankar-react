@@ -76,7 +76,7 @@ const service_details = () => {
               <h2>
               IT Consulting <span>& Advisory</span>
               </h2>
-              <p>Empowering businesses with strategic technology solutions, Tankar Solution bridges the gap between innovation and operational excellence. Our expert consultants provide tailored IT strategies that drive efficiency, security, and scalability. From startups to enterprises, we help organizations navigate the complexities of the digital landscape with confidence.</p>
+              <p>Empowering businesses with strategic technology solutions, Tankar Solutions Private Limited bridges the gap between innovation and operational excellence. Our expert consultants provide tailored IT strategies that drive efficiency, security, and scalability. From startups to enterprises, we help organizations navigate the complexities of the digital landscape with confidence.</p>
               <ul className="key-features">
                 <li>
                   <svg

@@ -12,7 +12,7 @@ export const services = [
     description: "We build robust, scalable, and high-performance software tailored to your business needs, leveraging the latest technologies for seamless operations.",
     icon: Service1, 
     delay: "200ms",
-    path:"/software-devlopment"
+    path:"/software-development"
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ export const services = [
     description: "Develop fast, responsive, and SEO-friendly websites using cutting-edge technologies to provide an engaging online experience for your users.",
     icon: Service4,
     delay: "800ms",
-    path:"/web-devlopment"
+    path:"/web-development"
   },
   {
     id: 5,

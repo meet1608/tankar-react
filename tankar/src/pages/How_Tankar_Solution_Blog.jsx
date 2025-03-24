@@ -48,10 +48,10 @@ const Blog_details2 = () => {
                 <li>
                   <a href="index.html">Home</a>
                 </li>
-                <li>How Tankar Solution is Transforming Businesses with Cutting-Edge IT Services</li>
+                <li>How Tankar Solutions Private Limited is Transforming Businesses with Cutting-Edge IT Services</li>
               </ul>
               <h1>
-              Tankar Solution drives innovation with IT solutions for business digital growth.
+              Tankar Solutions Private Limited drives innovation with IT solutions for business digital growth.
               </h1>
             </div>
             <div className="scroll-down-btn">
@@ -127,10 +127,10 @@ const Blog_details2 = () => {
         <div className="col-lg-8">
           <div className="blog-details-content mb-0">
             <p className="first-para">
-            In today’s fast-paced digital landscape, businesses need innovative and reliable IT solutions to stay ahead. Tankar Solution is at the forefront of this transformation, providing world-class IT services that streamline operations, enhance security, and drive efficiency. From cloud computing and data analytics to AI-driven automation and custom software development, Tankar Solution helps businesses leverage the latest technologies to improve productivity and gain a competitive edge. With a client-centric approach, the company tailors IT strategies to meet the unique needs of enterprises across various industries.
+            In today’s fast-paced digital landscape, businesses need innovative and reliable IT solutions to stay ahead. Tankar Solutions Private Limited is at the forefront of this transformation, providing world-class IT services that streamline operations, enhance security, and drive efficiency. From cloud computing and data analytics to AI-driven automation and custom software development, Tankar Solutions Private Limited helps businesses leverage the latest technologies to improve productivity and gain a competitive edge. With a client-centric approach, the company tailors IT strategies to meet the unique needs of enterprises across various industries.
             </p>
             <p className="second-para">
-            Beyond technology implementation, Tankar Solution excels in IT consulting, helping businesses align their digital transformation goals with market demands. Their expertise in cybersecurity ensures that organizations are protected against evolving cyber threats, while their mobile and web development services create high-performing, user-friendly platforms. By integrating advanced IT solutions, Tankar Solution empowers businesses to scale, innovate, and achieve long-term success in the digital era.
+            Beyond technology implementation, Tankar Solutions Private Limited excels in IT consulting, helping businesses align their digital transformation goals with market demands. Their expertise in cybersecurity ensures that organizations are protected against evolving cyber threats, while their mobile and web development services create high-performing, user-friendly platforms. By integrating advanced IT solutions, Tankar Solutions Private Limited empowers businesses to scale, innovate, and achieve long-term success in the digital era.
             </p>
             <blockquote className="text-center mb-50">
               <p className="blockquote-text">
@@ -155,7 +155,7 @@ const Blog_details2 = () => {
             <h3>Unveiling Digital Transformation
             </h3>
             <p>
-            Explore how Tankar Solution is revolutionizing businesses with its advanced IT services. Our expertise in mobile app development, web solutions, and IT consulting empowers enterprises to optimize operations and drive growth. Stay ahead in the digital landscape with our tailored, cutting-edge solutions.
+            Explore how Tankar Solutions Private Limited is revolutionizing businesses with its advanced IT services. Our expertise in mobile app development, web solutions, and IT consulting empowers enterprises to optimize operations and drive growth. Stay ahead in the digital landscape with our tailored, cutting-edge solutions.
 
 
             </p>
@@ -178,7 +178,7 @@ const Blog_details2 = () => {
             <h3>Exploring Our IT Innovations
             </h3>
             <p>
-            Discover the impact of Tankar Solution’s services in transforming businesses globally. From UI/UX enhancements to seamless software development, our solutions are designed to boost efficiency, security, and scalability. Experience the power of technology-driven success with us.
+            Discover the impact of Tankar Solutions Private Limited’s services in transforming businesses globally. From UI/UX enhancements to seamless software development, our solutions are designed to boost efficiency, security, and scalability. Experience the power of technology-driven success with us.
             </p>
             <ul>
               <li>
@@ -262,7 +262,7 @@ const Blog_details2 = () => {
               <ul className="category-list">
                 <li>
                   <a href="blog-sidebar.html">
-                    <span onClick={() => navigate("/software-devlopment")}>
+                    <span onClick={() => navigate("/software-development")}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={13}
@@ -323,7 +323,7 @@ const Blog_details2 = () => {
                 </li>
                 <li>
                   <a href="blog-sidebar.html">
-                    <span onClick={() => navigate("/web-devlopment")}>
+                    <span onClick={() => navigate("/web-development")}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={13}
@@ -456,7 +456,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    How Tankar Solution is Transforming Businesses with Cutting-Edge IT Services
+                    How Tankar Solutions Private Limited is Transforming Businesses with Cutting-Edge IT Services
                     </a>
                   </h6>
                 </div>
@@ -474,7 +474,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    Revolutionizing Mobile and Web Development: Tankar Solution’s Expertise                    </a>
+                    Revolutionizing Mobile and Web Development: Tankar Solutions Private Limited’s Expertise</a>
                   </h6>
                 </div>
               </div>
@@ -491,7 +491,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    The Role of UI/UX in Digital Success: Tankar Solution’s Design Approach                    </a>
+                    The Role of UI/UX in Digital Success: Tankar Solutions Private Limited’s Design Approach                    </a>
                   </h6>
                 </div>
               </div>

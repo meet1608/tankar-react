@@ -46,10 +46,10 @@ const Blog_details2 = () => {
                 <li>
                   <a href="index.html">Home</a>
                 </li>
-                <li>Strengthening Cybersecurity: How Tankar Solution Protects Your Digital Assets</li>
+                <li>Strengthening Cybersecurity: How Tankar Solutions Private Limited Protects Your Digital Assets</li>
               </ul>
               <h1>
-              Tankar Solution provides robust cybersecurity to protect businesses from threats.
+              Tankar Solutions Private Limited provides robust cybersecurity to protect businesses from threats.
               </h1>
             </div>
             <div className="scroll-down-btn">
@@ -125,12 +125,12 @@ const Blog_details2 = () => {
         <div className="col-lg-8">
           <div className="blog-details-content mb-0">
             <p className="first-para">
-            In today’s digital world, cyber threats are becoming increasingly sophisticated, putting businesses at constant risk of data breaches, ransomware attacks, and identity theft. At Tankar Solution, we provide comprehensive cybersecurity solutions designed to safeguard your critical digital assets. Our services include advanced threat detection, real-time monitoring, and proactive risk management to prevent potential security breaches before they occur. By implementing multi-layered security measures such as firewalls, encryption, and AI-driven threat intelligence, we ensure that businesses remain secure against ever-evolving cyber risks.
+            In today’s digital world, cyber threats are becoming increasingly sophisticated, putting businesses at constant risk of data breaches, ransomware attacks, and identity theft. At Tankar Solutions Private Limited, we provide comprehensive cybersecurity solutions designed to safeguard your critical digital assets. Our services include advanced threat detection, real-time monitoring, and proactive risk management to prevent potential security breaches before they occur. By implementing multi-layered security measures such as firewalls, encryption, and AI-driven threat intelligence, we ensure that businesses remain secure against ever-evolving cyber risks.
 
 
             </p>
             <p className="second-para">
-            Beyond just security tools, Tankar Solution focuses on educating businesses and employees on best cybersecurity practices. We conduct regular security audits, compliance assessments, and employee training programs to create a culture of cybersecurity awareness. Our expert team continuously updates security protocols to stay ahead of emerging threats, providing businesses with the confidence to operate securely in the digital landscape. Partner with us to fortify your business against cyber threats today!
+            Beyond just security tools, Tankar Solutions Private Limited focuses on educating businesses and employees on best cybersecurity practices. We conduct regular security audits, compliance assessments, and employee training programs to create a culture of cybersecurity awareness. Our expert team continuously updates security protocols to stay ahead of emerging threats, providing businesses with the confidence to operate securely in the digital landscape. Partner with us to fortify your business against cyber threats today!
             </p>
             <blockquote className="text-center mb-50">
               <p className="blockquote-text">
@@ -155,7 +155,7 @@ const Blog_details2 = () => {
             <h3>Unveiling Cybersecurity Excellence
             </h3>
             <p>
-            Explore how Tankar Solution is fortifying businesses against cyber threats with state-of-the-art security solutions. Our proactive approach, advanced encryption, and threat detection systems ensure your digital assets remain protected from evolving cyber risks.
+            Explore how Tankar Solutions Private Limited is fortifying businesses against cyber threats with state-of-the-art security solutions. Our proactive approach, advanced encryption, and threat detection systems ensure your digital assets remain protected from evolving cyber risks.
 
 
             </p>
@@ -178,7 +178,7 @@ const Blog_details2 = () => {
             <h3>Exploring Our Cybersecurity Strategies
             </h3>
             <p>
-            Discover how Tankar Solution’s comprehensive cybersecurity measures safeguard sensitive data and IT infrastructure. From risk assessments to real-time monitoring, our expert-driven solutions help businesses stay resilient against cyberattacks and ensure seamless operations.
+            Discover how Tankar Solutions Private Limited’s comprehensive cybersecurity measures safeguard sensitive data and IT infrastructure. From risk assessments to real-time monitoring, our expert-driven solutions help businesses stay resilient against cyberattacks and ensure seamless operations.
 
 
 
@@ -425,7 +425,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    How Tankar Solution is Transforming Businesses with Cutting-Edge IT Services
+                    How Tankar Solutions Private Limited is Transforming Businesses with Cutting-Edge IT Services
                     </a>
                   </h6>
                 </div>
@@ -443,7 +443,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    Revolutionizing Mobile and Web Development: Tankar Solution’s Expertise                    </a>
+                    Revolutionizing Mobile and Web Development: Tankar Solutions Private Limited’s Expertise                    </a>
                   </h6>
                 </div>
               </div>
@@ -460,7 +460,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    The Role of UI/UX in Digital Success: Tankar Solution’s Design Approach                    </a>
+                    The Role of UI/UX in Digital Success: Tankar Solutions Private Limited’s Design Approach                    </a>
                   </h6>
                 </div>
               </div>

@@ -331,7 +331,7 @@ const Index = () => {
                 About US
               </h2>
               <p>
-              At Tankar Solution Private Limited, we are dedicated to transforming businesses with cutting-edge IT solutions that drive efficiency, security, and growth. Specializing in software development, cybersecurity, ERP solutions, cloud computing, and IT consulting, we help organizations streamline operations and embrace digital transformation. Our expert team delivers tailored, scalable, and secure technology solutions, ensuring seamless integration and business continuity. With a strong focus on innovation, reliability, and customer satisfaction, we empower businesses to stay ahead in an ever-evolving digital landscape. At Tankar Solution, we don’t just provide IT services—we create future-ready solutions that enable businesses to thrive.</p>
+              At Tankar Solution Private Limited, we are dedicated to transforming businesses with cutting-edge IT solutions that drive efficiency, security, and growth. Specializing in software development, cybersecurity, ERP solutions, cloud computing, and IT consulting, we help organizations streamline operations and embrace digital transformation. Our expert team delivers tailored, scalable, and secure technology solutions, ensuring seamless integration and business continuity. With a strong focus on innovation, reliability, and customer satisfaction, we empower businesses to stay ahead in an ever-evolving digital landscape. At Tankar Solutions Private Limited, we don’t just provide IT services—we create future-ready solutions that enable businesses to thrive.</p>
             </div>
           </div>
         </div>
@@ -1544,7 +1544,7 @@ const Index = () => {
                 </g>
               </svg>
             </span>
-            <h2>The Tankar Solution Private Lited</h2>
+            <h2>The Tankar Solutions Private Limited</h2>
           </div>
         </div>
       </div>
@@ -1834,7 +1834,7 @@ const Index = () => {
               </span>
               <h2>Happy Client Stories</h2>
               <p>
-              Our happy clients trust Tankar Solution for innovative IT services, seamless integration, and robust security. Their success stories highlight our commitment to delivering cutting-edge solutions that drive growth and efficiency.
+              Our happy clients trust Tankar Solutions Private Limited for innovative IT services, seamless integration, and robust security. Their success stories highlight our commitment to delivering cutting-edge solutions that drive growth and efficiency.
 
 
 
@@ -1929,7 +1929,7 @@ const Index = () => {
                   <div className="testimonial-card3 style-2">
                     <span>Great Digital Marketing!</span>
                     <p>
-                    "Tankar Solution’s expert team provided us with seamless software development and integration services. Their innovative approach and commitment to excellence have greatly enhanced our business operations."
+                    "Tankar Solutions Private Limited’s expert team provided us with seamless software development and integration services. Their innovative approach and commitment to excellence have greatly enhanced our business operations."
                     </p>
                     <div className="author-and-logo-area">
                       <div className="author-area">
@@ -1957,7 +1957,7 @@ const Index = () => {
                   <div className="testimonial-card3 style-2">
                     <span>Great Consulting!</span>
                     <p>
-                    "Tankar Solution transformed our IT infrastructure with their cutting-edge solutions. Their expertise in cybersecurity and cloud integration has significantly improved our operations and data security."
+                    "Tankar Solutions Private Limited transformed our IT infrastructure with their cutting-edge solutions. Their expertise in cybersecurity and cloud integration has significantly improved our operations and data security."
 
 
                     </p>
@@ -1987,7 +1987,7 @@ const Index = () => {
                   <div className="testimonial-card3 style-2">
                     <span>Great Digital Marketing!</span>
                     <p>
-                    "The team at Tankar Solution is highly professional and responsive. Their ERP solutions streamlined our workflow, boosting efficiency and reducing operational costs. Highly recommended!"
+                    "The team at Tankar Solutions Private Limited is highly professional and responsive. Their ERP solutions streamlined our workflow, boosting efficiency and reducing operational costs. Highly recommended!"
 
 
                     </p>
@@ -2017,7 +2017,7 @@ const Index = () => {
                   <div className="testimonial-card3 style-2">
                     <span>Great Consulting!</span>
                     <p>
-                    "From software development to IT consulting, Tankar Solution has been a game-changer for our company. Their innovative approach and 24/7 support make them a trusted technology partner."
+                    "From software development to IT consulting, Tankar Solutions Private Limited has been a game-changer for our company. Their innovative approach and 24/7 support make them a trusted technology partner."
                     </p>
                     <div className="author-and-logo-area">
                       <div className="author-area">
@@ -2126,7 +2126,7 @@ const Index = () => {
               </div> */}
               <h4>
                 <a href="blog-details.html">
-                How Tankar Solution is Transforming Businesses with Cutting-Edge IT Services                </a>
+                How Tankar Solutions Private Limited is Transforming Businesses with Cutting-Edge IT Services                </a>
               </h4>
               <a href="blog-details.html" className="read-more-btn">
                 Read More
@@ -2184,7 +2184,7 @@ const Index = () => {
               </div> */}
               <h4>
                 <a href="blog-details.html">
-                Revolutionizing Mobile and Web Development: Tankar Solution’s Expertise                </a>
+                Revolutionizing Mobile and Web Development: Tankar Solutions Private Limited’s Expertise                </a>
               </h4>
               <a href="blog-details.html" className="read-more-btn">
                 Read More
@@ -2242,7 +2242,7 @@ const Index = () => {
               </div> */}
               <h4>
                 <a href="blog-details.html">
-                The Role of UI/UX in Digital Success: Tankar Solution’s Design Approach                </a>
+                The Role of UI/UX in Digital Success: Tankar Solutions Private Limited’s Design Approach                </a>
               </h4>
               <a href="blog-details.html" className="read-more-btn">
                 Read More

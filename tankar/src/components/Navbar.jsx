@@ -54,10 +54,10 @@ const Navbar = () => {
       label: "Services",
       subItems: [
         { label: "Service style 01", path: "/service" },
-        { label: "Software Development", path: "/software-devlopment" },
+        { label: "Software Development", path: "/software-development" },
         { label: "IT Consulting & Advisory", path: "/it-consulting" },
         { label: "UI/UX Design", path: "/ui-ux" },
-        { label: "Web Development", path: "/web-devlopment" },
+        { label: "Web Development", path: "/web-development" },
         { label: "Mobile App Development", path: "/mobile-app" },
         { label: "Custom Software Development", path: "/custom-software" },
         { label: "Digital Marketing", path: "/digital-marketing-page" },
@@ -517,7 +517,7 @@ const Navbar = () => {
                 <i className="bi bi-plus dropdown-icon" />
                 <ul className="sub-menu">
                   <li>
-                    <a onClick={() => navigate("/software-devlopment")}>
+                    <a onClick={() => navigate("/software-development")}>
                       Software Development
                     </a>
                   </li>
@@ -530,7 +530,7 @@ const Navbar = () => {
                     <a onClick={() => navigate("/ui-ux")}>UI/UX Design </a>
                   </li>
                   <li>
-                    <a onClick={() => navigate("/web-devlopment")}>
+                    <a onClick={() => navigate("/web-development")}>
                       Web Development
                     </a>
                   </li>

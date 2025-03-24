@@ -46,10 +46,10 @@ const Blog_details2 = () => {
                 <li>
                   <a href="index.html">Home</a>
                 </li>
-                <li>The Future of IT Consulting: How Tankar Solution Helps Companies Stay Ahead</li>
+                <li>The Future of IT Consulting: How Tankar Solutions Private Limited Helps Companies Stay Ahead</li>
               </ul>
               <h1>
-              Tankar Solution’s IT consulting keeps businesses competitive in evolving technology.
+              Tankar Solutions Private Limited’s IT consulting keeps businesses competitive in evolving technology.
               </h1>
             </div>
             <div className="scroll-down-btn">
@@ -125,14 +125,14 @@ const Blog_details2 = () => {
         <div className="col-lg-8">
           <div className="blog-details-content mb-0">
             <p className="first-para">
-            In today’s fast-evolving digital landscape, businesses need strategic IT consulting to stay competitive and future-proof their operations. Tankar Solution provides cutting-edge IT consulting services, helping companies navigate technological advancements, optimize workflows, and enhance cybersecurity. By leveraging cloud solutions, AI-driven automation, and data analytics, Tankar Solution ensures that businesses can streamline operations and achieve long-term growth. Their team of experts offers tailored strategies that align with each client’s unique goals, ensuring seamless integration of new technologies.
+            In today’s fast-evolving digital landscape, businesses need strategic IT consulting to stay competitive and future-proof their operations. Tankar Solutions Private Limited provides cutting-edge IT consulting services, helping companies navigate technological advancements, optimize workflows, and enhance cybersecurity. By leveraging cloud solutions, AI-driven automation, and data analytics, Tankar Solutions Private Limited ensures that businesses can streamline operations and achieve long-term growth. Their team of experts offers tailored strategies that align with each client’s unique goals, ensuring seamless integration of new technologies.
             </p>
             <p className="second-para">
-            As technology continues to evolve, companies must stay ahead of industry trends to maintain efficiency and security. Tankar Solution specializes in IT advisory services that help businesses adapt to digital transformation, strengthen infrastructure, and mitigate risks. From software development and system upgrades to IT security and compliance, they provide end-to-end consulting that drives innovation. With Tankar Solution as a trusted IT partner, businesses can confidently embrace the future of technology.
+            As technology continues to evolve, companies must stay ahead of industry trends to maintain efficiency and security. Tankar Solutions Private Limited specializes in IT advisory services that help businesses adapt to digital transformation, strengthen infrastructure, and mitigate risks. From software development and system upgrades to IT security and compliance, they provide end-to-end consulting that drives innovation. With Tankar Solutions Private Limited as a trusted IT partner, businesses can confidently embrace the future of technology.
             </p>
             <blockquote className="text-center mb-50">
               <p className="blockquote-text">
-              "Tankar Solution’s IT consulting services provided us with strategic insights that boosted our business efficiency."
+              "Tankar Solutions Private Limited’s IT consulting services provided us with strategic insights that boosted our business efficiency."
               </p>
               <h3 className="blockquote-author">Neha Verma</h3>
               <svg
@@ -153,7 +153,7 @@ const Blog_details2 = () => {
             <h3>Unveiling IT Excellence
             </h3>
             <p>
-            Explore how Tankar Solution is redefining IT consulting with innovative strategies and cutting-edge solutions. Our expert-driven approach ensures businesses stay ahead in an ever-evolving digital world by optimizing technology, enhancing security, and streamlining operations.
+            Explore how Tankar Solutions Private Limited is redefining IT consulting with innovative strategies and cutting-edge solutions. Our expert-driven approach ensures businesses stay ahead in an ever-evolving digital world by optimizing technology, enhancing security, and streamlining operations.
 
 
             </p>
@@ -176,7 +176,7 @@ const Blog_details2 = () => {
             <h3>Exploring Strategic IT Growth
             </h3>
             <p>
-            Discover how Tankar Solution empowers businesses with future-ready IT consulting. From tailored advisory services to seamless digital transformations, our solutions help organizations navigate challenges, improve efficiency, and achieve long-term success.
+            Discover how Tankar Solutions Private Limited empowers businesses with future-ready IT consulting. From tailored advisory services to seamless digital transformations, our solutions help organizations navigate challenges, improve efficiency, and achieve long-term success.
             </p>
             <ul>
               <li>
@@ -415,7 +415,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    How Tankar Solution is Transforming Businesses with Cutting-Edge IT Services
+                    How Tankar Solutions Private Limited is Transforming Businesses with Cutting-Edge IT Services
                     </a>
                   </h6>
                 </div>
@@ -433,7 +433,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    Revolutionizing Mobile and Web Development: Tankar Solution’s Expertise                    </a>
+                    Revolutionizing Mobile and Web Development: Tankar Solutions Private Limited’s Expertise                    </a>
                   </h6>
                 </div>
               </div>
@@ -450,7 +450,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    The Role of UI/UX in Digital Success: Tankar Solution’s Design Approach                    </a>
+                    The Role of UI/UX in Digital Success: Tankar Solutions Private Limited’s Design Approach                    </a>
                   </h6>
                 </div>
               </div>

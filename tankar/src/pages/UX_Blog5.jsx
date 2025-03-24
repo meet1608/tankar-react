@@ -46,10 +46,10 @@ const Blog_details2 = () => {
                 <li>
                   <a href="index.html">Home</a>
                 </li>
-                <li>The Role of UI/UX in Digital Success: Tankar Solution’s Design Approach</li>
+                <li>The Role of UI/UX in Digital Success: Tankar Solutions Private Limited’s Design Approach</li>
               </ul>
               <h1>
-              Tankar Solution enhances UI/UX for seamless software and web experiences.
+              Tankar Solutions Private Limited enhances UI/UX for seamless software and web experiences.
               </h1>
             </div>
             <div className="scroll-down-btn">
@@ -125,16 +125,16 @@ const Blog_details2 = () => {
         <div className="col-lg-8">
           <div className="blog-details-content mb-0">
             <p className="first-para">
-            In today’s digital landscape, user experience (UX) and user interface (UI) design play a crucial role in determining the success of a product. A well-designed interface enhances usability, improves customer engagement, and boosts conversion rates. At Tankar Solution, we focus on crafting intuitive, visually appealing, and user-friendly designs that align with business goals. Our UI/UX experts prioritize seamless navigation, accessibility, and interactive design elements to ensure users have a smooth and engaging experience across web and mobile platforms.
+            In today’s digital landscape, user experience (UX) and user interface (UI) design play a crucial role in determining the success of a product. A well-designed interface enhances usability, improves customer engagement, and boosts conversion rates. At Tankar Solutions Private Limited, we focus on crafting intuitive, visually appealing, and user-friendly designs that align with business goals. Our UI/UX experts prioritize seamless navigation, accessibility, and interactive design elements to ensure users have a smooth and engaging experience across web and mobile platforms.
 
 
             </p>
             <p className="second-para">
-            Our design approach combines research-driven strategies with the latest industry trends to deliver innovative solutions tailored to each project. By integrating user feedback, behavioral analysis, and usability testing, we refine every aspect of the design process to maximize efficiency and satisfaction. Whether it’s an e-commerce platform, enterprise software, or a mobile application, Tankar Solution ensures that UI/UX is not just aesthetically pleasing but also functionally powerful, driving long-term digital success. 
+            Our design approach combines research-driven strategies with the latest industry trends to deliver innovative solutions tailored to each project. By integrating user feedback, behavioral analysis, and usability testing, we refine every aspect of the design process to maximize efficiency and satisfaction. Whether it’s an e-commerce platform, enterprise software, or a mobile application, Tankar Solutions Private Limited ensures that UI/UX is not just aesthetically pleasing but also functionally powerful, driving long-term digital success. 
             </p>
             <blockquote className="text-center mb-50">
               <p className="blockquote-text">
-                "Tankar Solution transformed our digital presence with their innovative approach. The UI/UX design was seamless and highly user-friendly!"
+                "Tankar Solutions Private Limited transformed our digital presence with their innovative approach. The UI/UX design was seamless and highly user-friendly!"
               </p>
               <h3 className="blockquote-author">Rahul Maheta</h3>
               <svg
@@ -155,7 +155,7 @@ const Blog_details2 = () => {
             <h3>Unveiling the Power of UI/UX Design
             </h3>
             <p>
-            User experience plays a crucial role in digital success, shaping how customers interact with products and services. At Tankar Solution, we prioritize intuitive and visually engaging designs that enhance usability, boost engagement, and drive conversions. Our expert team crafts seamless experiences that align with business goals and user expectations.
+            User experience plays a crucial role in digital success, shaping how customers interact with products and services. At Tankar Solutions Private Limited, we prioritize intuitive and visually engaging designs that enhance usability, boost engagement, and drive conversions. Our expert team crafts seamless experiences that align with business goals and user expectations.
 
 
             </p>
@@ -177,7 +177,7 @@ const Blog_details2 = () => {
             </div>
             <h3>Exploring Our UI/UX Strategies</h3>
             <p>
-            At Tankar Solution, we combine innovation with user-centric design principles to create interfaces that captivate and convert. From wireframing to prototyping, every step is meticulously planned to ensure accessibility, responsiveness, and aesthetics. Our approach transforms digital platforms into intuitive, high-performing solutions for businesses worldwide.
+            At Tankar Solutions Private Limited, we combine innovation with user-centric design principles to create interfaces that captivate and convert. From wireframing to prototyping, every step is meticulously planned to ensure accessibility, responsiveness, and aesthetics. Our approach transforms digital platforms into intuitive, high-performing solutions for businesses worldwide.
             </p>
             <ul>
               <li>
@@ -422,7 +422,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    How Tankar Solution is Transforming Businesses with Cutting-Edge IT Services
+                    How Tankar Solutions Private Limited is Transforming Businesses with Cutting-Edge IT Services
                     </a>
                   </h6>
                 </div>
@@ -440,7 +440,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    Revolutionizing Mobile and Web Development: Tankar Solution’s Expertise                    </a>
+                    Revolutionizing Mobile and Web Development: Tankar Solutions Private Limited’s Expertise                    </a>
                   </h6>
                 </div>
               </div>
@@ -457,7 +457,7 @@ const Blog_details2 = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    The Role of UI/UX in Digital Success: Tankar Solution’s Design Approach                    </a>
+                    The Role of UI/UX in Digital Success: Tankar Solutions Private Limited’s Design Approach                    </a>
                   </h6>
                 </div>
               </div>

@@ -88,7 +88,7 @@ const Career = () => {
                     <span className="text-type" />
                   </h1>
                   <p>
-                    At Tankar Solutions Pvt Ltd, innovation drives everything we
+                    At Tankar Solutions Private Limited, innovation drives everything we
                     do. We are a team of passionate problem-solvers, dedicated
                     to building cutting-edge technology solutions. If you're
                     looking for a workplace that fosters creativity,
@@ -1002,7 +1002,7 @@ const Career = () => {
                         <path d="M11 5.5L9.48449 4.43056L10.2666 2.75L8.41505 2.58495L8.25 0.733376L6.56944 1.51551L5.5 0L4.43056 1.51551L2.75 0.733376L2.58495 2.58495L0.733376 2.75L1.51551 4.43056L0 5.5L1.51551 6.56944L0.733376 8.25L2.58495 8.41505L2.75 10.2666L4.43056 9.48449L5.5 11L6.56944 9.48449L8.25 10.2666L8.41505 8.41505L10.2666 8.25L9.48449 6.56944L11 5.5Z" />
                       </svg>
                     </span>
-                    <h2>Why Tankar Solution  is your top-choice</h2>
+                    <h2>Why Tankar Solutions Private Limited is your top-choice</h2>
                     <p>
                     At Tankar Solution Private Limited, we are committed to delivering cutting-edge IT solutions tailored to your business needs. Our expertise in software development, cybersecurity, ERP, and cloud computing ensures seamless digital transformation.</p>
                   </div>
@@ -1028,7 +1028,7 @@ const Career = () => {
                           <div className="feature-content">
                             <h3>Innovative & Scalable Solutions</h3>
                             <p>
-                            At Tankar Solution, we develop future-ready IT solutions designed to scale with your business growth. Our approach combines cutting-edge technology, agile development, and seamless integration, ensuring your digital infrastructure evolves with market demands.
+                            At Tankar Solutions Private Limited, we develop future-ready IT solutions designed to scale with your business growth. Our approach combines cutting-edge technology, agile development, and seamless integration, ensuring your digital infrastructure evolves with market demands.
                             </p>
                             <ul>
                               <li>
@@ -1093,7 +1093,7 @@ const Career = () => {
                           <div className="feature-content">
                             <h3>Robust Security Measures</h3>
                             <p>
-                            At Tankar Solution, we prioritize cybersecurity and data protection to safeguard your business from potential threats. Our comprehensive security strategies ensure your systems remain secure, compliant, and resilient against cyber risks.
+                            At Tankar Solutions Private Limited, we prioritize cybersecurity and data protection to safeguard your business from potential threats. Our comprehensive security strategies ensure your systems remain secure, compliant, and resilient against cyber risks.
                             </p>
                             <ul>
                               <li>

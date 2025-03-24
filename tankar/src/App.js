@@ -35,11 +35,8 @@ import It_Solutions from './pages/It_Solutions';
 import It_Solutions_Dark from './pages/It_Solutions_Dark';
 import Digital_Marketing from './pages/Digital_Marketing';
 import Digital_Marketing_Dark from './pages/Digital_Marketing_Dark';
-import Software_Devlopment from './pages/Software_Devlopment';
 import It_consulting from './pages/IT_Consulting_Advisory';
 import Ui_Ux from './pages/UX_UX_Designing';
-import Web_Devlopment from './pages/Web_Devlopment';
-import Mobile_App from './pages/Mobile_App_Devlopment';
 import Custom_Software from './pages/Custom_Software_Development';
 import Digital_Marketing_page from './pages/Digital_marketing_page';
 import Game_development from './pages/Game_Development';
@@ -52,6 +49,10 @@ import Blog4 from './pages/Strengthening_Cybersecurity_Blog4';
 import Blog5 from './pages/UX_Blog5';
 import Career from './pages/career';
 import LifeAtTankar from './pages/LifeAtTankar';
+
+import Web_Development from './pages/Web_Devlopment';
+import Mobile_App_Development from './pages/Mobile_App_Devlopment';
+import Software_Development from './pages/Software_Devlopment';
 
 
 function App() {
@@ -97,11 +98,11 @@ function App() {
       <Route path='/lifetankar' element={<LifeAtTankar/>} />
 
 
-      <Route path="/software-devlopment" element={<Software_Devlopment />} />
+      <Route path="/software-development" element={<Software_Development />} />
       <Route path='/it-consulting' element={<It_consulting />} />
       <Route path='/ui-ux' element={<Ui_Ux />} />
-      <Route path='/web-devlopment' element={<Web_Devlopment />} />
-      <Route path='/mobile-app' element={<Mobile_App />} />
+      <Route path='/web-development' element={<Web_Development />} />
+      <Route path='/mobile-app' element={<Mobile_App_Development />} />
       <Route path='/custom-software' element={<Custom_Software />} />
       <Route path='/digital-marketing-page' element={<Digital_Marketing_page />} />
       <Route path='/game-development' element={<Game_development />} />

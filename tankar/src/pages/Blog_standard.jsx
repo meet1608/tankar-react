@@ -106,11 +106,11 @@ const Blog_standard = () => {
                 </div> */}
                 <h4>
                   <a onClick={() => navigate('/blog/how-tankar-solution')} style={{ cursor: 'pointer' }}>
-                  How Tankar Solution is Transforming Businesses with Cutting-Edge IT Services
+                  How Tankar Solutions Private Limited is Transforming Businesses with Cutting-Edge IT Services
                   </a>
                 </h4>
                 <p>
-                Tankar Solution is revolutionizing businesses with cutting-edge IT services, including software development, ERP solutions, and IT consulting, ensuring seamless digital transformation, enhanced efficiency, and sustainable growth for enterprises worldwide.</p>
+                Tankar Solutions Private Limited is revolutionizing businesses with cutting-edge IT services, including software development, ERP solutions, and IT consulting, ensuring seamless digital transformation, enhanced efficiency, and sustainable growth for enterprises worldwide.</p>
               </div>
               <div className="star-btn">
                 <a onClick={() => navigate('/blog/how-tankar-solution')} style={{ cursor: 'pointer' }}>
@@ -149,11 +149,11 @@ const Blog_standard = () => {
                 </div> */}
                 <h4>
                   <a onClick={() => navigate('/blog/the-future-of-it-consulting')} style={{ cursor: 'pointer' }}>
-                  The Future of IT Consulting: How Tankar Solution Helps Companies Stay Ahead
+                  The Future of IT Consulting: How Tankar Solutions Private Limited Helps Companies Stay Ahead
                   </a>
                 </h4>
                 <p>
-                Tankar Solution drives the future of IT consulting by providing innovative strategies, advanced technologies, and tailored solutions, helping businesses optimize operations, enhance security, and stay ahead in the ever-evolving digital landscape.</p>
+                Tankar Solutions Private Limited drives the future of IT consulting by providing innovative strategies, advanced technologies, and tailored solutions, helping businesses optimize operations, enhance security, and stay ahead in the ever-evolving digital landscape.</p>
               </div>
               <div className="star-btn">
                 <a onClick={() => navigate('/blog/the-future-of-it-consulting')} style={{ cursor: 'pointer' }}>
@@ -192,10 +192,10 @@ const Blog_standard = () => {
                 </div> */}
                 <h4>
                   <a onClick={() => navigate('/blog/revolutionizing-mobile')} style={{ cursor: 'pointer' }}>
-                  Revolutionizing Mobile and Web Development: Tankar Solution’s Expertise                  </a>
+                  Revolutionizing Mobile and Web Development: Tankar Solutions Private Limited’s Expertise                  </a>
                 </h4>
                 <p>
-                Tankar Solution revolutionizes mobile and web development with cutting-edge technologies, user-centric designs, and scalable solutions, ensuring seamless performance, enhanced security, and exceptional user experiences for businesses across diverse industries.</p>
+                Tankar Solutions Private Limited revolutionizes mobile and web development with cutting-edge technologies, user-centric designs, and scalable solutions, ensuring seamless performance, enhanced security, and exceptional user experiences for businesses across diverse industries.</p>
               </div>
               <div className="star-btn">
                 <a onClick={() => navigate('/blog/revolutionizing-mobile')} style={{ cursor: 'pointer' }}>
@@ -234,10 +234,10 @@ const Blog_standard = () => {
                 </div> */}
                 <h4>
                   <a onClick={() => navigate('/blog/strengthening-cybersecurity')} style={{ cursor: 'pointer' }}>
-                  Strengthening Cybersecurity: How Tankar Solution Protects Your Digital Assets                 </a>
+                  Strengthening Cybersecurity: How Tankar Solutions Private Limited Protects Your Digital Assets                 </a>
                 </h4>
                 <p>
-                Tankar Solution strengthens cybersecurity with advanced threat detection, robust encryption, and proactive security measures, safeguarding your digital assets from cyber threats while ensuring data integrity, compliance, and business continuity.</p>
+                Tankar Solutions Private Limited strengthens cybersecurity with advanced threat detection, robust encryption, and proactive security measures, safeguarding your digital assets from cyber threats while ensuring data integrity, compliance, and business continuity.</p>
               </div>
               <div className="star-btn">
                 <a onClick={() => navigate('/blog/strengthening-cybersecurity')} style={{ cursor: 'pointer' }}>
@@ -276,10 +276,10 @@ const Blog_standard = () => {
                 </div> */}
                 <h4>
                   <a onClick={() => navigate('/blog/the-role-of-ui-ux')} style={{ cursor: 'pointer' }}>
-                  The Role of UI/UX in Digital Success: Tankar Solution’s Design Approach                </a>
+                  The Role of UI/UX in Digital Success: Tankar Solutions Private Limited’s Design Approach                </a>
                 </h4>
                 <p>
-                Tankar Solution enhances digital success with intuitive UI/UX design, creating seamless, engaging, and user-friendly experiences that drive customer satisfaction, improve conversions, and optimize business growth across web and mobile platforms.</p>
+                Tankar Solutions Private Limited enhances digital success with intuitive UI/UX design, creating seamless, engaging, and user-friendly experiences that drive customer satisfaction, improve conversions, and optimize business growth across web and mobile platforms.</p>
               </div>
               <div className="star-btn">
                 <a onClick={() => navigate('/blog/the-role-of-ui-ux')} style={{ cursor: 'pointer' }}>
@@ -312,7 +312,7 @@ const Blog_standard = () => {
   <h5 className="widget-title">Services</h5>
   <ul className="category-list">
     {[
-      { name: "Software Development", path: "/software-devlopment", count: 20 },
+      { name: "Software Development", path: "/software-development", count: 20 },
       { name: "IT Consulting", path: "/it-consulting", count: 15 },
       { name: "UI/UX", path: "/ui-ux", count: 25 },
       { name: "Web Development", path: "/web-development", count: 30 },
@@ -363,7 +363,7 @@ const Blog_standard = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    How Tankar Solution is Transforming Businesses with Cutting-Edge IT Services
+                    How Tankar Solutions Private Limited is Transforming Businesses with Cutting-Edge IT Services
                     </a>
                   </h6>
                 </div>
@@ -381,7 +381,7 @@ const Blog_standard = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    Revolutionizing Mobile and Web Development: Tankar Solution’s Expertise
+                    Revolutionizing Mobile and Web Development: Tankar Solutions Private Limited’s Expertise
                     </a>
                   </h6>
                 </div>
@@ -399,7 +399,7 @@ const Blog_standard = () => {
                   <a href="#">05 January, 2025</a>
                   <h6>
                     <a href="#">
-                    The Role of UI/UX in Digital Success: Tankar Solution’s Design Approach                    </a>
+                    The Role of UI/UX in Digital Success: Tankar Solutions Private Limited’s Design Approach                    </a>
                   </h6>
                 </div>
               </div>

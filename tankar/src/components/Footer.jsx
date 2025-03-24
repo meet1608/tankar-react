@@ -87,7 +87,7 @@ const Footer = () => {
                                 </h3>
                             </div>
                             <div className="content">
-                                <p>Tankar Solutions Pvt. Ltd. is a leading IT service provider specializing in software development, cybersecurity, cloud solutions, and IT consulting.</p>
+                                <p>Tankar Solutions Private Limited is a leading IT service provider specializing in software development, cybersecurity, cloud solutions, and IT consulting.</p>
                             </div>
                             
                         </div>
@@ -152,7 +152,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-bottom-right">
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Protfolio</a></li>

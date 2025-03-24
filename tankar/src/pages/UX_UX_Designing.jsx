@@ -76,7 +76,7 @@ const service_details = () => {
               <h2>
                 UI UX <span>Designing</span>
               </h2>
-              <p>At Tankar Solution, we craft seamless digital experiences that blend creativity with functionality. Our design philosophy revolves around user-centric innovation, ensuring intuitive interfaces and visually stunning designs that enhance engagement. From concept to execution, we prioritize aesthetics, usability, and performance to create products that leave a lasting impact.</p>
+              <p>At Tankar Solutions Private Limited, we craft seamless digital experiences that blend creativity with functionality. Our design philosophy revolves around user-centric innovation, ensuring intuitive interfaces and visually stunning designs that enhance engagement. From concept to execution, we prioritize aesthetics, usability, and performance to create products that leave a lasting impact.</p>
               <ul className="key-features">
                 <li>
                   <svg

@@ -16,7 +16,7 @@ import '../assets/css/swiper-bundle.min.css';
 import Software_img1 from '../assets/img/Services/Mobile Development1.jpg';
 import Software_img2 from '../assets/img/Services/Mobile Development2.jpg';
 import Component from './Component';
-const service_details = () => {
+const Mobile_App_Development = () => {
   return (
     <div>
       <Navbar />
@@ -76,7 +76,7 @@ const service_details = () => {
               <h2>
                 Mobile <span>Development</span>
               </h2>
-              <p>Empowering businesses with seamless, high-performance mobile solutions tailored for success. At Tankar Solution, we specialize in crafting innovative and scalable mobile applications that enhance user experience and drive engagement. Whether you need a feature-rich native app or a dynamic cross-platform solution, our expertise ensures cutting-edge development backed by robust technology and strategic insights.</p>
+              <p>Empowering businesses with seamless, high-performance mobile solutions tailored for success. At Tankar Solutions Private Limited, we specialize in crafting innovative and scalable mobile applications that enhance user experience and drive engagement. Whether you need a feature-rich native app or a dynamic cross-platform solution, our expertise ensures cutting-edge development backed by robust technology and strategic insights.</p>
               <ul className="key-features">
                 <li>
                   <svg
@@ -467,7 +467,7 @@ const service_details = () => {
                 <i className="bi bi-arrow-left" />
               </div>
               <div className="content">
-                <p>Mobile App Devlopment Steps</p>
+                <p>Mobile App Development Steps</p>
               </div>
               <div className="slider-btn home2-process-next">
                 <i className="bi bi-arrow-right" />
@@ -822,4 +822,4 @@ const service_details = () => {
   )
 }
 
-export default service_details;
+export default Mobile_App_Development;
