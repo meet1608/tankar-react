@@ -1,8 +1,26 @@
 import React from 'react'
-
+import { useState } from "react";
 const Component = () => {
+  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const response = await fetch("http://localhost:5000/send-email", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+    const data = await response.json();
+    alert(data.message);
+  };
+
   return (
     <div>
+      
          <div className="contact-section">
     <div className="container">
       <div className="row g-lg-4 gy-5">
@@ -139,42 +157,42 @@ const Component = () => {
           <div className="contact-form-wrap">
             <div className="contact-form-area">
               <h3>Your Success Starts Here!</h3>
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-lg-6 mb-20">
                     <div className="form-inner">
                       <label>Full Name</label>
-                      <input type="text" />
+                      <input type="text"name='name' onChange={handleChange} required/>
                     </div>
                   </div>
                   <div className="col-lg-6 mb-20">
                     <div className="form-inner">
                       <label>Company / Organization *</label>
-                      <input type="text" />
+                      <input type="text" name='company' onChange={handleChange} required />
                     </div>
                   </div>
                   <div className="col-lg-6 mb-20">
                     <div className="form-inner">
                       <label>Phone *</label>
-                      <input type="text" />
+                      <input type="text" name='phone' onChange={handleChange} required />
                     </div>
                   </div>
                   <div className="col-lg-6 mb-20">
                     <div className="form-inner">
                       <label>Company email *</label>
-                      <input type="email" />
+                      <input type="email" name='email' onChange={handleChange} required/>
                     </div>
                   </div>
                   <div className="col-lg-12 mb-20">
                     <div className="form-inner">
                       <label>Your Subject *</label>
-                      <input type="text" />
+                      <input type="text" name='subject' onChange={handleChange} required/>
                     </div>
                   </div>
                   <div className="col-lg-12 mb-30">
                     <div className="form-inner">
                       <label>Message *</label>
-                      <textarea defaultValue={""} />
+                      <textarea defaultValue={""} name='message' onChange={handleChange} required/>
                     </div>
                   </div>
                   <div className="col-lg-12">
