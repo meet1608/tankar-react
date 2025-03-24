@@ -54,6 +54,7 @@ import Software_Development from './pages/Software_Devlopment';
 import CaseStudy from './pages/case_study';
 import CaseStudyDetails from './pages/CaseStudyDetails';
 import Blogs from './pages/Blogs';
+import BlogDetails from './pages/BlogDetails';
 
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
       <Route path="/case-study/:id" element={<CaseStudyDetails />} />
       <Route path="/about" element={<About />} />
       <Route path="/blogs" element={<Blogs />} />
+      <Route path="/blogs/:id" element={<BlogDetails />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/contact" element={<Contact />} />

@@ -2,6 +2,8 @@ import IELTS from "../assets/img/caseStudy/ielts.jpg";
 import EVENT from "../assets/img/caseStudy/event.jpg";
 import PAPER from "../assets/img/caseStudy/paper.jpg";
 import JOBS from "../assets/img/caseStudy/jobs.jpg";
+import LOGISTICS from "../assets/img/caseStudy/logistics.jpg";
+import BLOOD from "../assets/img/caseStudy/blood.jpg";
 
 export const caseStudies = [
   {
@@ -159,6 +161,86 @@ export const caseStudies = [
         "Automated applications simplified recruitment workflows.",
         "Hiring efficiency increased for companies significantly.",
         "The platform provided seamless user navigation experience.",
+      ],
+    },
+    company: "Startup Company",
+    path: "",
+  },
+  {
+    id: 5,
+    image: LOGISTICS,
+    title: "Smart Logistics Management for Efficient Supply Chains",
+    description:
+      "This case study highlights how a PHP-based Logistics Management System improves supply chain efficiency by automating inventory tracking, optimizing transportation routes, streamlining order processing, and enhancing warehouse management, leading to cost reduction and faster deliveries.",
+    introduction:
+      "A PHP-based Logistics Management System optimizes supply chain operations by automating inventory tracking, order processing, and transportation management. It enhances warehouse efficiency, reduces manual errors, and improves delivery speed. With real-time tracking and streamlined workflows, businesses can cut costs, ensure timely shipments, and boost overall logistics performance, leading to better resource utilization and customer satisfaction.",
+    ProjectOverview: [
+      "This PHP-based Logistics Management System enhances supply chain efficiency by automating key processes like inventory tracking, order management, and transportation planning. It reduces manual errors, improves warehouse organization, and ensures real-time shipment tracking. The system helps businesses streamline logistics operations, optimize resource utilization, and deliver goods on time.",
+      "This advanced Logistics Management System, developed using PHP, provides a comprehensive solution for businesses to manage supply chain operations efficiently. It automates inventory control, allowing businesses to track stock levels accurately and prevent shortages. The system also streamlines order processing, ensuring quick fulfillment and reducing delays. Real-time tracking features help optimize transportation routes, minimizing costs and improving delivery timelines. Warehouse management tools enhance storage efficiency, reducing misplacement and improving retrieval speed. By integrating automated processes, the platform eliminates inefficiencies, reduces operational expenses, and boosts overall productivity. The system ensures seamless communication between suppliers, distributors, and customers, making logistics operations more reliable and cost-effective.",
+    ],
+    ChallengesObjectives: [
+      "Managing logistics manually led to inefficiencies, delayed deliveries, and increased costs. The objective was to develop an automated system that enhances inventory tracking, optimizes transportation, and streamlines order processing for improved supply chain efficiency.",
+    ],
+    SolutionImplementation: {
+      overview:
+        "A PHP-based system was developed to automate logistics processes, including inventory management, order tracking, and transportation planning. It enhances warehouse efficiency, reduces delays, and optimizes delivery routes for seamless supply chain operations.",
+      points: [
+        "Automated tracking improves inventory accuracy and stock management efficiency in warehouses.",
+        "Optimized route planning reduces transportation costs and enhances timely deliveries for businesses.",
+        "Streamlined order processing ensures quick fulfillment and minimizes errors in logistics operations.",
+        "Real-time monitoring enhances supply chain visibility and boosts overall operational efficiency.",
+      ],
+    },
+    ResultsImpact: {
+      overview:
+        "The Logistics Management System improved supply chain efficiency by automating key processes, reducing costs, and enhancing delivery accuracy. Businesses experienced faster order fulfillment, optimized inventory management, and improved warehouse organization, leading to better resource utilization, timely shipments, and higher customer satisfaction.",
+      points: [
+        "Order processing became faster and more efficient.",
+        "Inventory tracking improved, reducing stock shortages.",
+        "Warehouse organization enhanced overall logistics performance.",
+        "Optimized routes lowered transportation costs effectively.",
+        "Automated workflows reduced manual errors significantly.",
+        "Customer satisfaction increased due to timely deliveries.",
+      ],
+    },
+    company: "Startup Company",
+    path: "",
+  },
+  {
+    id: 6,
+    image: BLOOD,
+    title: "Simplifying Blood Donation with a Digital Solution",
+    description:
+      "This case study explores how a React Native and Node.js-based Blood Donation Management mobile app streamlines donor-recipient connections, ensuring quick and efficient blood donation processes.",
+    introduction:
+      "The Blood Donation Management mobile app, built with React Native and Node.js, streamlines donor-recipient connections for faster blood donation. It enables real-time donor availability updates, instant blood requests, and GPS-based donor tracking. Automated notifications and a user-friendly interface ensure quick responses, reducing delays in medical emergencies and improving accessibility to life-saving blood donations.",
+    ProjectOverview: [
+      "The Blood Donation Management mobile app, developed using React Native and Node.js, simplifies the process of connecting blood donors and recipients. It allows users to register, update availability, request blood, and locate nearby donation camps. With real-time notifications and GPS tracking, the app ensures quick response times and efficient blood donation management.",
+      "This mobile app revolutionizes blood donation by providing an efficient, digital platform for donors and recipients. Built with React Native for a seamless user experience and Node.js for a robust backend, the app allows users to register as donors, update their availability, and respond to urgent blood requests instantly. Recipients can search for donors based on location and blood type, ensuring quick access to life-saving donations. Real-time notifications keep donors informed about urgent requests, while GPS tracking helps recipients locate the nearest available donor or donation camp. The intuitive design and automated processes eliminate inefficiencies in traditional blood donation, making the system more accessible, reliable, and effective in saving lives.",
+    ],
+    ChallengesObjectives: [
+      "The manual process of finding blood donors led to delays in emergencies. The objective was to create a digital platform that connects donors and recipients in real time, ensuring faster response times and improved availability of blood when needed.",
+    ],
+    SolutionImplementation: {
+      overview:
+        "A feature-rich mobile app was built to facilitate blood donations efficiently. It includes real-time donor-recipient matching, automated notifications, and geolocation-based donor tracking. The app also provides secure authentication, an intuitive interface, and streamlined donation scheduling for ease of use.",
+      points: [
+        "Donors register and update availability in real time.",
+        "Recipients can search and request blood instantly.",
+        "Notifications alert donors about urgent blood requests.",
+        "GPS tracking helps locate nearby donation camps.",
+      ],
+    },
+    ResultsImpact: {
+      overview:
+        "The app significantly improved blood donation accessibility by reducing response times and increasing donor participation. Emergency requests were fulfilled faster, leading to better medical support. Users experienced a seamless, efficient system that improved overall blood donation management.",
+      points: [
+        "Blood requests were processed quicker and efficiently.",
+        "Donor availability updates improved response times.",
+        "Real-time tracking helped locate donors instantly.",
+        "Automated alerts boosted donor engagement rates.",
+        "Medical emergencies were handled more effectively.",
+        "Increased accessibility enhanced overall donation rates.",
       ],
     },
     company: "Startup Company",
